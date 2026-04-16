@@ -15,7 +15,7 @@ const initialState = {
   },
   selectedId: null,
   showCommunities: false,
-  mobileSidebarOpen: false,
+  mobilePanel: null, // null | 'events' | 'communities'
 }
 
 function reducer(state, action) {
@@ -25,15 +25,19 @@ function reducer(state, action) {
     case 'CLEAR_FILTERS':
       return { ...state, filters: initialState.filters }
     case 'SELECT':
-      return { ...state, selectedId: action.id, mobileSidebarOpen: false }
+      return { ...state, selectedId: action.id, mobilePanel: null }
     case 'DESELECT':
       return { ...state, selectedId: null }
     case 'TOGGLE_COMMUNITIES':
       return { ...state, showCommunities: !state.showCommunities }
-    case 'TOGGLE_MOBILE_SIDEBAR':
-      return { ...state, mobileSidebarOpen: !state.mobileSidebarOpen }
-    case 'CLOSE_MOBILE_SIDEBAR':
-      return { ...state, mobileSidebarOpen: false }
+    case 'OPEN_MOBILE_PANEL':
+      return {
+        ...state,
+        mobilePanel: state.mobilePanel === action.panel ? null : action.panel,
+        showCommunities: action.panel === 'communities' ? true : state.showCommunities,
+      }
+    case 'CLOSE_MOBILE_PANEL':
+      return { ...state, mobilePanel: null }
     default:
       return state
   }

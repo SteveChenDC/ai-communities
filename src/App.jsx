@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Calendar } from 'lucide-react'
+import { Calendar, Users } from 'lucide-react'
 import { AppProvider, useApp } from './context/AppContext'
 import Header from './components/Header'
 import FilterBar from './components/FilterBar'
@@ -8,7 +8,7 @@ import Sidebar from './components/Sidebar'
 import DetailModal from './components/detail/DetailPanel'
 
 function Dashboard() {
-  const { filtered, metadata, mobileSidebarOpen, dispatch } = useApp()
+  const { filtered, metadata, mobilePanel, dispatch } = useApp()
   const withTools = filtered.filter(c => c.hasAICodingTools).length
 
   const upcomingEventsCount = useMemo(() => {
@@ -27,28 +27,35 @@ function Dashboard() {
         </div>
 
         {/* Mobile sidebar backdrop */}
-        {mobileSidebarOpen && (
+        {mobilePanel && (
           <div
             className="fixed inset-0 bg-black/20 z-10 lg:hidden"
-            onClick={() => dispatch({ type: 'CLOSE_MOBILE_SIDEBAR' })}
+            onClick={() => dispatch({ type: 'CLOSE_MOBILE_PANEL' })}
           />
         )}
 
         <Sidebar />
 
-        {/* Mobile FAB to toggle sidebar */}
-        <button
-          onClick={() => dispatch({ type: 'TOGGLE_MOBILE_SIDEBAR' })}
-          className="lg:hidden fixed bottom-4 left-4 z-30 bg-white shadow-lg border border-gray-200 rounded-full p-3 text-gray-600 hover:bg-gray-50 transition-colors"
-          aria-label="Toggle events panel"
-        >
-          <Calendar size={20} />
-          {upcomingEventsCount > 0 && (
-            <span className="absolute -top-1 -right-1 bg-blue-500 text-white text-[10px] font-bold rounded-full w-5 h-5 flex items-center justify-center">
-              {upcomingEventsCount > 99 ? '99+' : upcomingEventsCount}
-            </span>
-          )}
-        </button>
+        {/* Mobile FABs */}
+        <div className="lg:hidden fixed bottom-4 left-4 z-30 flex flex-col gap-3">
+          <button
+            onClick={() => dispatch({ type: 'OPEN_MOBILE_PANEL', panel: 'communities' })}
+            className={`relative bg-white shadow-lg border border-gray-200 rounded-full p-3 transition-colors ${mobilePanel === 'communities' ? 'text-blue-600 ring-2 ring-blue-200' : 'text-gray-600 hover:bg-gray-50'}`}
+            aria-label="Toggle communities panel"
+          >
+            <Users size={20} />
+          </button>
+          <button
+            onClick={() => dispatch({ type: 'OPEN_MOBILE_PANEL', panel: 'events' })}
+            className={`relative bg-white shadow-lg border border-gray-200 rounded-full p-3 transition-colors ${mobilePanel === 'events' ? 'text-blue-600 ring-2 ring-blue-200' : 'text-gray-600 hover:bg-gray-50'}`}
+            aria-label="Toggle events panel"
+          >
+            <Calendar size={20} />
+            {upcomingEventsCount > 0 && (
+              <span className="absolute top-0 right-0 w-2.5 h-2.5 bg-red-500 rounded-full ring-2 ring-white" />
+            )}
+          </button>
+        </div>
       </div>
 
       <footer className="px-3 py-1.5 bg-white border-t border-gray-200 text-xs text-gray-400 shrink-0 flex items-center justify-between gap-2 md:px-4">
