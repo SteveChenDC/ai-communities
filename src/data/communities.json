@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generatedAt": "2026-04-16T08:38:49.258Z",
+    "generatedAt": "2026-04-16T08:49:08.404Z",
     "sourceFile": "ai_communities_sonar_v2.md",
-    "totalCommunities": 189,
+    "totalCommunities": 187,
     "totalRegions": 41,
-    "communitiesWithDates": 107,
+    "communitiesWithDates": 132,
     "communitiesWithCodingTools": 38,
     "byPriority": {
       "0": 157,
@@ -221,7 +221,18 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 150,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -266,7 +277,18 @@
       ],
       "memberCount": 50000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -364,7 +386,18 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -400,7 +433,18 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 100,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -434,7 +478,18 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -535,46 +590,6 @@
       "country": "US"
     },
     {
-      "id": "bond-ai",
-      "name": "Bond AI",
-      "regionId": "sf-bay-area",
-      "priority": 0,
-      "tags": [],
-      "url": "https://luma.com/genai-sf",
-      "urls": [
-        "https://luma.com/genai-sf",
-        "https://bondcommunity.ai"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Direct outreach via bondcommunity.ai"
-      },
-      "description": "120K+ member aggregator that matches sponsors with AI events across SF and NYC. Distribution channel more than direct organizer.",
-      "notableCompanies": [],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T08:00:00.000-07:00",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-04-17",
-          "dateRaw": "2026-04-16T17:00:00.000-07:00",
-          "datePrecision": "day"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 37.74903,
-      "lng": -122.40868,
-      "country": "US"
-    },
-    {
       "id": "sf-python",
       "name": "SF Python",
       "regionId": "sf-bay-area",
@@ -598,7 +613,18 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -629,7 +655,18 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -895,7 +932,18 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Stanford AI Alignment / BAIR Berkeley AI Research",
@@ -929,7 +977,18 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Stanford AI Alignment / BAIR Berkeley AI Research",
@@ -1084,7 +1143,13 @@
       "codingTools": [],
       "memberCount": 4166,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-04:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -1209,7 +1274,13 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-04:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -1239,45 +1310,6 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 40.69338,
-      "lng": -74.00121,
-      "country": "US"
-    },
-    {
-      "id": "bond-ai-nyc",
-      "name": "Bond AI NYC",
-      "regionId": "nyc",
-      "priority": 0,
-      "tags": [],
-      "url": "https://luma.com/genai-ny",
-      "urls": [
-        "https://luma.com/genai-ny",
-        "https://meetup.com/new-york-machine-learning-meetup-group",
-        "https://meetup.com/deep-learning-nyc",
-        "https://meetup.com/ai-nyc",
-        "https://meetup.com/nyc-ai-salon",
-        "https://meetup.com/nyc-artificial-intelligence-machine-learning"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Individual Meetup contact pages; Bond AI via bondcommunity.ai"
-      },
-      "description": "Six additional NYC meetups ranging from Bond AI's distribution network (120K+) to NYC ML (13,475 members, Paul Dix), NYC Agentic AI at AWS (6,682 members, rebranded from Deep Learning NYC), and smaller fintech/cross-industry groups.",
-      "notableCompanies": [
-        "AWS",
-        "BlackTree AutoML",
-        "Claude Code discussed at NYC Agentic AI"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [
-        "Claude Code"
-      ],
-      "memberCount": 13475,
-      "attendanceEstimate": null,
       "events": [
         {
           "date": "2026-04-16",
@@ -1286,10 +1318,10 @@
         }
       ],
       "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
-      "lat": 40.68561,
-      "lng": -74.0127,
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 40.69338,
+      "lng": -74.00121,
       "country": "US"
     },
     {
@@ -3927,7 +3959,13 @@
       "codingTools": [],
       "memberCount": 4812,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -3962,7 +4000,13 @@
       "codingTools": [],
       "memberCount": 11535,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -4135,7 +4179,13 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -4167,7 +4217,13 @@
       "codingTools": [],
       "memberCount": 827,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -4236,7 +4292,13 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -4304,7 +4366,13 @@
       "codingTools": [],
       "memberCount": 6366,
       "attendanceEstimate": 400,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -4335,7 +4403,13 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -4787,7 +4861,13 @@
       ],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -4889,7 +4969,13 @@
       "codingTools": [],
       "memberCount": 1475,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Cambridge AI / Cambridge AI Reading Group / ai@cam",
@@ -5003,7 +5089,13 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Manchester AI / Manchester AI User Group (AIUG) / MancAI",
@@ -5220,7 +5312,13 @@
       "codingTools": [],
       "memberCount": 2778,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T17:30:00.000+01:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -5288,7 +5386,13 @@
       ],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T09:00:00.000+02:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -5406,7 +5510,13 @@
       "codingTools": [],
       "memberCount": 1532,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T09:00:00.000+02:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -5436,7 +5546,13 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T09:00:00.000+02:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -5670,7 +5786,13 @@
       ],
       "memberCount": 1967,
       "attendanceEstimate": 419,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:45:00.000+02:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,

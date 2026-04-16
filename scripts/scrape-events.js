@@ -307,6 +307,54 @@ async function main() {
     await browser.close()
   }
 
+  // --- Bond AI aggregator pass ---
+  // Bond AI curates lu.ma city calendars that aggregate events from many communities.
+  // Scrape each calendar and attribute events to communities in the matching region.
+  if (!filters.id && !filters.network) {
+    const BOND_CALENDARS = [
+      { url: 'https://luma.com/genai-sf', regionId: 'sf-bay-area' },
+      { url: 'https://luma.com/genai-ny', regionId: 'nyc' },
+      { url: 'https://luma.com/bond-seattle', regionId: 'seattle' },
+      { url: 'https://luma.com/bond-paris', regionId: 'paris' },
+      { url: 'https://luma.com/bond-london', regionId: 'london' },
+      { url: 'https://luma.com/bond-berlin', regionId: 'berlin' },
+    ]
+
+    const aggBrowser = await launchBrowser({ headless: true, slowMo: 100 })
+    const aggContext = await createContext(aggBrowser)
+    const aggPage = await aggContext.newPage()
+
+    console.log('\n--- Bond AI aggregator pass ---')
+    for (const cal of BOND_CALENDARS) {
+      try {
+        const events = await withRetry(
+          () => scrapeLumaEvents(aggPage, cal.url),
+          { maxRetries: 2, delayMs: 2000, label: `bond-${cal.regionId}` }
+        )
+        if (!events?.length) {
+          console.log(`[Bond ${cal.regionId}] 0 events`)
+          continue
+        }
+        // Distribute events to communities in this region that have 0 events
+        const regionCommunities = data.communities.filter(
+          (c) => c.regionId === cal.regionId && (!c.events || c.events.length === 0)
+        )
+        let enriched = 0
+        for (const community of regionCommunities) {
+          community.events = dedupeSortEvents(events)
+          enriched++
+        }
+        console.log(`[Bond ${cal.regionId}] ${events.length} events → enriched ${enriched} communities`)
+      } catch (err) {
+        console.warn(`[Bond ${cal.regionId}] error: ${err.message}`)
+      }
+      await sleep(500)
+    }
+
+    await aggContext.close()
+    await aggBrowser.close()
+  }
+
   if (filters.dryRun) {
     console.log('\nDry run complete; no file written.')
     return
