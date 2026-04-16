@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generatedAt": "2026-04-16T17:46:32.857Z",
+    "generatedAt": "2026-04-16T18:11:47.033Z",
     "sourceFile": "ai_communities_sonar_v2.md",
     "totalCommunities": 187,
     "totalRegions": 41,
-    "communitiesWithDates": 70,
+    "communitiesWithDates": 85,
     "communitiesWithCodingTools": 38,
     "byPriority": {
       "0": 157,
@@ -177,7 +177,20 @@
       ],
       "memberCount": 99000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16",
+          "datePrecision": "day",
+          "url": "https://aitinkerers.org/"
+        },
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16",
+          "datePrecision": "day",
+          "url": "https://aitinkerers.org/all_cities?m=r"
+        }
+      ],
       "whyTarget": "99,000+ screened members across 220+ cities with a code-first, no-slides format — exactly the builders shipping AI-generated code that Sonar cleans up. A single global relationship (or a small portfolio of key chapters) covers Seattle's Dev Tools Track, Paris, Dublin, Berlin, NYC, London, and more. Zero code quality competitors currently sponsor any chapter except CodeRabbit at Atlanta.",
       "isGrouped": false,
       "groupName": null,
@@ -568,18 +581,21 @@
       "pastEvents": [
         {
           "date": "2025-12-10",
-          "dateRaw": "Wed, Dec 10, 2025 · 6:30 PM PST",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-10",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/sfpython/events/311353279/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-11-12",
-          "dateRaw": "Wed, Nov 12, 2025 · 6:30 PM PST",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-12",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/sfpython/events/310774425/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-18",
-          "dateRaw": "Sat, Oct 18, 2025 · 8:00 AM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-18",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/sfpython/events/310304503/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -649,23 +665,27 @@
       "pastEvents": [
         {
           "date": "2025-11-03",
-          "dateRaw": "Mon, Nov 3, 2025 · 4:00 PM PST",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-03",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/311698719/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-15",
-          "dateRaw": "Wed, Oct 15, 2025 · 5:30 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-15",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/311526427/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-09-09",
-          "dateRaw": "Tue, Sep 9, 2025 · 5:00 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-09-09",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/310960653/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-07-08",
-          "dateRaw": "Tue, Jul 8, 2025 · 5:00 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-07-08",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/309057782/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -704,23 +724,27 @@
       "pastEvents": [
         {
           "date": "2025-11-03",
-          "dateRaw": "Mon, Nov 3, 2025 · 4:00 PM PST",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-03",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/311698719/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-15",
-          "dateRaw": "Wed, Oct 15, 2025 · 5:30 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-15",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/311526427/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-09-09",
-          "dateRaw": "Tue, Sep 9, 2025 · 5:00 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-09-09",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/310960653/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-07-08",
-          "dateRaw": "Tue, Jul 8, 2025 · 5:00 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-07-08",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/309057782/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -818,23 +842,27 @@
       "pastEvents": [
         {
           "date": "2025-11-03",
-          "dateRaw": "Mon, Nov 3, 2025 · 4:00 PM PST",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-03",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/311698719/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-15",
-          "dateRaw": "Wed, Oct 15, 2025 · 5:30 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-15",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/311526427/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-09-09",
-          "dateRaw": "Tue, Sep 9, 2025 · 5:00 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-09-09",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/310960653/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-07-08",
-          "dateRaw": "Tue, Jul 8, 2025 · 5:00 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-07-08",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/309057782/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -1136,7 +1164,20 @@
       "codingTools": [],
       "memberCount": 11000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-20",
+          "dateRaw": "2026-04-20",
+          "datePrecision": "day",
+          "url": "https://pulse.nyc/ai-week/#faq"
+        },
+        {
+          "date": "2026-05-11",
+          "dateRaw": "2026-05-11",
+          "datePrecision": "day",
+          "url": "https://pulse.nyc/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -1246,7 +1287,26 @@
       "lat": 40.69338,
       "lng": -74.00121,
       "country": "US",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2025-12-07",
+          "dateRaw": "2025-12-07",
+          "datePrecision": "day",
+          "url": "https://github.com/papers-we-love/papers-we-love"
+        },
+        {
+          "date": "2025-12-07",
+          "dateRaw": "2025-12-07",
+          "datePrecision": "day",
+          "url": "https://paperswelove.org/videos/rylan-talerico-on-zep-a-temporal-knowledge-graph-architecture-for-agent-memory-p/"
+        },
+        {
+          "date": "2025-10-28",
+          "dateRaw": "2025-10-28",
+          "datePrecision": "day",
+          "url": "https://paperswelove.org/videos/michael-vaughn-on-exe-automatically-generating-inputs-of-death-pwl-nyc/"
+        }
+      ]
     },
     {
       "id": "nyc-machine-learning",
@@ -1289,18 +1349,21 @@
       "pastEvents": [
         {
           "date": "2025-11-17",
-          "dateRaw": "Mon, Nov 17, 2025 · 7:00 PM EST",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-17",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/new-york-machine-learning-meetup-group/events/311367558/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-09-29",
-          "dateRaw": "Mon, Sep 29, 2025 · 7:00 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-09-29",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/new-york-machine-learning-meetup-group/events/310852192/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-08-25",
-          "dateRaw": "Mon, Aug 25, 2025 · 7:00 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-08-25",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/new-york-machine-learning-meetup-group/events/310134448/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -1345,13 +1408,15 @@
       "pastEvents": [
         {
           "date": "2025-10-20",
-          "dateRaw": "Mon, Oct 20, 2025 · 8:30 AM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-20",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/deep-learning-nyc/events/311511095/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-05-09",
-          "dateRaw": "Fri, May 9, 2025 · 9:00 AM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-05-09",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/deep-learning-nyc/events/307603668/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -1396,18 +1461,27 @@
       "pastEvents": [
         {
           "date": "2025-08-21",
-          "dateRaw": "Thu, Aug 21, 2025 · 6:00 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-08-21",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/ai-nyc/events/310304606/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-06-06",
-          "dateRaw": "Fri, Jun 6, 2025 · 9:00 AM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-06-06",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/ai-nyc/events/306663436/?eventOrigin=group_past_events"
+        },
+        {
+          "date": "2025-06-06",
+          "dateRaw": "2025-06-06",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/ai-nyc/events/306663417/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-04-17",
-          "dateRaw": "Thu, Apr 17, 2025 · 6:00 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-04-17",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/ai-nyc/events/307016526/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -1634,8 +1708,9 @@
       "pastEvents": [
         {
           "date": "2025-12-15",
-          "dateRaw": "Mon, Dec 15, 2025 · 6:00 PM EST",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-15",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-generative-ai-meetup/events/312316261/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -1785,18 +1860,21 @@
       "pastEvents": [
         {
           "date": "2025-12-03",
-          "dateRaw": "Wed, Dec 3, 2025 · 6:30 PM EST",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-03",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-ai-ml-user-group/events/310752082/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-29",
-          "dateRaw": "Wed, Oct 29, 2025 · 6:30 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-29",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-ai-ml-user-group/events/310613899/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-09-02",
-          "dateRaw": "Tue, Sep 2, 2025 · 6:30 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-09-02",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-ai-ml-user-group/events/310517724/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -1836,8 +1914,9 @@
       "pastEvents": [
         {
           "date": "2025-05-30",
-          "dateRaw": "Fri, May 30, 2025 · 5:00 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-05-30",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-ai-network-artificial-intelligence-group/events/307443456/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -1877,23 +1956,27 @@
       "pastEvents": [
         {
           "date": "2025-12-01",
-          "dateRaw": "Mon, Dec 1, 2025 · 6:00 PM EST",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-01",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-air/events/311641095/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-11-10",
-          "dateRaw": "Mon, Nov 10, 2025 · 6:00 PM EST",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-10",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-air/events/311638720/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-16",
-          "dateRaw": "Thu, Oct 16, 2025 · 6:00 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-16",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-air/events/311017063/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-09-25",
-          "dateRaw": "Thu, Sep 25, 2025 · 6:00 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-09-25",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-air/events/310423054/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -2094,8 +2177,9 @@
       "pastEvents": [
         {
           "date": "2025-08-27",
-          "dateRaw": "Wed, Aug 27, 2025 · 6:00 PM EDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-08-27",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/washington-d-c-artificial-intelligence-deep-learning/events/310527161/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -2769,7 +2853,14 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-22",
+          "dateRaw": "2026-04-22",
+          "datePrecision": "day",
+          "url": "https://emergeamericas.com/ai/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Miami AI Hub / PyData Miami / eMerge Americas",
@@ -2962,18 +3053,21 @@
       "pastEvents": [
         {
           "date": "2025-12-10",
-          "dateRaw": "Wed, Dec 10, 2025 · 6:30 PM PST",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-10",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/southern-california-genai-meetup/events/312272415/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-09-23",
-          "dateRaw": "Tue, Sep 23, 2025 · 6:30 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-09-23",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/southern-california-genai-meetup/events/311057658/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-08-25",
-          "dateRaw": "Mon, Aug 25, 2025 · 6:30 PM PDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-08-25",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/southern-california-genai-meetup/events/310377858/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -3127,7 +3221,20 @@
       "lat": 47.6202,
       "lng": -122.30785,
       "country": "US",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2025-10-27",
+          "dateRaw": "2025-10-27",
+          "datePrecision": "day",
+          "url": "mailto:info@washingtontechnology.org"
+        },
+        {
+          "date": "2025-10-27",
+          "dateRaw": "2025-10-27",
+          "datePrecision": "day",
+          "url": "https://www.washingtontechnology.org/ai-week-summit/"
+        }
+      ]
     },
     {
       "id": "aicamp-seattle",
@@ -3361,8 +3468,9 @@
       "pastEvents": [
         {
           "date": "2025-06-09",
-          "dateRaw": "Mon, Jun 9, 2025 · 6:00 PM CDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-06-09",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/chicago-ml/events/308132150/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -3400,13 +3508,15 @@
       "pastEvents": [
         {
           "date": "2025-12-11",
-          "dateRaw": "Thu, Dec 11, 2025 · 10:00 AM CST",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-11",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/aichicago/events/311890481/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-11-11",
-          "dateRaw": "Tue, Nov 11, 2025 · 11:00 AM CST",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-11",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/aichicago/events/311765644/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -3444,8 +3554,9 @@
       "pastEvents": [
         {
           "date": "2025-06-09",
-          "dateRaw": "Mon, Jun 9, 2025 · 6:00 PM CDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-06-09",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/chicago-ml/events/308132150/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -3507,7 +3618,14 @@
       "lat": 30.2872,
       "lng": -97.7431,
       "country": "US",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2026-02-13",
+          "dateRaw": "2026-02-13",
+          "datePrecision": "day",
+          "url": "https://www.eventbrite.ca/e/6th-ann-mlops-world-genai-conference-expo-tickets-1291752639919?aff=oddtdtcreator"
+        }
+      ]
     },
     {
       "id": "ai-tinkerers-austin",
@@ -4324,18 +4442,21 @@
       "pastEvents": [
         {
           "date": "2025-09-18",
-          "dateRaw": "Thu, Sep 18, 2025 · 1:00 PM CDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-09-18",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/twin-cities-global-ai-community/events/310123608/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-06-12",
-          "dateRaw": "Thu, Jun 12, 2025 · 4:00 PM CDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-06-12",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/twin-cities-global-ai-community/events/307698799/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-04-17",
-          "dateRaw": "Thu, Apr 17, 2025 · 1:00 PM CDT",
-          "datePrecision": "day"
+          "dateRaw": "2025-04-17",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/twin-cities-global-ai-community/events/306327605/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -4660,13 +4781,15 @@
       "pastEvents": [
         {
           "date": "2025-07-24",
-          "dateRaw": "Thu, Jul 24, 2025 · 6:00 PM BST",
-          "datePrecision": "day"
+          "dateRaw": "2025-07-24",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/london-machine-learning-meetup/events/309491775/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-04-16",
-          "dateRaw": "Wed, Apr 16, 2025 · 6:00 PM BST",
-          "datePrecision": "day"
+          "dateRaw": "2025-04-16",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/london-machine-learning-meetup/events/307027704/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -4872,7 +4995,26 @@
       "lat": 51.50604,
       "lng": -0.10785,
       "country": "GB",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2026-03-05",
+          "dateRaw": "2026-03-05",
+          "datePrecision": "day",
+          "url": "https://luma.com/hugging-face-london"
+        },
+        {
+          "date": "2026-03-05",
+          "dateRaw": "2026-03-05",
+          "datePrecision": "day",
+          "url": "https://luma.com/user/hfl"
+        },
+        {
+          "date": "2026-03-05",
+          "dateRaw": "2026-03-05",
+          "datePrecision": "day",
+          "url": "https://www.google.com/maps/place/Tessl+AI+Limited/@51.531253,-0.118753,17z/data=!4m6!3m5!1s0x4cfe8bbcb42f0cf1:0xb6c6c19729ef8b52!8m2!3d51.531253!4d-0.118753!16s%2Fg%2F11vwf2p4j7?entry=ttu&g_ep=EgoyMDI2MDIwOS4wIKXMDSoASAFQAw%3D%3D"
+        }
+      ]
     },
     {
       "id": "ai-security-engineers-london",
@@ -4946,8 +5088,9 @@
       "pastEvents": [
         {
           "date": "2025-11-26",
-          "dateRaw": "Wed, Nov 26, 2025 · 6:00 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-26",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/londontad/events/311998042/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5022,18 +5165,21 @@
       "pastEvents": [
         {
           "date": "2025-11-04",
-          "dateRaw": "Tue, Nov 4, 2025 · 6:00 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-04",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/data-ai-london/events/311237872/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-07-22",
-          "dateRaw": "Tue, Jul 22, 2025 · 6:00 PM BST",
-          "datePrecision": "day"
+          "dateRaw": "2025-07-22",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/data-ai-london/events/308306073/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-05-27",
-          "dateRaw": "Tue, May 27, 2025 · 6:00 PM BST",
-          "datePrecision": "day"
+          "dateRaw": "2025-05-27",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/data-ai-london/events/306768511/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5110,8 +5256,9 @@
       "pastEvents": [
         {
           "date": "2025-12-04",
-          "dateRaw": "Thu, Dec 4, 2025 · 5:30 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-04",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/data-and-ai-leaders-uk/events/310086163/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5157,8 +5304,9 @@
       "pastEvents": [
         {
           "date": "2025-12-04",
-          "dateRaw": "Thu, Dec 4, 2025 · 5:30 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-04",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/data-and-ai-leaders-uk/events/310086163/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5204,8 +5352,9 @@
       "pastEvents": [
         {
           "date": "2025-12-04",
-          "dateRaw": "Thu, Dec 4, 2025 · 5:30 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-04",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/data-and-ai-leaders-uk/events/310086163/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5251,8 +5400,9 @@
       "pastEvents": [
         {
           "date": "2025-12-04",
-          "dateRaw": "Thu, Dec 4, 2025 · 5:30 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-04",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/data-and-ai-leaders-uk/events/310086163/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5346,8 +5496,9 @@
       "pastEvents": [
         {
           "date": "2025-12-04",
-          "dateRaw": "Thu, Dec 4, 2025 · 5:30 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-04",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/data-and-ai-leaders-uk/events/310086163/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5603,13 +5754,15 @@
       "pastEvents": [
         {
           "date": "2025-11-26",
-          "dateRaw": "Wed, Nov 26, 2025 · 6:00 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-26",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/cambridge-ai-reading-group/events/311135713/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-29",
-          "dateRaw": "Wed, Oct 29, 2025 · 6:00 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-29",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/cambridge-ai-reading-group/events/311461530/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5649,13 +5802,15 @@
       "pastEvents": [
         {
           "date": "2025-11-26",
-          "dateRaw": "Wed, Nov 26, 2025 · 6:00 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-26",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/cambridge-ai-reading-group/events/311135713/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-29",
-          "dateRaw": "Wed, Oct 29, 2025 · 6:00 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-29",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/cambridge-ai-reading-group/events/311461530/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5695,13 +5850,15 @@
       "pastEvents": [
         {
           "date": "2025-11-26",
-          "dateRaw": "Wed, Nov 26, 2025 · 6:00 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-26",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/cambridge-ai-reading-group/events/311135713/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-29",
-          "dateRaw": "Wed, Oct 29, 2025 · 6:00 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-29",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/cambridge-ai-reading-group/events/311461530/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5745,13 +5902,15 @@
       "pastEvents": [
         {
           "date": "2025-10-29",
-          "dateRaw": "Wed, Oct 29, 2025 · 5:45 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-29",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/manchester-ai/events/311322193/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-05-28",
-          "dateRaw": "Wed, May 28, 2025 · 5:45 PM BST",
-          "datePrecision": "day"
+          "dateRaw": "2025-05-28",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/manchester-ai/events/307601554/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5795,13 +5954,15 @@
       "pastEvents": [
         {
           "date": "2025-10-29",
-          "dateRaw": "Wed, Oct 29, 2025 · 5:45 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-29",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/manchester-ai/events/311322193/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-05-28",
-          "dateRaw": "Wed, May 28, 2025 · 5:45 PM BST",
-          "datePrecision": "day"
+          "dateRaw": "2025-05-28",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/manchester-ai/events/307601554/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5845,13 +6006,15 @@
       "pastEvents": [
         {
           "date": "2025-10-29",
-          "dateRaw": "Wed, Oct 29, 2025 · 5:45 PM GMT",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-29",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/manchester-ai/events/311322193/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-05-28",
-          "dateRaw": "Wed, May 28, 2025 · 5:45 PM BST",
-          "datePrecision": "day"
+          "dateRaw": "2025-05-28",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/manchester-ai/events/307601554/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -5881,14 +6044,34 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16",
+          "datePrecision": "day",
+          "url": "https://mlops.community/"
+        },
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16",
+          "datePrecision": "day",
+          "url": "https://mlops.community/events/list/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
       "lat": 55.9733,
       "lng": -3.1883,
       "country": "GB",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2025-04-24",
+          "dateRaw": "2025-04-24",
+          "datePrecision": "day",
+          "url": "https://mlops.community/event/agentic-mlops"
+        }
+      ]
     },
     {
       "id": "mlops-community-edinburgh",
@@ -5916,14 +6099,34 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16",
+          "datePrecision": "day",
+          "url": "https://mlops.community/"
+        },
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16",
+          "datePrecision": "day",
+          "url": "https://mlops.community/events/list/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
       "lat": 55.9673,
       "lng": -3.16405,
       "country": "GB",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2025-04-24",
+          "dateRaw": "2025-04-24",
+          "datePrecision": "day",
+          "url": "https://mlops.community/event/agentic-mlops"
+        }
+      ]
     },
     {
       "id": "scottish-ai-alliance",
@@ -5958,7 +6161,14 @@
       "lat": 51.52449,
       "lng": -0.13819,
       "country": "GB",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2026-03-25",
+          "dateRaw": "2026-03-25",
+          "datePrecision": "day",
+          "url": "https://www.scottishai.com/privacy-policy"
+        }
+      ]
     },
     {
       "id": "edinburgh-data-science",
@@ -5986,14 +6196,34 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16",
+          "datePrecision": "day",
+          "url": "https://mlops.community/"
+        },
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16",
+          "datePrecision": "day",
+          "url": "https://mlops.community/events/list/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
       "lat": 55.9353,
       "lng": -3.15712,
       "country": "GB",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2025-04-24",
+          "dateRaw": "2025-04-24",
+          "datePrecision": "day",
+          "url": "https://mlops.community/event/agentic-mlops"
+        }
+      ]
     },
     {
       "id": "other-uk",
@@ -6643,18 +6873,21 @@
       "pastEvents": [
         {
           "date": "2025-12-09",
-          "dateRaw": "Tue, Dec 9, 2025 · 11:00 AM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-09",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-paris/events/312249693/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-11-13",
-          "dateRaw": "Thu, Nov 13, 2025 · 6:40 PM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-13",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-paris/events/311900932/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-02",
-          "dateRaw": "Thu, Oct 2, 2025 · 6:30 PM CEST",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-02",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-paris/events/311237011/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -6702,18 +6935,21 @@
       "pastEvents": [
         {
           "date": "2025-12-09",
-          "dateRaw": "Tue, Dec 9, 2025 · 11:00 AM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-12-09",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-paris/events/312249693/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-11-13",
-          "dateRaw": "Thu, Nov 13, 2025 · 6:40 PM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-13",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-paris/events/311900932/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-02",
-          "dateRaw": "Thu, Oct 2, 2025 · 6:30 PM CEST",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-02",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-paris/events/311237011/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -7300,8 +7536,9 @@
       "pastEvents": [
         {
           "date": "2025-11-26",
-          "dateRaw": "Wed, Nov 26, 2025 · 6:30 PM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-26",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-geneve/events/311686959/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -7343,8 +7580,9 @@
       "pastEvents": [
         {
           "date": "2025-11-26",
-          "dateRaw": "Wed, Nov 26, 2025 · 6:30 PM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-26",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-geneve/events/311686959/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -7386,8 +7624,9 @@
       "pastEvents": [
         {
           "date": "2025-11-26",
-          "dateRaw": "Wed, Nov 26, 2025 · 6:30 PM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-26",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-geneve/events/311686959/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -7426,7 +7665,18 @@
       "lat": 47.3629,
       "lng": 8.51745,
       "country": "CH",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2026-03-18",
+          "dateRaw": "2026-03-18",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-03-04",
+          "dateRaw": "2026-03-04",
+          "datePrecision": "day"
+        }
+      ]
     },
     {
       "id": "ai-suisse",
@@ -7466,8 +7716,9 @@
       "pastEvents": [
         {
           "date": "2025-11-26",
-          "dateRaw": "Wed, Nov 26, 2025 · 6:30 PM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-26",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-geneve/events/311686959/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -8145,18 +8396,21 @@
       "pastEvents": [
         {
           "date": "2025-11-13",
-          "dateRaw": "Thu, Nov 13, 2025 · 7:00 PM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-13",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-belgium/events/311337917/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-09-23",
-          "dateRaw": "Tue, Sep 23, 2025 · 6:00 PM CEST",
-          "datePrecision": "day"
+          "dateRaw": "2025-09-23",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-belgium/events/310744959/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-06-16",
-          "dateRaw": "Mon, Jun 16, 2025 · 7:00 PM CEST",
-          "datePrecision": "day"
+          "dateRaw": "2025-06-16",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/generative-ai-belgium/events/307675630/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -8201,8 +8455,9 @@
       "pastEvents": [
         {
           "date": "2025-11-12",
-          "dateRaw": "Wed, Nov 12, 2025 · 5:00 PM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-12",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/data-science-community-meetup/events/309285401/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -8320,13 +8575,15 @@
       "pastEvents": [
         {
           "date": "2025-11-25",
-          "dateRaw": "Tue, Nov 25, 2025 · 6:30 PM CET",
-          "datePrecision": "day"
+          "dateRaw": "2025-11-25",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/prague-gen-ai/events/312045473/?eventOrigin=group_past_events"
         },
         {
           "date": "2025-10-14",
-          "dateRaw": "Tue, Oct 14, 2025 · 6:30 PM CEST",
-          "datePrecision": "day"
+          "dateRaw": "2025-10-14",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/prague-gen-ai/events/311360095/?eventOrigin=group_past_events"
         }
       ]
     },
@@ -8862,7 +9119,14 @@
       "codingTools": [],
       "memberCount": 20000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-06-03",
+          "dateRaw": "2026-06-03",
+          "datePrecision": "day",
+          "url": "https://www.latinxinai.org/cart"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
@@ -8903,7 +9167,14 @@
       "codingTools": [],
       "memberCount": 20000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-06-03",
+          "dateRaw": "2026-06-03",
+          "datePrecision": "day",
+          "url": "https://www.latinxinai.org/cart"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
@@ -8944,7 +9215,14 @@
       "codingTools": [],
       "memberCount": 20000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-06-03",
+          "dateRaw": "2026-06-03",
+          "datePrecision": "day",
+          "url": "https://www.latinxinai.org/cart"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
@@ -8985,7 +9263,14 @@
       "codingTools": [],
       "memberCount": 20000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-06-03",
+          "dateRaw": "2026-06-03",
+          "datePrecision": "day",
+          "url": "https://www.latinxinai.org/cart"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
@@ -9026,7 +9311,14 @@
       "codingTools": [],
       "memberCount": 20000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-06-03",
+          "dateRaw": "2026-06-03",
+          "datePrecision": "day",
+          "url": "https://www.latinxinai.org/cart"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
@@ -9067,7 +9359,14 @@
       "codingTools": [],
       "memberCount": 20000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-06-03",
+          "dateRaw": "2026-06-03",
+          "datePrecision": "day",
+          "url": "https://www.latinxinai.org/cart"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
@@ -9107,7 +9406,20 @@
       "codingTools": [],
       "memberCount": 200,
       "attendanceEstimate": 1000,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-06-26",
+          "dateRaw": "2026-06-26",
+          "datePrecision": "day",
+          "url": "https://www.arena.education/cart"
+        },
+        {
+          "date": "2026-06-26",
+          "dateRaw": "2026-06-26",
+          "datePrecision": "day",
+          "url": "https://www.safeai.org.uk/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Mox (SF) / EA Global / ARENA / AI Safety London / Stanford AI Alignment",
@@ -9147,7 +9459,20 @@
       "codingTools": [],
       "memberCount": 200,
       "attendanceEstimate": 1000,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-06-26",
+          "dateRaw": "2026-06-26",
+          "datePrecision": "day",
+          "url": "https://www.arena.education/cart"
+        },
+        {
+          "date": "2026-06-26",
+          "dateRaw": "2026-06-26",
+          "datePrecision": "day",
+          "url": "https://www.safeai.org.uk/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Mox (SF) / EA Global / ARENA / AI Safety London / Stanford AI Alignment",
@@ -9187,7 +9512,20 @@
       "codingTools": [],
       "memberCount": 200,
       "attendanceEstimate": 1000,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-06-26",
+          "dateRaw": "2026-06-26",
+          "datePrecision": "day",
+          "url": "https://www.arena.education/cart"
+        },
+        {
+          "date": "2026-06-26",
+          "dateRaw": "2026-06-26",
+          "datePrecision": "day",
+          "url": "https://www.safeai.org.uk/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Mox (SF) / EA Global / ARENA / AI Safety London / Stanford AI Alignment",
