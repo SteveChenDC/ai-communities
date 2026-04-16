@@ -335,16 +335,10 @@ async function main() {
           console.log(`[Bond ${cal.regionId}] 0 events`)
           continue
         }
-        // Distribute events to communities in this region that have 0 events
-        const regionCommunities = data.communities.filter(
-          (c) => c.regionId === cal.regionId && (!c.events || c.events.length === 0)
-        )
-        let enriched = 0
-        for (const community of regionCommunities) {
-          community.events = dedupeSortEvents(events)
-          enriched++
-        }
-        console.log(`[Bond ${cal.regionId}] ${events.length} events → enriched ${enriched} communities`)
+        // Log regional calendar events for reference but do NOT blindly assign
+        // them to communities that have 0 events. The previous approach incorrectly
+        // gave every community in a region the same generic calendar events.
+        console.log(`[Bond ${cal.regionId}] ${events.length} events found (logged only, not assigned)`)
       } catch (err) {
         console.warn(`[Bond ${cal.regionId}] error: ${err.message}`)
       }
