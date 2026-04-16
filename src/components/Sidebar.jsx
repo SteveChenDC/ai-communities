@@ -124,7 +124,7 @@ export default function Sidebar() {
     <aside className="w-80 bg-white border-l border-gray-200 flex flex-col shrink-0">
       {/* Events */}
       {upcomingEvents.length > 0 && (
-        <div className="border-b border-gray-100">
+        <div className="flex-1 flex flex-col min-h-0">
           <div className="flex items-center gap-2 px-4 pt-3 pb-1">
             <Calendar size={13} className="text-gray-400" />
             <h2 className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
@@ -132,7 +132,7 @@ export default function Sidebar() {
             </h2>
             <span className="text-[10px] text-gray-300 ml-auto">{upcomingEvents.length}</span>
           </div>
-          <div className="px-1 pb-2 max-h-[220px] overflow-auto">
+          <div className="flex-1 overflow-auto px-1 pb-2">
             {upcomingEvents.map((item, i) => (
               <EventItem key={`${item.community.id}-${i}`} community={item.community} event={item.event} />
             ))}
@@ -140,32 +140,34 @@ export default function Sidebar() {
         </div>
       )}
 
-      {/* All Communities - collapsible */}
-      <button
-        onClick={() => dispatch({ type: 'TOGGLE_COMMUNITIES' })}
-        className="flex items-center gap-2 px-4 pt-3 pb-1 w-full hover:bg-gray-50 transition-colors"
-      >
-        {showCommunities ? (
-          <ChevronDown size={13} className="text-gray-400" />
-        ) : (
-          <ChevronRight size={13} className="text-gray-400" />
-        )}
-        <MapPin size={13} className="text-gray-400" />
-        <h2 className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
-          Communities
-        </h2>
-        <span className="text-[10px] text-gray-300 ml-auto">{sorted.length}</span>
-      </button>
-      {showCommunities && (
-        <div className="flex-1 overflow-auto px-1 pb-2">
-          {sorted.map(c => (
-            <CommunityItem key={c.id} community={c} />
-          ))}
-          {sorted.length === 0 && (
-            <div className="text-center text-gray-300 text-sm py-8">No results</div>
+      {/* All Communities - collapsible, pinned to bottom */}
+      <div className="border-t border-gray-100 shrink-0">
+        <button
+          onClick={() => dispatch({ type: 'TOGGLE_COMMUNITIES' })}
+          className="flex items-center gap-2 px-4 pt-3 pb-1 w-full hover:bg-gray-50 transition-colors"
+        >
+          {showCommunities ? (
+            <ChevronDown size={13} className="text-gray-400" />
+          ) : (
+            <ChevronRight size={13} className="text-gray-400" />
           )}
-        </div>
-      )}
+          <MapPin size={13} className="text-gray-400" />
+          <h2 className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
+            Communities
+          </h2>
+          <span className="text-[10px] text-gray-300 ml-auto">{sorted.length}</span>
+        </button>
+        {showCommunities && (
+          <div className="max-h-[220px] overflow-auto px-1 pb-2">
+            {sorted.map(c => (
+              <CommunityItem key={c.id} community={c} />
+            ))}
+            {sorted.length === 0 && (
+              <div className="text-center text-gray-300 text-sm py-8">No results</div>
+            )}
+          </div>
+        )}
+      </div>
     </aside>
   )
 }
