@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generatedAt": "2026-04-16T18:11:47.033Z",
+    "generatedAt": "2026-04-16T18:20:35.013Z",
     "sourceFile": "ai_communities_sonar_v2.md",
     "totalCommunities": 187,
     "totalRegions": 41,
-    "communitiesWithDates": 85,
+    "communitiesWithDates": 72,
     "communitiesWithCodingTools": 38,
     "byPriority": {
       "0": 157,
@@ -177,20 +177,7 @@
       ],
       "memberCount": 99000,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16",
-          "datePrecision": "day",
-          "url": "https://aitinkerers.org/"
-        },
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16",
-          "datePrecision": "day",
-          "url": "https://aitinkerers.org/all_cities?m=r"
-        }
-      ],
+      "events": [],
       "whyTarget": "99,000+ screened members across 220+ cities with a code-first, no-slides format — exactly the builders shipping AI-generated code that Sonar cleans up. A single global relationship (or a small portfolio of key chapters) covers Seattle's Dev Tools Track, Paris, Dublin, Berlin, NYC, London, and more. Zero code quality competitors currently sponsor any chapter except CodeRabbit at Atlanta.",
       "isGrouped": false,
       "groupName": null,
@@ -532,13 +519,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T19:00:00.000+02:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -1166,12 +1147,6 @@
       "attendanceEstimate": null,
       "events": [
         {
-          "date": "2026-04-20",
-          "dateRaw": "2026-04-20",
-          "datePrecision": "day",
-          "url": "https://pulse.nyc/ai-week/#faq"
-        },
-        {
           "date": "2026-05-11",
           "dateRaw": "2026-05-11",
           "datePrecision": "day",
@@ -1293,18 +1268,6 @@
           "dateRaw": "2025-12-07",
           "datePrecision": "day",
           "url": "https://github.com/papers-we-love/papers-we-love"
-        },
-        {
-          "date": "2025-12-07",
-          "dateRaw": "2025-12-07",
-          "datePrecision": "day",
-          "url": "https://paperswelove.org/videos/rylan-talerico-on-zep-a-temporal-knowledge-graph-architecture-for-agent-memory-p/"
-        },
-        {
-          "date": "2025-10-28",
-          "dateRaw": "2025-10-28",
-          "datePrecision": "day",
-          "url": "https://paperswelove.org/videos/michael-vaughn-on-exe-automatically-generating-inputs-of-death-pwl-nyc/"
         }
       ]
     },
@@ -1516,13 +1479,7 @@
       ],
       "memberCount": 13475,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T14:30:00.000-04:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
@@ -1562,13 +1519,7 @@
       ],
       "memberCount": 13475,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T14:30:00.000-04:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
@@ -2539,12 +2490,6 @@
           "dateRaw": "2026-04-20",
           "datePrecision": "day",
           "url": "https://www.joinaiweek.com/atlanta"
-        },
-        {
-          "date": "2026-04-21",
-          "dateRaw": "2026-04-21T08:00:00-04:00",
-          "datePrecision": "day",
-          "url": "https://atlantaaiweek.com/speakers"
         }
       ],
       "whyTarget": "",
@@ -2645,12 +2590,6 @@
           "dateRaw": "2026-04-20",
           "datePrecision": "day",
           "url": "https://www.joinaiweek.com/atlanta"
-        },
-        {
-          "date": "2026-04-21",
-          "dateRaw": "2026-04-21T08:00:00-04:00",
-          "datePrecision": "day",
-          "url": "https://atlantaaiweek.com/speakers"
         }
       ],
       "whyTarget": "",
@@ -2853,14 +2792,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-04-22",
-          "dateRaw": "2026-04-22",
-          "datePrecision": "day",
-          "url": "https://emergeamericas.com/ai/"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Miami AI Hub / PyData Miami / eMerge Americas",
@@ -3012,13 +2944,7 @@
       "lat": 34.0342,
       "lng": -118.21252,
       "country": "US",
-      "pastEvents": [
-        {
-          "date": "2025-08-12",
-          "dateRaw": "2025-08-11T17:00:00.000-07:00",
-          "datePrecision": "day"
-        }
-      ]
+      "pastEvents": []
     },
     {
       "id": "southern-california-genai",
@@ -3227,12 +3153,6 @@
           "dateRaw": "2025-10-27",
           "datePrecision": "day",
           "url": "mailto:info@washingtontechnology.org"
-        },
-        {
-          "date": "2025-10-27",
-          "dateRaw": "2025-10-27",
-          "datePrecision": "day",
-          "url": "https://www.washingtontechnology.org/ai-week-summit/"
         }
       ]
     },
@@ -4035,13 +3955,7 @@
       "lat": 39.7212,
       "lng": -104.95912,
       "country": "US",
-      "pastEvents": [
-        {
-          "date": "2025-06-12",
-          "dateRaw": "2025-06-11T18:00:00.000-06:00",
-          "datePrecision": "day"
-        }
-      ]
+      "pastEvents": []
     },
     {
       "id": "denver-ai",
@@ -4824,14 +4738,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 5000,
-      "events": [
-        {
-          "date": "2026-06-10",
-          "dateRaw": "2026-06-10",
-          "datePrecision": "day",
-          "url": "https://london.theaisummit.com/"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -4949,13 +4856,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-05-28",
-          "dateRaw": "2026-05-28T17:30:00.000+01:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -6246,13 +6147,7 @@
       "codingTools": [],
       "memberCount": 2778,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T17:30:00.000+01:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -6457,13 +6352,7 @@
       "lat": 48.1491,
       "lng": 11.60625,
       "country": "DE",
-      "pastEvents": [
-        {
-          "date": "2026-02-17",
-          "dateRaw": "2026-02-17T17:30:00.000+01:00",
-          "datePrecision": "day"
-        }
-      ]
+      "pastEvents": []
     },
     {
       "id": "berlin-mlops-community",
@@ -7303,28 +7192,7 @@
       "codingTools": [],
       "memberCount": 5000,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-04-17",
-          "dateRaw": "2026-04-17T10:00:00.000+02:00",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-04-22",
-          "dateRaw": "2026-04-22T17:30:00.000+02:00",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-04-25",
-          "dateRaw": "2026-04-25T10:00:00.000+02:00",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-04-30",
-          "dateRaw": "2026-04-30T18:00:00.000-04:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AI Native Netherlands / Amsterdam AI / AI Builders Amsterdam",
@@ -7665,18 +7533,7 @@
       "lat": 47.3629,
       "lng": 8.51745,
       "country": "CH",
-      "pastEvents": [
-        {
-          "date": "2026-03-18",
-          "dateRaw": "2026-03-18",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-03-04",
-          "dateRaw": "2026-03-04",
-          "datePrecision": "day"
-        }
-      ]
+      "pastEvents": []
     },
     {
       "id": "ai-suisse",
@@ -9561,13 +9418,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 750,
-      "events": [
-        {
-          "date": "2026-05-27",
-          "dateRaw": "2026-05-27T08:00-08:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AI Dev (DeepLearning.AI, Andrew Ng) / AI DevSummit / DevRelCon / cdCon 2026",
@@ -9603,13 +9454,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 750,
-      "events": [
-        {
-          "date": "2026-05-27",
-          "dateRaw": "2026-05-27T08:00-08:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AI Dev (DeepLearning.AI, Andrew Ng) / AI DevSummit / DevRelCon / cdCon 2026",
@@ -9645,13 +9490,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 750,
-      "events": [
-        {
-          "date": "2026-05-27",
-          "dateRaw": "2026-05-27T08:00-08:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AI Dev (DeepLearning.AI, Andrew Ng) / AI DevSummit / DevRelCon / cdCon 2026",
@@ -9687,13 +9526,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 750,
-      "events": [
-        {
-          "date": "2026-05-27",
-          "dateRaw": "2026-05-27T08:00-08:00",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AI Dev (DeepLearning.AI, Andrew Ng) / AI DevSummit / DevRelCon / cdCon 2026",

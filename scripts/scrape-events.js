@@ -430,6 +430,14 @@ async function main() {
 
   // --- Data integrity pass ---
   // Final validation before saving. Catches issues that slip through individual scrapers.
+  //
+  // ROOT CAUSE of bogus dates: scrapers find dates on pages that aren't actual events:
+  //   - Meetup shows today's date as a "suggest new event" placeholder (<time> element)
+  //   - Aggregator calendars (lu.ma, aitinkerers.org) list other communities' events
+  //   - Page text mentions dates in descriptions, headers, or footers
+  //
+  // RULE: An event MUST have an event-specific URL to be trusted. A date without a
+  // clickable link to that specific event is unverifiable and must be dropped.
   console.log('\n--- Data integrity pass ---')
   let integrityRemoved = 0
   let integrityFlagged = 0
@@ -443,12 +451,11 @@ async function main() {
     // 2. Remove events with dateRaw that's clearly page text (>80 chars)
     community.events = community.events.filter(ev => (ev.dateRaw || '').length <= 80)
 
-    // 3. Remove events without URLs if the community has other events WITH URLs
-    //    (url-less events next to url-having events are likely scraper artifacts)
-    const hasUrlEvents = community.events.some(ev => ev.url)
-    if (hasUrlEvents) {
-      community.events = community.events.filter(ev => ev.url)
-    }
+    // 3. CRITICAL: Remove ALL events without event-specific URLs.
+    //    A date without a URL is unverifiable -- it could be a Meetup placeholder,
+    //    an aggregator showing other communities' events, or scraped page chrome.
+    //    If a user clicks an event, it MUST link to a real event page.
+    community.events = community.events.filter(ev => ev.url)
 
     const removed = before - community.events.length
     integrityRemoved += removed
@@ -458,16 +465,54 @@ async function main() {
       const pastBefore = community.pastEvents.length
       community.pastEvents = community.pastEvents.filter(ev => isValidEvent(ev))
       community.pastEvents = community.pastEvents.filter(ev => (ev.dateRaw || '').length <= 80)
-      const pastHasUrl = community.pastEvents.some(ev => ev.url)
-      if (pastHasUrl) {
-        community.pastEvents = community.pastEvents.filter(ev => ev.url)
-      }
+      community.pastEvents = community.pastEvents.filter(ev => ev.url)
       integrityRemoved += pastBefore - community.pastEvents.length
     }
   }
 
-  // 4. Detect shared-date anomalies: if 5+ communities in the same region share
-  //    the same date without URLs, those are likely aggregator artifacts
+  // 4. Detect events whose URL is just the community's homepage (not event-specific).
+  //    e.g. url=https://aitinkerers.org/ is the homepage, not an event page.
+  for (const community of data.communities) {
+    const homeUrls = new Set()
+    if (community.url) homeUrls.add(community.url.replace(/\/$/, ''))
+    for (const u of community.urls || []) homeUrls.add(u.replace(/\/$/, ''))
+
+    const beforeHome = community.events.length
+    community.events = community.events.filter(ev => {
+      const evUrl = (ev.url || '').replace(/\/$/, '')
+      const evUrlNoQuery = evUrl.split('?')[0]
+      const evUrlBase = evUrlNoQuery.replace(/\/$/, '')
+      // Must have an event-specific path like /events/123 or /p/event-slug
+      if (/\/(events?|p)\/[^/]/.test(evUrl)) return true
+      // Reject if the URL (ignoring query params) matches any community home URL
+      if (homeUrls.has(evUrlBase)) return false
+      // Reject if the URL is a subpage of the homepage that isn't event-specific
+      // (e.g. /all_cities, /about, /contact)
+      for (const home of homeUrls) {
+        if (evUrlBase.startsWith(home) && !/\/(events?|p)\//.test(evUrlBase)) return false
+      }
+      return true
+    })
+    integrityRemoved += beforeHome - community.events.length
+
+    if (Array.isArray(community.pastEvents)) {
+      const pastBefore = community.pastEvents.length
+      community.pastEvents = community.pastEvents.filter(ev => {
+        const evUrl = (ev.url || '').replace(/\/$/, '')
+        const evUrlNoQuery = evUrl.split('?')[0]
+        const evUrlBase = evUrlNoQuery.replace(/\/$/, '')
+        if (/\/(events?|p)\/[^/]/.test(evUrl)) return true
+        if (homeUrls.has(evUrlBase)) return false
+        for (const home of homeUrls) {
+          if (evUrlBase.startsWith(home) && !/\/(events?|p)\//.test(evUrlBase)) return false
+        }
+        return true
+      })
+      integrityRemoved += pastBefore - community.pastEvents.length
+    }
+  }
+
+  // 5. Detect shared-date anomalies (legacy check, now less needed with URL requirement)
   const dateRegionMap = new Map()
   for (const c of data.communities) {
     for (const ev of c.events) {

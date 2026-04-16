@@ -266,8 +266,25 @@ export function isValidEvent(event) {
   const raw = event.dateRaw || ''
   if (/\b(Menu|Join|Learn|Sign up|Log in|Subscribe|Cookie|Privacy|Footer)\b/i.test(raw)) return false
   if (/0 events found/i.test(raw)) return false
+  // Reject raw text that contains "Cities" or "Recommended" (AI Tinkerers global page chrome)
+  if (/\bCities\s*\(\d+\)|Recommended\b/i.test(raw)) return false
 
   return true
+}
+
+/**
+ * Check if an event URL points to a specific event page (not just a homepage).
+ * Homepages, city listing pages, and generic URLs are not event-specific.
+ */
+export function isEventSpecificUrl(url) {
+  if (!url) return false
+  // Event-specific paths: /events/123, /event/abc, /p/event-slug
+  if (/\/(events?|p)\/[^/]/.test(url)) return true
+  // Luma event pages: lu.ma/event/xxx
+  if (/lu\.ma\/[a-zA-Z0-9_-]{4,}$/.test(url)) return true
+  // Generic patterns that suggest event-specific pages
+  if (/\/(register|rsvp|tickets?)\b/.test(url)) return true
+  return false
 }
 
 export function normalizeDate(input) {
