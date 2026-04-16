@@ -20,13 +20,14 @@ function absoluteUrl(base, maybeRelative) {
 }
 
 function parseArgs(argv) {
-  const args = { network: null, region: null, id: null, dryRun: false }
+  const args = { network: null, region: null, id: null, dryRun: false, includePast: false }
   for (let i = 0; i < argv.length; i += 1) {
     const token = argv[i]
     if (token === '--network') args.network = argv[++i]
     else if (token === '--region') args.region = argv[++i]
     else if (token === '--id') args.id = argv[++i]
     else if (token === '--dry-run') args.dryRun = true
+    else if (token === '--include-past') args.includePast = true
   }
   return args
 }
@@ -52,15 +53,24 @@ function getUrls(community) {
   return urls
 }
 
-function isFutureDate(yyyyMmDd) {
-  return yyyyMmDd >= new Date().toISOString().slice(0, 10)
+function getCutoffDate(includePast) {
+  if (!includePast) return new Date().toISOString().slice(0, 10)
+  const d = new Date()
+  d.setFullYear(d.getFullYear() - 1)
+  return d.toISOString().slice(0, 10)
+}
+
+let CUTOFF_DATE = new Date().toISOString().slice(0, 10)
+
+function isAfterCutoff(yyyyMmDd) {
+  return yyyyMmDd >= CUTOFF_DATE
 }
 
 function dedupeSortEvents(events) {
   const byKey = new Map()
   for (const ev of events) {
     if (!ev?.date) continue
-    if (!isFutureDate(ev.date)) continue
+    if (!isAfterCutoff(ev.date)) continue
     const key = `${ev.date}|${ev.url || ''}`
     if (!byKey.has(key)) byKey.set(key, ev)
   }
@@ -138,7 +148,7 @@ function parseDateFromText(text) {
   return null
 }
 
-async function scrapeMeetupEvents(page, url) {
+async function scrapeMeetupPage(page, url) {
   await page.goto(url, { timeout: 15000, waitUntil: 'domcontentloaded' })
   await dismissOverlays(page)
   const fromJsonLd = await extractEventsFromJsonLd(page, url)
@@ -162,14 +172,30 @@ async function scrapeMeetupEvents(page, url) {
     const event = formatEvent(date, card.text, absoluteUrl(url, card.href) || undefined)
     if (event) out.push(event)
   }
-  return dedupeSortEvents(out)
+  return out
 }
 
-async function scrapeLumaEvents(page, url) {
+async function scrapeMeetupEvents(page, url) {
+  // Scrape upcoming events
+  const upcoming = await scrapeMeetupPage(page, url)
+
+  // If --include-past, also scrape the past events page
+  if (CUTOFF_DATE < new Date().toISOString().slice(0, 10)) {
+    try {
+      const pastUrl = url.replace(/\/$/, '') + '/events/past/'
+      const past = await scrapeMeetupPage(page, pastUrl)
+      upcoming.push(...past)
+    } catch { /* past page may not exist */ }
+  }
+
+  return dedupeSortEvents(upcoming)
+}
+
+async function scrapeLumaPage(page, url) {
   await page.goto(url, { timeout: 15000, waitUntil: 'domcontentloaded' })
   const fromJsonLd = await extractEventsFromJsonLd(page, url)
   if (fromJsonLd.length) return fromJsonLd
-  await page.waitForSelector('a[href*="/event"], [class*="event"], [class*="calendar"], article', { timeout: 12000 })
+  await page.waitForSelector('a[href*="/event"], [class*="event"], [class*="calendar"], article', { timeout: 12000 }).catch(() => {})
   await page.waitForTimeout(1200)
   const cards = await page.$$eval('a[href*="/event"], article, [class*="event"], [class*="calendar"]', (nodes) =>
     nodes.slice(0, 120).map((n) => ({
@@ -184,7 +210,37 @@ async function scrapeLumaEvents(page, url) {
     const event = formatEvent(date, card.text, absoluteUrl(url, card.href) || undefined)
     if (event) out.push(event)
   }
-  return dedupeSortEvents(out)
+  return out
+}
+
+async function scrapeLumaEvents(page, url) {
+  const upcoming = await scrapeLumaPage(page, url)
+
+  // If --include-past, also try the past events tab
+  if (CUTOFF_DATE < new Date().toISOString().slice(0, 10)) {
+    try {
+      // Luma past events are often at /past or by clicking a "Past" tab
+      const pastTab = page.locator('button:has-text("Past"), a:has-text("Past events"), [data-tab="past"]').first()
+      if (await pastTab.count()) {
+        await pastTab.click({ timeout: 3000 })
+        await page.waitForTimeout(1500)
+        const pastCards = await page.$$eval('a[href*="/event"], article, [class*="event"]', (nodes) =>
+          nodes.slice(0, 120).map((n) => ({
+            text: (n.textContent || '').replace(/\s+/g, ' ').trim(),
+            href: n instanceof HTMLAnchorElement ? n.href : n.querySelector('a')?.href || '',
+          }))
+        )
+        for (const card of pastCards) {
+          const date = parseDateFromText(card.text)
+          if (!date) continue
+          const event = formatEvent(date, card.text, absoluteUrl(url, card.href) || undefined)
+          if (event) upcoming.push(event)
+        }
+      }
+    } catch { /* past tab may not exist */ }
+  }
+
+  return dedupeSortEvents(upcoming)
 }
 
 async function scrapeAicampEvents(page, url) {
@@ -255,6 +311,14 @@ async function main() {
   const data = loadCommunities()
   const targets = data.communities.filter((c) => communityMatches(c, filters))
 
+  // Set global cutoff date
+  CUTOFF_DATE = getCutoffDate(filters.includePast)
+  const today = new Date().toISOString().slice(0, 10)
+
+  if (filters.includePast) {
+    console.log(`Including past events back to ${CUTOFF_DATE}\n`)
+  }
+
   const browser = await launchBrowser({ headless: true, slowMo: 100 })
   const context = await createContext(browser)
   context.setDefaultNavigationTimeout(15000)
@@ -281,7 +345,10 @@ async function main() {
         )
         if (result?.length) {
           events = result
-          console.log(`[${i + 1}/${targets.length}] ${community.name} (${platform})... ${events.length} events`)
+          const futureCount = events.filter(e => e.date >= today).length
+          const pastCount = events.length - futureCount
+          const label = pastCount > 0 ? `${futureCount} upcoming, ${pastCount} past` : `${events.length} events`
+          console.log(`[${i + 1}/${targets.length}] ${community.name} (${platform})... ${label}`)
           break
         }
         await sleep(500)
@@ -291,11 +358,21 @@ async function main() {
         console.warn(`[${i + 1}/${targets.length}] ${community.name}... 0 events`)
       }
       const previousEvents = Array.isArray(community.events) ? community.events : []
+      const previousPastEvents = Array.isArray(community.pastEvents) ? community.pastEvents : []
       const freshEvents = dedupeSortEvents(events)
+
       if (freshEvents.length > 0) {
-        community.events = freshEvents
+        // Split into upcoming and past
+        community.events = freshEvents.filter(e => e.date >= today)
+        if (filters.includePast) {
+          const newPast = freshEvents.filter(e => e.date < today)
+          // Merge with existing past events, dedup by date+url
+          const pastMap = new Map()
+          for (const ev of previousPastEvents) pastMap.set(`${ev.date}|${ev.url || ''}`, ev)
+          for (const ev of newPast) pastMap.set(`${ev.date}|${ev.url || ''}`, ev)
+          community.pastEvents = [...pastMap.values()].sort((a, b) => b.date.localeCompare(a.date))
+        }
       } else if (previousEvents.length > 0) {
-        // Preserve previously known events when scraping fails or returns nothing.
         community.events = previousEvents
       } else {
         community.events = []
