@@ -242,13 +242,32 @@ export function formatEvent(dateStr, rawStr, url) {
   const date = normalizeDate(dateStr)
   if (!date) return null
 
+  // Sanitize dateRaw: if it's page text (>80 chars), truncate to just the date
+  let cleanRaw = rawStr || dateStr
+  if (cleanRaw.length > 80) cleanRaw = date
+
   const event = {
     date,
-    dateRaw: rawStr || dateStr,
+    dateRaw: cleanRaw,
     datePrecision: 'day',
   }
   if (url) event.url = url
   return event
+}
+
+/**
+ * Validate an event passes data integrity checks.
+ * Returns true if the event is trustworthy enough to keep.
+ */
+export function isValidEvent(event) {
+  if (!event?.date) return false
+
+  // Reject events with page-text dateRaw (navigation chrome, menus, etc.)
+  const raw = event.dateRaw || ''
+  if (/\b(Menu|Join|Learn|Sign up|Log in|Subscribe|Cookie|Privacy|Footer)\b/i.test(raw)) return false
+  if (/0 events found/i.test(raw)) return false
+
+  return true
 }
 
 export function normalizeDate(input) {

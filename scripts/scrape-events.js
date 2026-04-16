@@ -2,6 +2,7 @@
 import {
   createContext,
   formatEvent,
+  isValidEvent,
   launchBrowser,
   loadCommunities,
   normalizeDate,
@@ -71,6 +72,7 @@ function dedupeSortEvents(events) {
   for (const ev of events) {
     if (!ev?.date) continue
     if (!isAfterCutoff(ev.date)) continue
+    if (!isValidEvent(ev)) continue
     const key = `${ev.date}|${ev.url || ''}`
     if (!byKey.has(key)) byKey.set(key, ev)
   }
@@ -425,6 +427,73 @@ async function main() {
     await aggContext.close()
     await aggBrowser.close()
   }
+
+  // --- Data integrity pass ---
+  // Final validation before saving. Catches issues that slip through individual scrapers.
+  console.log('\n--- Data integrity pass ---')
+  let integrityRemoved = 0
+  let integrityFlagged = 0
+
+  for (const community of data.communities) {
+    const before = community.events.length
+
+    // 1. Remove events that fail validation
+    community.events = community.events.filter(ev => isValidEvent(ev))
+
+    // 2. Remove events with dateRaw that's clearly page text (>80 chars)
+    community.events = community.events.filter(ev => (ev.dateRaw || '').length <= 80)
+
+    // 3. Remove events without URLs if the community has other events WITH URLs
+    //    (url-less events next to url-having events are likely scraper artifacts)
+    const hasUrlEvents = community.events.some(ev => ev.url)
+    if (hasUrlEvents) {
+      community.events = community.events.filter(ev => ev.url)
+    }
+
+    const removed = before - community.events.length
+    integrityRemoved += removed
+
+    // Same for pastEvents
+    if (Array.isArray(community.pastEvents)) {
+      const pastBefore = community.pastEvents.length
+      community.pastEvents = community.pastEvents.filter(ev => isValidEvent(ev))
+      community.pastEvents = community.pastEvents.filter(ev => (ev.dateRaw || '').length <= 80)
+      const pastHasUrl = community.pastEvents.some(ev => ev.url)
+      if (pastHasUrl) {
+        community.pastEvents = community.pastEvents.filter(ev => ev.url)
+      }
+      integrityRemoved += pastBefore - community.pastEvents.length
+    }
+  }
+
+  // 4. Detect shared-date anomalies: if 5+ communities in the same region share
+  //    the same date without URLs, those are likely aggregator artifacts
+  const dateRegionMap = new Map()
+  for (const c of data.communities) {
+    for (const ev of c.events) {
+      if (!ev.url) {
+        const key = `${ev.date}|${c.regionId}`
+        if (!dateRegionMap.has(key)) dateRegionMap.set(key, [])
+        dateRegionMap.get(key).push(c.id)
+      }
+    }
+  }
+  for (const [key, ids] of dateRegionMap) {
+    if (ids.length >= 5) {
+      const [date] = key.split('|')
+      for (const id of ids) {
+        const c = data.communities.find(x => x.id === id)
+        if (c) {
+          const before = c.events.length
+          c.events = c.events.filter(ev => !(ev.date === date && !ev.url))
+          integrityRemoved += before - c.events.length
+        }
+      }
+      integrityFlagged++
+    }
+  }
+
+  console.log(`Integrity check: removed ${integrityRemoved} suspicious events, flagged ${integrityFlagged} shared-date anomalies`)
 
   if (filters.dryRun) {
     console.log('\nDry run complete; no file written.')
