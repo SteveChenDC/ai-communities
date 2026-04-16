@@ -54,7 +54,11 @@ function EventItem({ community, event }) {
         <div className="text-sm font-medium text-gray-800 truncate">{community.name}</div>
         <div className="text-[11px] text-gray-400 truncate">{region?.name}</div>
       </div>
-      {community.hasAICodingTools && <Wrench size={12} className="text-amber-400 shrink-0" />}
+      {community.hasAICodingTools && (
+        <span title="AI Coding Tools" className="shrink-0 flex">
+          <Wrench size={12} className="text-amber-400" />
+        </span>
+      )}
       {eventUrl && (
         <a href={eventUrl} target="_blank" rel="noopener noreferrer"
           onClick={e => e.stopPropagation()}
@@ -85,7 +89,11 @@ function CommunityItem({ community }) {
         <div className="text-sm text-gray-800 truncate">{community.name}</div>
         <div className="text-[11px] text-gray-400 truncate">{region?.name}</div>
       </div>
-      {community.hasAICodingTools && <Wrench size={11} className="text-amber-400 shrink-0" />}
+      {community.hasAICodingTools && (
+        <span title="AI Coding Tools" className="shrink-0 flex">
+          <Wrench size={11} className="text-amber-400" />
+        </span>
+      )}
       {community.url && (
         <a href={community.url} target="_blank" rel="noopener noreferrer"
           onClick={e => e.stopPropagation()}

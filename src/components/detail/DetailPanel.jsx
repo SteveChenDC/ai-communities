@@ -112,7 +112,11 @@ export default function DetailModal() {
                           className="flex items-center gap-1.5 text-xs px-2.5 py-1.5 bg-gray-50 hover:bg-blue-50 text-gray-700 hover:text-blue-700 rounded-lg border border-gray-100 hover:border-blue-200 transition-colors">
                           <span className="w-2 h-2 rounded-full shrink-0" style={{ background: sp.fill }} />
                           <span className="truncate max-w-[140px]">{s.name}</span>
-                          {s.hasAICodingTools && <Wrench size={10} className="text-amber-400 shrink-0" />}
+                          {s.hasAICodingTools && (
+                            <span title="AI Coding Tools" className="shrink-0 flex">
+                              <Wrench size={10} className="text-amber-400" />
+                            </span>
+                          )}
                         </button>
                       )
                     })}
