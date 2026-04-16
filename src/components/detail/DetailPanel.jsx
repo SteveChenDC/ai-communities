@@ -66,7 +66,7 @@ export default function DetailModal() {
                   )}
                   {c.hasAICodingTools && (
                     <span className="flex items-center gap-1 text-amber-500">
-                      <Wrench size={11} /> Sponsored by tools company
+                      <Wrench size={11} /> Sponsored by an AI DevTools company
                     </span>
                   )}
                 </div>
@@ -113,7 +113,7 @@ export default function DetailModal() {
                           <span className="w-2 h-2 rounded-full shrink-0" style={{ background: sp.fill }} />
                           <span className="truncate max-w-[140px]">{s.name}</span>
                           {s.hasAICodingTools && (
-                            <span title="Sponsored by tools company" className="shrink-0 flex">
+                            <span title="Sponsored by an AI DevTools company" className="shrink-0 flex">
                               <Wrench size={10} className="text-amber-400" />
                             </span>
                           )}

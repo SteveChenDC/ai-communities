@@ -59,7 +59,7 @@ function EventItem({ community, event }) {
         <div className="text-[11px] text-gray-400 truncate">{region?.name}</div>
       </div>
       {community.hasAICodingTools && (
-        <span title="Sponsored by tools company" className="shrink-0 flex">
+        <span title="Sponsored by an AI DevTools company" className="shrink-0 flex">
           <Wrench size={12} className="text-amber-400" />
         </span>
       )}
@@ -95,7 +95,7 @@ function CommunityItem({ community }) {
         <div className="text-[11px] text-gray-400 truncate">{region?.name}</div>
       </div>
       {community.hasAICodingTools && (
-        <span title="Sponsored by tools company" className="shrink-0 flex">
+        <span title="Sponsored by an AI DevTools company" className="shrink-0 flex">
           <Wrench size={11} className="text-amber-400" />
         </span>
       )}

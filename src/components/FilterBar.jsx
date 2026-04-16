@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Search, X, MapPin } from 'lucide-react'
+import { Search, X, MapPin, Wrench, Info } from 'lucide-react'
 import { useApp } from '../context/AppContext'
 import { PRIORITY_COLORS } from '../utils/constants'
 import { REGIONS } from '../data/regions'
@@ -130,6 +130,15 @@ export default function FilterBar() {
           </button>
         )
       })}
+
+      <div
+        className="flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-lg border border-amber-200 bg-amber-50 text-amber-700 shrink-0 whitespace-nowrap"
+        title="Sponsored by an AI DevTools company — high likelihood of a turnkey sponsorship opportunity since these communities already have experience partnering with AI DevTools companies."
+      >
+        <Wrench size={12} className="text-amber-500 shrink-0" />
+        <span>Sponsored by an AI DevTools company</span>
+        <Info size={11} className="text-amber-400 shrink-0" aria-hidden="true" />
+      </div>
 
       {hasFilters && (
         <button onClick={clearAll} className="flex items-center gap-1 text-xs px-2.5 py-1 rounded-lg border border-emerald-400 bg-emerald-400 text-white hover:bg-emerald-500 hover:border-emerald-500 ml-2 lg:ml-auto transition-colors shadow-sm shrink-0 whitespace-nowrap">
