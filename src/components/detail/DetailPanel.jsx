@@ -41,11 +41,16 @@ export default function DetailModal() {
       <div className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40"
         onClick={() => dispatch({ type: 'DESELECT' })} />
 
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-6 pointer-events-none">
-        <div className="bg-white rounded-2xl shadow-2xl max-w-lg w-full max-h-[80vh] flex flex-col pointer-events-auto overflow-hidden">
+      <div className="fixed inset-0 z-50 flex items-end justify-center p-0 md:items-center md:p-6 pointer-events-none">
+        <div className="bg-white rounded-t-2xl md:rounded-2xl shadow-2xl max-w-lg w-full max-h-[90vh] md:max-h-[80vh] flex flex-col pointer-events-auto overflow-hidden">
+
+          {/* Drag handle - mobile only */}
+          <div className="flex justify-center pt-2 md:hidden">
+            <div className="w-10 h-1 bg-gray-300 rounded-full" />
+          </div>
 
           {/* Header */}
-          <div className="px-6 pt-5 pb-4 border-b border-gray-100">
+          <div className="px-4 pt-4 pb-3 md:px-6 md:pt-5 md:pb-4 border-b border-gray-100">
             <div className="flex items-start justify-between gap-3">
               <div className="min-w-0">
                 <div className="flex items-center gap-2.5 mb-1">
@@ -84,7 +89,7 @@ export default function DetailModal() {
           </div>
 
           {/* Body */}
-          <div className="flex-1 overflow-auto px-6 py-4 space-y-5">
+          <div className="flex-1 overflow-auto px-4 py-3 md:px-6 md:py-4 space-y-5">
             <p className="text-sm text-gray-600 leading-relaxed">{c.description}</p>
 
             {/* Related / Nearby Communities */}

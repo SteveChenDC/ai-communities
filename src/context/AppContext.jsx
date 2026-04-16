@@ -15,6 +15,7 @@ const initialState = {
   },
   selectedId: null,
   showCommunities: false,
+  mobileSidebarOpen: false,
 }
 
 function reducer(state, action) {
@@ -24,11 +25,15 @@ function reducer(state, action) {
     case 'CLEAR_FILTERS':
       return { ...state, filters: initialState.filters }
     case 'SELECT':
-      return { ...state, selectedId: action.id }
+      return { ...state, selectedId: action.id, mobileSidebarOpen: false }
     case 'DESELECT':
       return { ...state, selectedId: null }
     case 'TOGGLE_COMMUNITIES':
       return { ...state, showCommunities: !state.showCommunities }
+    case 'TOGGLE_MOBILE_SIDEBAR':
+      return { ...state, mobileSidebarOpen: !state.mobileSidebarOpen }
+    case 'CLOSE_MOBILE_SIDEBAR':
+      return { ...state, mobileSidebarOpen: false }
     default:
       return state
   }

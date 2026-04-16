@@ -98,7 +98,7 @@ function CommunityItem({ community }) {
 }
 
 export default function Sidebar() {
-  const { filtered, showCommunities, dispatch } = useApp()
+  const { filtered, showCommunities, mobileSidebarOpen, dispatch } = useApp()
 
   const upcomingEvents = useMemo(() => {
     const now = new Date().toISOString().split('T')[0]
@@ -121,7 +121,12 @@ export default function Sidebar() {
   )
 
   return (
-    <aside className="w-80 bg-white border-l border-gray-200 flex flex-col shrink-0">
+    <aside className={`bg-white flex flex-col shrink-0 fixed bottom-0 left-0 right-0 z-20 border-t border-gray-200 rounded-t-2xl shadow-2xl transition-transform duration-300 ease-in-out max-h-[70vh] ${mobileSidebarOpen ? 'translate-y-0' : 'translate-y-full'} lg:static lg:w-80 lg:border-l lg:border-t-0 lg:rounded-none lg:shadow-none lg:translate-y-0 lg:max-h-none lg:z-auto`}>
+      {/* Drag handle - mobile only */}
+      <div className="flex justify-center pt-2 pb-1 lg:hidden">
+        <div className="w-10 h-1 bg-gray-300 rounded-full" />
+      </div>
+
       {/* Events */}
       {upcomingEvents.length > 0 && (
         <div className="flex-1 flex flex-col min-h-0">

@@ -16,26 +16,26 @@ export default function FilterBar() {
   }
 
   return (
-    <div className="flex items-center gap-2.5 px-5 py-2 bg-white border-b border-gray-100 shrink-0">
+    <div className="flex items-center gap-2 px-3 py-2 bg-white border-b border-gray-100 shrink-0 overflow-x-auto md:gap-2.5 md:px-5 md:overflow-x-visible">
       {/* Search */}
-      <div className="relative">
+      <div className="relative shrink-0">
         <Search size={14} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-300" />
         <input
           type="text"
           placeholder="Search..."
           value={filters.search}
           onChange={e => setFilter('search', e.target.value)}
-          className="w-48 pl-8 pr-3 py-1.5 text-sm bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 placeholder:text-gray-300"
+          className="w-36 md:w-48 pl-8 pr-3 py-1.5 text-sm bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 placeholder:text-gray-300"
         />
       </div>
 
-      <div className="w-px h-5 bg-gray-200" />
+      <div className="w-px h-5 bg-gray-200 shrink-0" />
 
       {/* Region */}
       <select
         value=""
         onChange={e => { if (e.target.value) toggleArray('regions', e.target.value) }}
-        className="text-sm bg-gray-50 border border-gray-200 rounded-lg py-1.5 px-2.5 text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 cursor-pointer"
+        className="text-sm bg-gray-50 border border-gray-200 rounded-lg py-1.5 px-2.5 text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 cursor-pointer shrink-0"
       >
         <option value="">Region{filters.regions.length ? ` (${filters.regions.length})` : ''}</option>
         {regionOptions.map(r => (
@@ -47,13 +47,13 @@ export default function FilterBar() {
         const name = regionOptions.find(o => o.id === r)?.name || r
         return (
           <button key={r} onClick={() => toggleArray('regions', r)}
-            className="flex items-center gap-1 text-xs px-2 py-1 bg-blue-50 text-blue-600 rounded-full hover:bg-blue-100 transition-colors">
+            className="flex items-center gap-1 text-xs px-2 py-1 bg-blue-50 text-blue-600 rounded-full hover:bg-blue-100 transition-colors shrink-0 whitespace-nowrap">
             {name} <X size={11} />
           </button>
         )
       })}
 
-      <div className="w-px h-5 bg-gray-200" />
+      <div className="w-px h-5 bg-gray-200 shrink-0" />
 
       {/* Priority */}
       {[3, 1].map(p => {
@@ -63,7 +63,7 @@ export default function FilterBar() {
           : { active: 'bg-blue-500 border-blue-500 text-white shadow-sm', inactive: 'border-blue-200 text-blue-500 hover:border-blue-300 hover:bg-blue-50', dot: '#3b82f6' }
         return (
           <button key={p} onClick={() => toggleArray('priorities', p)}
-            className={`flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-lg border transition-all ${active ? color.active : color.inactive}`}>
+            className={`flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-lg border transition-all shrink-0 whitespace-nowrap ${active ? color.active : color.inactive}`}>
             <span className="w-2 h-2 rounded-full shrink-0" style={{ background: active ? '#fff' : color.dot }} />
             {PRIORITY_COLORS[p].label}
           </button>
@@ -71,7 +71,7 @@ export default function FilterBar() {
       })}
 
       {hasFilters && (
-        <button onClick={clearAll} className="flex items-center gap-1 text-xs px-2.5 py-1 rounded-lg border border-emerald-400 bg-emerald-400 text-white hover:bg-emerald-500 hover:border-emerald-500 ml-auto transition-colors shadow-sm">
+        <button onClick={clearAll} className="flex items-center gap-1 text-xs px-2.5 py-1 rounded-lg border border-emerald-400 bg-emerald-400 text-white hover:bg-emerald-500 hover:border-emerald-500 ml-2 lg:ml-auto transition-colors shadow-sm shrink-0 whitespace-nowrap">
           <X size={11} /> Clear
         </button>
       )}
