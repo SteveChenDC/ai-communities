@@ -5,7 +5,7 @@ import { useApp } from '../../context/AppContext'
 import { PRIORITY_COLORS } from '../../utils/constants'
 
 export default function MapView() {
-  const { filtered, selectedId, dispatch } = useApp()
+  const { filtered, selectedId, showCommunities, dispatch } = useApp()
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef(null)
@@ -47,7 +47,8 @@ export default function MapView() {
 
     const bounds = []
 
-    for (const c of filtered) {
+    const visible = showCommunities ? filtered : filtered.filter(c => c.events.length > 0)
+    for (const c of visible) {
       if (!c.lat || !c.lng) continue
 
       const p = PRIORITY_COLORS[c.priority] || PRIORITY_COLORS[0]
@@ -79,6 +80,13 @@ export default function MapView() {
       const siblingLine = siblingCount > 0
         ? `<div style="font-size:10px;color:#9ca3af;margin-bottom:6px">${siblingCount} related group${siblingCount > 1 ? 's' : ''} nearby</div>`
         : ''
+      const nextEvent = Array.isArray(c.events) ? c.events.find((ev) => ev?.date) : null
+      const nextEventLine = nextEvent
+        ? `<div style="font-size:11px;color:#4b5563;margin-bottom:6px"><strong>Next:</strong> ${nextEvent.dateRaw || nextEvent.date}</div>`
+        : ''
+      const nextEventLink = nextEvent?.url
+        ? `<a href="${nextEvent.url}" target="_blank" rel="noopener" style="font-size:11px;color:#3b82f6;text-decoration:none">Event &rarr;</a>`
+        : ''
 
       marker.bindPopup(`
         <div style="font-family:system-ui,-apple-system,sans-serif;min-width:200px;max-width:280px">
@@ -87,11 +95,13 @@ export default function MapView() {
           </div>
           ${statsLine ? `<div style="display:inline-block;font-size:11px;color:#6b7280;margin-bottom:6px">${statsLine}</div>` : ''}
           ${siblingLine}
+          ${nextEventLine}
           <div style="color:#6b7280;font-size:11px;line-height:1.4;margin-bottom:8px">
             ${c.description.slice(0, 120)}${c.description.length > 120 ? '...' : ''}
           </div>
           <div style="display:flex;gap:12px;align-items:center">
             ${c.url ? `<a href="${c.url}" target="_blank" rel="noopener" style="font-size:11px;color:#3b82f6;text-decoration:none">Visit &rarr;</a>` : ''}
+            ${nextEventLink}
             <a href="#" data-detail-id="${c.id}" style="font-size:11px;color:#3b82f6;text-decoration:none;cursor:pointer">Details &rarr;</a>
           </div>
         </div>
@@ -116,7 +126,7 @@ export default function MapView() {
     }
     map.getContainer().addEventListener('click', handler)
     return () => map.getContainer().removeEventListener('click', handler)
-  }, [filtered, dispatch])
+  }, [filtered, showCommunities, dispatch])
 
   // Pan to selected community and close any open popup
   useEffect(() => {

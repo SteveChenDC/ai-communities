@@ -63,7 +63,7 @@ export default function FilterBar() {
               ? 'border-gray-800 bg-gray-800 text-white shadow-sm'
               : 'border-gray-200 text-gray-400 hover:border-gray-300 hover:text-gray-600'
           }`}>
-          {PRIORITY_COLORS[p].stars}
+          {PRIORITY_COLORS[p].label}
         </button>
       ))}
 

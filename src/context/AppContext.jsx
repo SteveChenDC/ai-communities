@@ -14,6 +14,7 @@ const initialState = {
     aiToolsOnly: false,
   },
   selectedId: null,
+  showCommunities: false,
 }
 
 function reducer(state, action) {
@@ -26,6 +27,8 @@ function reducer(state, action) {
       return { ...state, selectedId: action.id }
     case 'DESELECT':
       return { ...state, selectedId: null }
+    case 'TOGGLE_COMMUNITIES':
+      return { ...state, showCommunities: !state.showCommunities }
     default:
       return state
   }

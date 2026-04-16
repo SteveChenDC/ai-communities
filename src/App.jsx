@@ -15,7 +15,7 @@ function Dashboard() {
       <FilterBar />
 
       <div className="flex-1 flex min-h-0">
-        <div className="flex-1 relative">
+        <div className="flex-1 relative isolate">
           <MapView />
         </div>
         <Sidebar />
