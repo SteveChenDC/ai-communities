@@ -1,9 +1,28 @@
-import { Search, X } from 'lucide-react'
+import { useState } from 'react'
+import { Search, X, MapPin } from 'lucide-react'
 import { useApp } from '../context/AppContext'
 import { PRIORITY_COLORS } from '../utils/constants'
+import { REGIONS } from '../data/regions'
+
+function findNearestRegion(lat, lng, regionOptions) {
+  let best = null
+  let bestDist = Infinity
+  for (const group of regionOptions) {
+    for (const r of group.items) {
+      const region = REGIONS[r.id]
+      if (!region || region.country === 'GLOBAL') continue
+      const dlat = region.lat - lat
+      const dlng = region.lng - lng
+      const dist = dlat * dlat + dlng * dlng
+      if (dist < bestDist) { bestDist = dist; best = r }
+    }
+  }
+  return best
+}
 
 export default function FilterBar() {
-  const { filters, regionOptions, dispatch } = useApp()
+  const { filters, regionOptions, userLocation, dispatch } = useApp()
+  const [locating, setLocating] = useState(false)
 
   const setFilter = (key, value) => dispatch({ type: 'SET_FILTER', key, value })
   const clearAll = () => dispatch({ type: 'CLEAR_FILTERS' })
@@ -14,6 +33,30 @@ export default function FilterBar() {
     const cur = filters[key]
     setFilter(key, cur.includes(val) ? cur.filter(v => v !== val) : [...cur, val])
   }
+
+  const detectLocation = () => {
+    if (!navigator.geolocation) return
+    setLocating(true)
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        const { latitude, longitude } = pos.coords
+        const nearest = findNearestRegion(latitude, longitude, regionOptions)
+        if (nearest) {
+          dispatch({ type: 'SET_USER_LOCATION', location: { lat: latitude, lng: longitude, regionId: nearest.id, regionName: nearest.name } })
+          // Auto-filter to nearest region
+          if (!filters.regions.includes(nearest.id)) {
+            setFilter('regions', [nearest.id])
+          }
+        }
+        setLocating(false)
+      },
+      () => setLocating(false),
+      { enableHighAccuracy: false, timeout: 10000 }
+    )
+  }
+
+  // Flat list for pill lookups
+  const allRegions = regionOptions.flatMap(g => g.items)
 
   return (
     <div className="flex items-center gap-2 px-3 py-2 bg-white border-b border-gray-100 shrink-0 overflow-x-auto md:gap-2.5 md:px-5 md:overflow-x-visible">
@@ -38,13 +81,31 @@ export default function FilterBar() {
         className="text-sm bg-gray-50 border border-gray-200 rounded-lg py-1.5 px-2.5 text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 cursor-pointer shrink-0"
       >
         <option value="">Region{filters.regions.length ? ` (${filters.regions.length})` : ''}</option>
-        {regionOptions.map(r => (
-          <option key={r.id} value={r.id} disabled={filters.regions.includes(r.id)}>{r.name}</option>
+        {regionOptions.map(group => (
+          <optgroup key={group.continent} label={group.continent}>
+            {group.items.map(r => (
+              <option key={r.id} value={r.id} disabled={filters.regions.includes(r.id)}>{r.name}</option>
+            ))}
+          </optgroup>
         ))}
       </select>
 
+      {/* Location pin */}
+      <button
+        onClick={detectLocation}
+        className={`shrink-0 rounded-full p-1.5 border transition-all ${
+          userLocation
+            ? 'bg-blue-500 border-blue-500 text-white shadow-sm'
+            : 'border-gray-200 text-gray-400 hover:border-blue-300 hover:text-blue-500 hover:bg-blue-50'
+        } ${locating ? 'animate-pulse' : ''}`}
+        title={userLocation ? `Near ${userLocation.regionName}` : 'Detect my location'}
+        aria-label="Detect my location"
+      >
+        <MapPin size={14} />
+      </button>
+
       {filters.regions.map(r => {
-        const name = regionOptions.find(o => o.id === r)?.name || r
+        const name = allRegions.find(o => o.id === r)?.name || r
         return (
           <button key={r} onClick={() => toggleArray('regions', r)}
             className="flex items-center gap-1 text-xs px-2 py-1 bg-blue-50 text-blue-600 rounded-full hover:bg-blue-100 transition-colors shrink-0 whitespace-nowrap">
