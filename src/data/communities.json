@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generatedAt": "2026-04-16T06:15:23.879Z",
+    "generatedAt": "2026-04-16T06:38:09.598Z",
     "sourceFile": "ai_communities_sonar_v2.md",
     "totalCommunities": 206,
     "totalRegions": 64,
-    "communitiesWithDates": 1,
+    "communitiesWithDates": 0,
     "communitiesWithCodingTools": 24,
     "byPriority": {
-      "0": 121,
+      "0": 179,
       "1": 21,
       "3": 6
     }
@@ -53,19 +53,26 @@
       ],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-05-13",
-          "dateRaw": "May 13, 2026",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "Launching May 13, 2026 in Sonar's home city. The chapter launch announcement explicitly names Sonar as part of Geneva's tech ecosystem. No code quality tool currently sponsors any Swiss AI community — founding sponsorship locks in the category and unlocks visibility across the 220+ city global AI Tinkerers network downstream. Time-sensitive.",
       "isGrouped": false,
       "groupName": null,
       "lat": 46.2244,
       "lng": 6.1432,
-      "country": "CH"
+      "country": "CH",
+      "founded": null,
+      "organizers": [
+        "Sajad Hamzenejadi",
+        "Ilia Azizi"
+      ],
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://geneva.aitinkerers.org",
+      "researchNotes": "Chapter appears to be in early/pre-launch phase; listed as 'seeking organizer' on global directory despite named organizers (Sajad: PhD candidate at Univ. of Geneva; Ilia: PhD candidate & lecturer at Univ. of Lausanne). No recent events found. Part of global AI Tinkerers network (214 cities, 99k+ members, founded 2023-04-29 by Joe Heitzeberg)."
     },
     {
       "id": "ai-tinkerers-san-francisco",
@@ -111,7 +118,21 @@
       "groupName": null,
       "lat": 37.7949,
       "lng": -122.4194,
-      "country": "US"
+      "country": "US",
+      "founded": "2022-11",
+      "organizers": [
+        "Joe Heitzeberg",
+        "Dexter Horthy",
+        "Ian Butler"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-02-18",
+      "social": {
+        "twitter": "@aitinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://sf.aitinkerers.org",
+      "researchNotes": "Global community founded by Joe Heitzeberg after Nat Friedman tweet in Sep 2022. First meetup Nov 2022 in Seattle with 12 people. Name coined by Alex Graveley. Now 99,000+ members across 214 cities."
     },
     {
       "id": "aicamp-sf-bay-area",
@@ -156,7 +177,19 @@
       "groupName": null,
       "lat": 37.80077,
       "lng": -122.40868,
-      "country": "US"
+      "country": "US",
+      "founded": "2015-08",
+      "organizers": [
+        "Bill Liu"
+      ],
+      "cadence": "biweekly to monthly",
+      "lastEvent": "2026-04-30",
+      "social": {
+        "twitter": "@aicampai",
+        "linkedin": "https://www.linkedin.com/in/billliu1202"
+      },
+      "platformUrl": "https://www.meetup.com/sfbay-ai/",
+      "researchNotes": "Founded by Bill Liu in August 2015. Global platform with 500K+ developer members in 100+ countries."
     },
     {
       "id": "cerebral-valley",
@@ -200,7 +233,21 @@
       "groupName": null,
       "lat": 37.80036,
       "lng": -122.39394,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-03",
+      "organizers": [
+        "Eric Newcomer",
+        "Max Child",
+        "James Wilsterman"
+      ],
+      "cadence": "biannual",
+      "lastEvent": "2026-05-06",
+      "social": {
+        "twitter": "@cerebral_valley",
+        "linkedin": "https://www.linkedin.com/company/cerebralvalley"
+      },
+      "platformUrl": "https://cerebralvalley.com",
+      "researchNotes": "First event March 2023 originated from Eric Newcomer's bachelor party. Invite-only, 300+ attendees. Also publishes newsletter on Beehiiv."
     },
     {
       "id": "agi-house",
@@ -237,7 +284,21 @@
       "groupName": null,
       "lat": 37.78255,
       "lng": -122.40092,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-02",
+      "organizers": [
+        "Rocky Yu",
+        "Jeremy Nixon",
+        "Tim Shi"
+      ],
+      "cadence": "weekly to multiple times per week",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@agihouse_org",
+        "linkedin": "https://www.linkedin.com/company/agi-house"
+      },
+      "platformUrl": "https://luma.com/agi-house",
+      "researchNotes": "Launched Feb 1, 2023 by Rocky Yu. Located in $68M Hillsborough mansion plus SF Twin Peaks location. Merit-based access, never charges."
     },
     {
       "id": "mlops-community-san-francisco",
@@ -273,7 +334,19 @@
       "groupName": null,
       "lat": 37.7749,
       "lng": -122.3914,
-      "country": "US"
+      "country": "US",
+      "founded": "2020-03",
+      "organizers": [
+        "Demetrios Brinkmann"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-07",
+      "social": {
+        "twitter": "@mlopscommunity",
+        "linkedin": "https://www.linkedin.com/in/dpbrinkm"
+      },
+      "platformUrl": "https://luma.com/mlops-community-sfbayarea",
+      "researchNotes": "Founded by Demetrios Brinkmann March-April 2020. Global community 75K+ ML practitioners. Slack 21K+ members. 37 cities."
     },
     {
       "id": "latent-space",
@@ -307,7 +380,20 @@
       "groupName": null,
       "lat": 37.76112,
       "lng": -122.38614,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-02",
+      "organizers": [
+        "swyx (Shawn Wang)",
+        "Alessio Fanelli"
+      ],
+      "cadence": "weekly podcast + monthly in-person",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@latentspacepod",
+        "linkedin": "https://www.linkedin.com/company/latent-space-podcast"
+      },
+      "platformUrl": "https://www.latent.space",
+      "researchNotes": "Newsletter started 2022, podcast launched Feb 23, 2023. 200K+ subscribers, 10M+ annual readers. Top 10 US tech podcast."
     },
     {
       "id": "the-ai-collective",
@@ -342,7 +428,19 @@
       "groupName": null,
       "lat": 37.76076,
       "lng": -122.40526,
-      "country": "US"
+      "country": "US",
+      "founded": "2023",
+      "organizers": [
+        "Chappy Asel"
+      ],
+      "cadence": "multiple times per week across chapters",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@AICollectiveCo",
+        "linkedin": "https://www.linkedin.com/company/aicollective"
+      },
+      "platformUrl": "https://luma.com/genai-collective",
+      "researchNotes": "Formerly 'The GenAI Collective', rebranded June 2025. 200K+ members across 100+ global chapters. 350+ organizers. Non-profit."
     },
     {
       "id": "sf-python",
@@ -374,7 +472,22 @@
       "groupName": null,
       "lat": 37.7389,
       "lng": -122.4194,
-      "country": "US"
+      "country": "US",
+      "founded": "2008-11",
+      "organizers": [
+        "Grace Law",
+        "James Abel",
+        "Simeon Franklin",
+        "Daniel Pyrathon"
+      ],
+      "cadence": "twice monthly",
+      "lastEvent": "2026-01-14",
+      "social": {
+        "twitter": "@sfpythonmeetup",
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/sfpython",
+      "researchNotes": "Founded November 2008 by Grace Law. Largest, longest-running community-run meetup in SF Bay Area. 13,266 members. Annual PyBay conference."
     },
     {
       "id": "house-of-ai",
@@ -405,7 +518,20 @@
       "groupName": null,
       "lat": 37.75642,
       "lng": -122.42705,
-      "country": "US"
+      "country": "US",
+      "founded": "2024",
+      "organizers": [
+        "Christian Byza",
+        "Arndt Voges"
+      ],
+      "cadence": "multiple times per week",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/house-of-ai/"
+      },
+      "platformUrl": "https://luma.com/house-of-ai",
+      "researchNotes": "6,000 sq ft AI coworking space and event venue at 40 Boardman Pl, SoMa, SF. Built by bepurple.ai team."
     },
     {
       "id": "bay-area-ai",
@@ -438,7 +564,19 @@
       "groupName": "Bay Area AI / SF Bayarea ML / San Francisco AI Engineers / The AI Salon SF",
       "lat": 37.7551,
       "lng": -122.4392,
-      "country": "US"
+      "country": "US",
+      "founded": "2015",
+      "organizers": [
+        "Alexy Khrabrov"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2025-11-03",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/bay-area-ai",
+      "researchNotes": "Described as longest-running AI meetup in the world. 5,546 members. Khrabrov is AI Community Architect at Neo4j."
     },
     {
       "id": "sf-bayarea-ml",
@@ -471,7 +609,20 @@
       "groupName": "Bay Area AI / SF Bayarea ML / San Francisco AI Engineers / The AI Salon SF",
       "lat": 37.76112,
       "lng": -122.45266,
-      "country": "US"
+      "country": "US",
+      "founded": "2011-04",
+      "organizers": [
+        "Tony Tran",
+        "David Andrzejewski"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2024-09-26",
+      "social": {
+        "twitter": "@SFMachineLearn",
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/sf-bayarea-machine-learning",
+      "researchNotes": "Founded April 21, 2011. 7,208+ members. 66 past events. Appears less active recently."
     },
     {
       "id": "san-francisco-ai-engineers",
@@ -504,7 +655,19 @@
       "groupName": "Bay Area AI / SF Bayarea ML / San Francisco AI Engineers / The AI Salon SF",
       "lat": 37.7749,
       "lng": -122.4394,
-      "country": "US"
+      "country": "US",
+      "founded": "2024",
+      "organizers": [
+        "Fonzi AI"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-05-13",
+      "social": {
+        "twitter": "@FonziAI",
+        "linkedin": "https://www.linkedin.com/company/fonziai"
+      },
+      "platformUrl": "https://www.meetup.com/san-francisco-ai-engineers",
+      "researchNotes": "Run by Fonzi talent marketplace. 3,399 members. Events at House of AI. Also runs New York chapter."
     },
     {
       "id": "the-ai-salon-sf",
@@ -537,7 +700,20 @@
       "groupName": "Bay Area AI / SF Bayarea ML / San Francisco AI Engineers / The AI Salon SF",
       "lat": 37.78562,
       "lng": -122.44527,
-      "country": "US"
+      "country": "US",
+      "founded": "2022-12",
+      "organizers": [
+        "Kyle Shannon",
+        "Leah Fasten"
+      ],
+      "cadence": "weekly to biweekly",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@TheAISalonSF",
+        "linkedin": "https://www.linkedin.com/company/the-ai-salon"
+      },
+      "platformUrl": "https://luma.com/ai-salon",
+      "researchNotes": "Founded December 7, 2022. Focuses on meaning and societal impact of AI. Expanded to 6 cities across 3 continents."
     },
     {
       "id": "stanford-ai-alignment",
@@ -571,7 +747,22 @@
       "groupName": "Stanford AI Alignment / BAIR Berkeley AI Research",
       "lat": 37.80036,
       "lng": -122.44486,
-      "country": "US"
+      "country": "US",
+      "founded": "2022",
+      "organizers": [
+        "Emma Beharry",
+        "Andrew Zeng",
+        "Ella Pfeffer",
+        "Patrick Ye"
+      ],
+      "cadence": "1-3x per quarter",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@SAIA_Alignment",
+        "linkedin": "https://www.linkedin.com/company/stanford-ai-alignment"
+      },
+      "platformUrl": "https://linktr.ee/stanfordaialignment",
+      "researchNotes": "Stanford Existential Risks Initiative sub-group. Born spring 2022. Programs: AI War Gaming, AI Policy lectures, ARENA upskilling."
     },
     {
       "id": "bair-berkeley-ai-research",
@@ -605,7 +796,19 @@
       "groupName": "Stanford AI Alignment / BAIR Berkeley AI Research",
       "lat": 37.79338,
       "lng": -122.42705,
-      "country": "US"
+      "country": "US",
+      "founded": "2016",
+      "organizers": [
+        "Pieter Abbeel",
+        "Trevor Darrell"
+      ],
+      "cadence": "periodic seminars and annual summits",
+      "lastEvent": "2026-08",
+      "social": {
+        "twitter": "@berkeley_ai",
+        "linkedin": "https://www.linkedin.com/company/bair-lab"
+      },
+      "researchNotes": "UC Berkeley academic AI research lab. Runs BAIR Commons program. Publishes BAIR Blog."
     },
     {
       "id": "ai-tinkerers-nyc",
@@ -665,7 +868,19 @@
       "groupName": null,
       "lat": 40.7328,
       "lng": -74.006,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-08",
+      "organizers": [
+        "Jonathan Murray"
+      ],
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": null
+      },
+      "platformUrl": "https://nyc.aitinkerers.org",
+      "researchNotes": "NYC chapter launched Aug 2023. Jonathan Murray is NYC GM. Global org founded 2022."
     },
     {
       "id": "aicamp-nyc",
@@ -707,7 +922,19 @@
       "groupName": null,
       "lat": 40.73759,
       "lng": -73.99299,
-      "country": "US"
+      "country": "US",
+      "founded": "2019",
+      "organizers": [
+        "Bill Liu"
+      ],
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@aicampai",
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/aittg-nyc",
+      "researchNotes": "Part of global AICamp (founded 2019 by Bill Liu). 12,173 members, very active."
     },
     {
       "id": "new-york-artificial-intelligence",
@@ -742,7 +969,18 @@
       "groupName": null,
       "lat": 40.73325,
       "lng": -73.97637,
-      "country": "US"
+      "country": "US",
+      "founded": "2016-01",
+      "organizers": [
+        "Maryam Farooq"
+      ],
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@NYAICommunity",
+        "linkedin": null
+      },
+      "researchNotes": "Founded Jan 2016 by Maryam Farooq. 4,166 members, 103 past events."
     },
     {
       "id": "data-science-salon-nyc",
@@ -774,7 +1012,18 @@
       "groupName": null,
       "lat": 40.70287,
       "lng": -73.97982,
-      "country": "US"
+      "country": "US",
+      "founded": "2016-12",
+      "organizers": [
+        "Anna Anisin"
+      ],
+      "cadence": "annual",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@DataSciSalon",
+        "linkedin": null
+      },
+      "researchNotes": "Founded Dec 2016 by Anna Anisin. Website rebranded to ailovesdata.com. 150-person invite-only."
     },
     {
       "id": "pydata-nyc",
@@ -806,7 +1055,18 @@
       "groupName": null,
       "lat": 40.68585,
       "lng": -73.98213,
-      "country": "US"
+      "country": "US",
+      "founded": "2012",
+      "organizers": [
+        "Abby Tse"
+      ],
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@pydatanyc",
+        "linkedin": null
+      },
+      "researchNotes": "Part of global PyData (first event 2012). Abby Tse chairs since 2022. 8,062 members."
     },
     {
       "id": "papers-we-love-nyc",
@@ -836,7 +1096,18 @@
       "groupName": null,
       "lat": 40.69338,
       "lng": -74.00121,
-      "country": "US"
+      "country": "US",
+      "founded": "2014-02",
+      "organizers": [
+        "Zeeshan Lakhani"
+      ],
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@paperswelovenyc",
+        "linkedin": null
+      },
+      "researchNotes": "Founded Feb 2014 by Zeeshan Lakhani et al. The original Papers We Love chapter."
     },
     {
       "id": "nyc-machine-learning",
@@ -875,7 +1146,19 @@
       "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
       "lat": 40.68585,
       "lng": -74.02987,
-      "country": "US"
+      "country": "US",
+      "founded": null,
+      "organizers": [
+        "Charles Davi"
+      ],
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://meetup.com/new-york-machine-learning-meetup-group",
+      "researchNotes": "3,121 members. Founding date not publicly listed."
     },
     {
       "id": "nyc-agentic-ai",
@@ -914,7 +1197,19 @@
       "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
       "lat": 40.70571,
       "lng": -74.0247,
-      "country": "US"
+      "country": "US",
+      "founded": null,
+      "organizers": [
+        "Kris Skrinak"
+      ],
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://meetup.com/deep-learning-nyc",
+      "researchNotes": "Originally 'Deep Learning NYC', now renamed. Organized by Kris Skrinak (AWS). 6,682 members."
     },
     {
       "id": "ai-nyc",
@@ -953,7 +1248,19 @@
       "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
       "lat": 40.71618,
       "lng": -74.0338,
-      "country": "US"
+      "country": "US",
+      "founded": "2017",
+      "organizers": [
+        "Jamiel Sheikh"
+      ],
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://meetup.com/ai-nyc",
+      "researchNotes": "Offshoot of Blockchain NYC (2017) by Jamiel Sheikh."
     },
     {
       "id": "nyc-ai-salon",
@@ -992,7 +1299,21 @@
       "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
       "lat": 40.73325,
       "lng": -74.03563,
-      "country": "US"
+      "country": "US",
+      "founded": "2022-12",
+      "organizers": [
+        "Kyle Shannon",
+        "Leah Fasten",
+        "Erik Sanner"
+      ],
+      "cadence": "biweekly",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@TheAISalon",
+        "linkedin": null
+      },
+      "platformUrl": "https://meetup.com/nyc-ai-salon",
+      "researchNotes": "Founded Dec 7, 2022. Erik Sanner organizes the NYC chapter."
     },
     {
       "id": "nyc-ai-ml",
@@ -1031,7 +1352,19 @@
       "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
       "lat": 40.73051,
       "lng": -74.01529,
-      "country": "US"
+      "country": "US",
+      "founded": "2017",
+      "organizers": [
+        "Gideon Mendels"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2024-10",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://meetup.com/nyc-artificial-intelligence-machine-learning",
+      "researchNotes": "Affiliated with Comet.ml (founded 2017 by Gideon Mendels). Last event Oct 2024 - may be less active."
     },
     {
       "id": "ai-tinkerers-boston",
@@ -1072,7 +1405,25 @@
       "groupName": null,
       "lat": 42.3801,
       "lng": -71.0589,
-      "country": "US"
+      "country": "US",
+      "founded": "2024-03",
+      "organizers": [
+        "Salil Darji",
+        "Chris Johanson",
+        "Nate Aune",
+        "Valeriano Velasquez",
+        "Wafaa Arbash",
+        "Will Sergeant",
+        "Phil Magnuszewski"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-11-25",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://boston.aitinkerers.org",
+      "researchNotes": "Part of global AI Tinkerers network (214 cities, 96k+ members, founded 2023-04-29 by Joe Heitzeberg). Boston chapter launched ~March 2024. Format: live code demos only, no slides/pitches. January 2026 event cancelled due to snow."
     },
     {
       "id": "boston-generative-ai-meetup",
@@ -1104,7 +1455,19 @@
       "groupName": null,
       "lat": 42.38155,
       "lng": -71.0409,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-05",
+      "organizers": [
+        "Judah Phillips"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-08",
+      "social": {
+        "twitter": "@bostonai_meetup",
+        "linkedin": "https://www.linkedin.com/company/boston-generative-ai-meetup"
+      },
+      "platformUrl": "https://www.meetup.com/boston-generative-ai-meetup",
+      "researchNotes": "6,189 members. 4.6/5 stars (443 ratings). Typical venue: Microsoft NERD Center, Cambridge. Ticket price ~$22. Sponsored by Squark and Microsoft. Phillips is founder of AI startup Squark. Part of a 4-group professional organization."
     },
     {
       "id": "pydata-boston",
@@ -1140,7 +1503,19 @@
       "groupName": null,
       "lat": 42.3501,
       "lng": -71.04158,
-      "country": "US"
+      "country": "US",
+      "founded": "2014-10",
+      "organizers": [
+        "Milos Miljkovic"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-25",
+      "social": {
+        "twitter": "@PyDataBoston",
+        "linkedin": "https://www.linkedin.com/company/pydata"
+      },
+      "platformUrl": "https://www.meetup.com/pydata-boston-cambridge",
+      "researchNotes": "3,342 members on Meetup. 4.7/5 stars (384 ratings). 17 organizers total. Part of international PyData/NumFOCUS network (121 groups). Events held at Moderna HQ in Cambridge. Annual conference (PyData Boston 2025 was Dec 8-10, 2025 at Microsoft NERD). Twitter account joined Oct 2011."
     },
     {
       "id": "aicamp-boston",
@@ -1174,7 +1549,19 @@
       "groupName": "AICamp Boston / Boston AI/ML User Group / Boston AI Network / Boston CV AIR / Boston AI Safety",
       "lat": 42.33379,
       "lng": -71.04932,
-      "country": "US"
+      "country": "US",
+      "founded": "2019",
+      "organizers": [
+        "Bill Liu"
+      ],
+      "cadence": "weekly-to-biweekly",
+      "lastEvent": "2026-04-23",
+      "social": {
+        "twitter": "@aicampai",
+        "linkedin": "https://www.linkedin.com/company/aicampai"
+      },
+      "platformUrl": "https://www.meetup.com/aittg-boston",
+      "researchNotes": "Listed as 'Boston AI Developers Group' on Meetup. 6,125 members. 4.3/5 stars (447 ratings). AICamp is a global platform (500k+ developers, 50+ cities). Founded by Bill Liu in 2019. Runs weekly AI webinar series plus monthly in-person meetups. Also has Discord community. Website: aicamp.ai"
     },
     {
       "id": "boston-ai",
@@ -1208,7 +1595,19 @@
       "groupName": "AICamp Boston / Boston AI/ML User Group / Boston AI Network / Boston CV AIR / Boston AI Safety",
       "lat": 42.32627,
       "lng": -71.07121,
-      "country": "US"
+      "country": "US",
+      "founded": null,
+      "organizers": [
+        "Michael Boensel"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-01-15",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/groups/14623608/"
+      },
+      "platformUrl": "https://www.meetup.com/boston-ai-ml-user-group",
+      "researchNotes": "Listed as 'Boston AI/ML User Group' on Meetup. 1,986 members. 4.5/5 stars (101 ratings). Free and open to all levels. Covers topics from ML algorithms to practical AI applications in healthcare, finance, and tech. Founding date not publicly listed."
     },
     {
       "id": "ml-user-group",
@@ -1242,7 +1641,19 @@
       "groupName": "AICamp Boston / Boston AI/ML User Group / Boston AI Network / Boston CV AIR / Boston AI Safety",
       "lat": 42.3501,
       "lng": -71.07622,
-      "country": "US"
+      "country": "US",
+      "founded": "2011-01",
+      "organizers": [
+        "Boston New Technology Organizers"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-05-30",
+      "social": {
+        "twitter": "@BostonNewTech",
+        "linkedin": "https://www.linkedin.com/company/boston-new-tech"
+      },
+      "platformUrl": "https://www.meetup.com/boston-ai-network-artificial-intelligence-group",
+      "researchNotes": "NOTE: The provided URL (boston-ai-network-artificial-intelligence-group) maps to 'Boston AI Network', organized by Boston New Technology (BNT), a not-for-profit founded Jan 2011. 3,505 members. 4.5/5 stars (151 ratings). 98 past events. Also on Facebook (@BostonNewTech) and Instagram (@bostonnewtech). BNT is a community of 50k professionals. Monthly newsletters. Website: bostonnewtech.com"
     },
     {
       "id": "boston-ai-network",
@@ -1276,7 +1687,19 @@
       "groupName": "AICamp Boston / Boston AI/ML User Group / Boston AI Network / Boston CV AIR / Boston AI Safety",
       "lat": 42.36496,
       "lng": -71.08647,
-      "country": "US"
+      "country": "US",
+      "founded": "2011-01",
+      "organizers": [
+        "Boston New Technology Organizers"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-05-30",
+      "social": {
+        "twitter": "@BostonNewTech",
+        "linkedin": "https://www.linkedin.com/company/boston-new-tech"
+      },
+      "platformUrl": "https://www.meetup.com/boston-air",
+      "researchNotes": "NOTE: The user listed URL meetup.com/boston-air which actually maps to 'Boston Computer Vision AIR (AI, Autonomy & Robotics)' -- NOT 'Boston AI Network'. See boston-cv-air entry for details on that group. This entry duplicates ml-user-group since the user's naming/URL assignments appear crossed. The real Boston AI Network is at meetup.com/boston-ai-network-artificial-intelligence-group."
     },
     {
       "id": "boston-cv-air",
@@ -1310,7 +1733,19 @@
       "groupName": "AICamp Boston / Boston AI/ML User Group / Boston AI Network / Boston CV AIR / Boston AI Safety",
       "lat": 42.38768,
       "lng": -71.08204,
-      "country": "US"
+      "country": "US",
+      "founded": "2012",
+      "organizers": [
+        "Samson Timoner"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-12-01",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/boston-air",
+      "researchNotes": "NOTE: The user listed URL meetup.com/boston-ai-safety-group for this entry, but that URL points to 'Boston AI Safety Group' (organizer: David R. Wood, 82 members, last event 2024-01-18). The actual 'Boston CV AIR' group is at meetup.com/boston-air. Boston CV AIR: 1,218 members, 4.7/5 stars (200 ratings). Co-founded ~2012 by Samson Timoner and Youssef Rouchdy. Covers ML, computer vision, robotics. Timoner is Head of CV at Wicket, MIT CSAIL alum."
     },
     {
       "id": "ai-tinkerers-dc-metro",
@@ -1352,7 +1787,22 @@
       "groupName": null,
       "lat": 38.9272,
       "lng": -77.0369,
-      "country": "US"
+      "country": "US",
+      "founded": null,
+      "organizers": [
+        "Julie Saltman",
+        "Greg Ceccarelli",
+        "Jonathan Murray",
+        "Craig Rhodes"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-02-24",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://dc.aitinkerers.org",
+      "researchNotes": "Part of global AI Tinkerers network. DC chapter founding date not publicly listed; earliest visible events from 2025. Feb 2026 meetup at Syracuse IDJC featured 21 demos. Julie Saltman is CEO/Co-Founder of Standd; Greg Ceccarelli is Co-Founder/CPO at SpecStory. Format: 10-min technical show-and-tells, no slides."
     },
     {
       "id": "data-community-dc",
@@ -1383,7 +1833,27 @@
       "groupName": null,
       "lat": 38.9212,
       "lng": -77.01265,
-      "country": "US"
+      "country": "US",
+      "founded": "2012-08",
+      "organizers": [
+        "Janet Dobbins",
+        "Will Angel",
+        "Dave Anderson",
+        "Jeff Hale",
+        "Abigail Haddad",
+        "Banjo Obayomi",
+        "George Zoto",
+        "Leslie Welch",
+        "Martin Laptev"
+      ],
+      "cadence": "multiple-per-month",
+      "lastEvent": "2025-08-27",
+      "social": {
+        "twitter": "@datacommunitydc",
+        "linkedin": "https://www.linkedin.com/company/data-community-dc"
+      },
+      "platformUrl": "https://www.dc2.org",
+      "researchNotes": "501(c)(3) nonprofit. 8 active sub-groups: Generative AI DC, Data Science DC, Data Engineers DC, Data Viz DC, R Govys, Statistical Seminars DC, Power BI DC, Deep Learning Adventures. 20+ volunteer organizers. Weekly newsletter. Janet Dobbins is Board Chair; Will Angel is Executive Director. Sponsors: Neo4j, Arlington Economic Development. Event space: Prefect. Also on YouTube. Events also listed on lu.ma/DC2."
     },
     {
       "id": "aicamp-dc",
@@ -1419,7 +1889,19 @@
       "groupName": null,
       "lat": 38.8892,
       "lng": -77.00572,
-      "country": "US"
+      "country": "US",
+      "founded": "2019",
+      "organizers": [
+        "Bill Liu"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-30",
+      "social": {
+        "twitter": "@aicampai",
+        "linkedin": "https://www.linkedin.com/company/aicampai"
+      },
+      "platformUrl": "https://www.meetup.com/washington-d-c-artificial-intelligence-deep-learning",
+      "researchNotes": "Listed as 'Washington D.C. AI & Deep Learning' on Meetup. 3,940 members. 4.5/5 stars (147 ratings). Part of Data Community DC (DC2) umbrella AND AICamp global network. DC2 is a 501(c)(3). 84 past events on Meetup. Also hosts events via aicamp.ai. Most recent: GitHub Copilot Dev Days DC on Apr 30, 2026."
     },
     {
       "id": "generative-series-dc",
@@ -1451,7 +1933,20 @@
       "groupName": "Generative Series DC / PauseAI DC",
       "lat": 38.8872,
       "lng": -77.0369,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-04",
+      "organizers": [
+        "Nihal J. Krishan",
+        "Phil Linder"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2026-03-08",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/generativeseries"
+      },
+      "platformUrl": "https://www.generativeseries.com",
+      "researchNotes": "Interdisciplinary live events at intersection of AI, art, and culture. First event Apr 2023, standing room only. Featured in Washington Post, DCist, City Paper, POLITICO. Krishan is an AI journalist/CFR Fellow; Linder is an abstract expressionist painter/former military helicopter pilot. Venues include The LINE Hotel, Phillips Collection, ArtsClub, Watergate Hotel. Past topics: AI & Music, AI & Psychedelic Art, AI & Psychotherapy, AI & Online Dating, AI & Film. Also on Instagram @generative_series. Luma: lu.ma/h6nt7szk. Eventbrite presence as well."
     },
     {
       "id": "pauseai-dc",
@@ -1483,7 +1978,19 @@
       "groupName": "Generative Series DC / PauseAI DC",
       "lat": 38.8932,
       "lng": -77.06115,
-      "country": "US"
+      "country": "US",
+      "founded": "2024",
+      "organizers": [
+        "Changlin Li"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-14",
+      "social": {
+        "twitter": "@PauseAI",
+        "linkedin": "https://www.linkedin.com/company/pauseai"
+      },
+      "platformUrl": "https://www.meetup.com/ai-safety-awareness-group-d-c",
+      "researchNotes": "Listed as 'AI Safety Awareness Group D.C.' on Meetup. 230 members. Part of AI Safety Awareness Project (AISAP) founded by Changlin Li (Harvard AB, ex-Bridgewater, ex-Vowel.com). Affiliated with broader PauseAI movement. Events held at Georgetown University. Focus: public awareness of AI safety, technical AI safety research education, AI governance. Also has dedicated website pauseai-dc.org and Facebook page. 18+ past events. PauseAI social handles are global org, not DC-specific."
     },
     {
       "id": "ai-philly",
@@ -1517,7 +2024,17 @@
       "groupName": "AI Philly / Philly AI Connect / Philly Data and AI",
       "lat": 39.9726,
       "lng": -75.1652,
-      "country": "US"
+      "country": "US",
+      "founded": "2024-04",
+      "organizers": null,
+      "cadence": "monthly",
+      "lastEvent": "2026-01-29",
+      "social": {
+        "twitter": "@aiphilly_",
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/ai-philly/",
+      "researchNotes": "AI Hack Night is their flagship monthly event at Blockspace Philly (215 S Broad St). $5 attendance fee. 583 Meetup members. 4.8/5 rating (70 ratings). Twitter account created April 2024. Also lists events on Eventbrite. Organizer name not publicly listed on site or Meetup; Meetup shows 'AI Philly and 1 other' as organizers. Website: aiphilly.tech."
     },
     {
       "id": "philly-ai-connect",
@@ -1551,7 +2068,25 @@
       "groupName": "AI Philly / Philly AI Connect / Philly Data and AI",
       "lat": 39.9666,
       "lng": -75.14095,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-12",
+      "organizers": [
+        "Victor Raymond Tabaac",
+        "Peter Mastrogiacomo",
+        "William C. Francis",
+        "Talia Tomarchio",
+        "Brian Whitney",
+        "Patrick Mastrogiacomo",
+        "Shai Perednik"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-03-05",
+      "social": {
+        "twitter": "@PhillyAIConnect",
+        "linkedin": "https://www.linkedin.com/company/philly-ai-connect"
+      },
+      "platformUrl": "https://www.meetup.com/philly-ai-connect/",
+      "researchNotes": "Announced December 28, 2023 by Victor Raymond Tabaac (former CEO of Triumph Tech). Inaugural event February 29, 2024 sponsored by Pat's King of Steaks. 581 Meetup members. Also on Facebook (phillyaiconnect), Instagram (@phillyaiconnect), TikTok (@philly.ai.connect), and Discord. Hosts workshops, speaker sessions, hackathons, and social gatherings. Most recent event was 'The Human Edge in the Age of AI' on March 5, 2025 at Pennovation Center (22 attendees). Activity appears to have slowed since early 2025."
     },
     {
       "id": "philly-data-and-ai",
@@ -1585,7 +2120,19 @@
       "groupName": "AI Philly / Philly AI Connect / Philly Data and AI",
       "lat": 39.9346,
       "lng": -75.13402,
-      "country": "US"
+      "country": "US",
+      "founded": null,
+      "organizers": [
+        "Christie Mealo"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-21",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/philly-data-ai"
+      },
+      "platformUrl": "https://www.meetup.com/philly-data-and-ai/",
+      "researchNotes": "Founded by Christie Mealo, one of the largest grassroots data and AI communities on the East Coast. 2,612 Meetup members. 4.8/5 rating (200 ratings). Presented by iO Meetups. Focus is on happy hours and social networking events at venues like Con Murphy's Irish Pub rather than formal presentations. Part of the 'DataAndAI - 3 groups' professional network."
     },
     {
       "id": "ai-tinkerers-atlanta",
@@ -1629,7 +2176,21 @@
       "groupName": null,
       "lat": 33.769,
       "lng": -84.388,
-      "country": "US"
+      "country": "US",
+      "founded": "2024-07",
+      "organizers": [
+        "Avoilan Bingham",
+        "Alisa Delikatna",
+        "Andrew Tabit"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://atlanta.aitinkerers.org/",
+      "researchNotes": "Part of the global AI Tinkerers network (99,000+ builders, 214 cities). Founded July 2024. Avoilan Bingham is General Manager at Drive Capital and Atlanta Tech Week President. Alisa Delikatna is COO at LeanSquad AI. Andrew Tabit is CEO of LeanSquad. 1,360 technical professionals; 51% specialize in AI/ML, 23% executive/founder titles. Hosted 12 technical events in 2025 including 3 activations with Google. 20+ partners (AWS, Google, Block, Microsoft). Events limited to 50-60 builders. 2026 plans include AI Dev Tools Track (Claude Code, Cursor, GitHub Copilot). Also on Meetup: meetup.com/ai-tinkerers-atlanta/. Social handles are for global AI Tinkerers org."
     },
     {
       "id": "aicamp-atlanta",
@@ -1668,7 +2229,19 @@
       "groupName": "Atlanta AI Week / AICamp Atlanta / Atlanta Generative AI",
       "lat": 33.731,
       "lng": -84.35682,
-      "country": "US"
+      "country": "US",
+      "founded": "2018",
+      "organizers": [
+        "AprilA"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-01-22",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/aicampai"
+      },
+      "platformUrl": "https://www.meetup.com/aittg-atlanta/",
+      "researchNotes": "Part of the global AICamp network (aicamp.ai), founded 2018, headquartered in Hong Kong. Atlanta chapter has 4,827 Meetup members (8,000+ on AICamp platform). 4.5/5 rating (283 ratings). Organizer listed as 'AprilA and 3 others' on Meetup. Hosts tech talks, study jams, code labs, and weekly webinars. Also uses Discord (discord.gg/2DySXfHTFX). Events also listed on aicamp.ai. Global community of 500K+ developers. Oldest confirmed Atlanta event on AICamp platform: May 2023."
     },
     {
       "id": "atlanta-generative-ai",
@@ -1707,7 +2280,19 @@
       "groupName": "Atlanta AI Week / AICamp Atlanta / Atlanta Generative AI",
       "lat": 33.729,
       "lng": -84.388,
-      "country": "US"
+      "country": "US",
+      "founded": "2024",
+      "organizers": [
+        "Fleming Slone"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2024-11-06",
+      "social": {
+        "twitter": "@auto_agent_ai",
+        "linkedin": "https://www.linkedin.com/company/autonomous-agent-ai/"
+      },
+      "platformUrl": "https://www.meetup.com/atl-ai/",
+      "researchNotes": "1,219 Meetup members. Organized by Fleming Slone and 1 other. Sponsored by Autonomous Agent AI, an Atlanta-based AI consulting firm founded by Slone in 2024. Events historically held first Wednesday of each month (Generative AI Demo Nights). Last visible event was November 6, 2024 with 35 attendees. Contact: info@autonomous-agent.ai. Website: autonomous-agent.ai. Group appears to be on hiatus since late 2024."
     },
     {
       "id": "ai-tinkerers-miami",
@@ -1742,7 +2327,20 @@
       "groupName": null,
       "lat": 25.7817,
       "lng": -80.1918,
-      "country": "US"
+      "country": "US",
+      "founded": "2025-01",
+      "organizers": [
+        "Ryan Rogowski",
+        "Pablo Casilimas"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-25",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://miami.aitinkerers.org/",
+      "researchNotes": "Part of the global AI Tinkerers network. Inaugural meetup January 22, 2025. Ryan Rogowski is VP of AI at Librarian Inc; Pablo Casilimas is Founding Partner at OneSixOne Ventures. 307 members with 28% specializing in AI/ML, 20% Founder/C-suite. Events held at The LAB Miami. Hosted 27 demos with 23 presented by end of 2025. Spring Demos March 25, 2026 had 59+ registrations. Supported by Agentuity. Social handles are for global AI Tinkerers org."
     },
     {
       "id": "miami-ai-hub",
@@ -1775,7 +2373,19 @@
       "groupName": "Miami AI Hub / PyData Miami / eMerge Americas",
       "lat": 25.7757,
       "lng": -80.16755,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-06",
+      "organizers": [
+        "Burhan Sebin"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@miamiaihub",
+        "linkedin": "https://www.linkedin.com/company/miami-ai-hub"
+      },
+      "platformUrl": "https://luma.com/miamiaihub",
+      "researchNotes": "Founded June 2023 by Burhan Sebin. Acquired by eMerge Americas in June 2025; Sebin appointed first Chief AI Officer of eMerge Americas. Community of 4,000+ members. Now branded as 'Miami AI Hub, powered by eMerge Americas.' Hosts monthly meet-ups, workshops, roundtables. Upcoming 2026 events include eMerge AI Hackathon 2026 and AI + Quantum MasterClasses. Also launching Miami AI School. Website: miamiaihub.com."
     },
     {
       "id": "pydata-miami",
@@ -1808,7 +2418,19 @@
       "groupName": "Miami AI Hub / PyData Miami / eMerge Americas",
       "lat": 25.7437,
       "lng": -80.16062,
-      "country": "US"
+      "country": "US",
+      "founded": null,
+      "organizers": [
+        "Teodor Georgiev"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-12-04",
+      "social": {
+        "twitter": "@PyDataMiami",
+        "linkedin": "https://www.linkedin.com/company/pydata-miami"
+      },
+      "platformUrl": "https://www.meetup.com/miami-machine-learning-meetup/",
+      "researchNotes": "Part of PyData, an educational program of NumFOCUS (501(c)3). 1,979 Meetup members. 52 past events. Teodor Georgiev is co-chair and co-organizer (data scientist at Gistia Healthcare). Listed as 'NumFOCUS, Inc. and 2 others' on Meetup. Hosts beginner tutorials through journal club presentations and visiting researcher talks. Has hosted PyData Miami conferences (2019, 2020, 2022). Most recent meetup was Dec 4, 2025: 'PyData Miami: Scaling Enterprise AI' at AI Center at MDC Wolfson. Code of conduct: pydata.org/code-of-conduct.html."
     },
     {
       "id": "ai-tinkerers-la",
@@ -1845,7 +2467,21 @@
       "groupName": null,
       "lat": 34.0722,
       "lng": -118.2437,
-      "country": "US"
+      "country": "US",
+      "founded": "2024",
+      "organizers": [
+        "Sean McDonald",
+        "Esther Trapadoux",
+        "Greg Schoeninger"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-19",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://la.aitinkerers.org/",
+      "researchNotes": "Part of the global AI Tinkerers network. Organized by Sean McDonald (Founder, Semantic Life), Esther Trapadoux (Head of Community, Zed Industries; 15 yrs experience), and Greg Schoeninger (CEO, Oxen.ai; in AI/ML since 2012). Monthly meetups feature live code demos, no slides/pitches. Sponsors include Oxen.ai. Has hosted hackathons in 2026. March 19, 2026 meetup featured demos on LLM applications and wildfire solutions. Social handles are for global AI Tinkerers org."
     },
     {
       "id": "ai-la",
@@ -1877,7 +2513,20 @@
       "groupName": null,
       "lat": 34.0662,
       "lng": -118.21945,
-      "country": "US"
+      "country": "US",
+      "founded": "2016",
+      "organizers": [
+        "Raychel Espiritu",
+        "Shawn Poiley"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-16",
+      "social": {
+        "twitter": "@aila_Community",
+        "linkedin": "https://www.linkedin.com/company/ai-la/"
+      },
+      "platformUrl": "https://www.joinai.la/",
+      "researchNotes": "Public benefit 501(c)(3) nonprofit. Over 30,000 members; described as LA's largest tech community. Co-founded by Raychel Espiritu (14 yrs in digital marketing/BD/VC/startups). Shawn Poiley on board since 2018 (Founder/CEO of Receptor, 16 yrs at Disney/Marvel). Has hosted 100+ events since 2016 including panels, workshops, hackathons, summits. Uses Luma (luma.com/aila-events) for event registration. Also on Instagram and YouTube. Membership program at members.joinai.la. Accepts donations via Donorbox. Active in policy (AI Policy Forum April 16, 2026 in Santa Monica)."
     },
     {
       "id": "genai-collective-la",
@@ -1908,7 +2557,21 @@
       "groupName": "GenAI Collective LA / Southern California GenAI",
       "lat": 34.0342,
       "lng": -118.21252,
-      "country": "US"
+      "country": "US",
+      "founded": "2024-10",
+      "organizers": [
+        "Chappy Asel",
+        "Grant Hosford",
+        "Fil Graniczny"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2025-08",
+      "social": {
+        "twitter": "@AICollectiveCo",
+        "linkedin": "https://www.linkedin.com/company/genaicollective"
+      },
+      "platformUrl": "https://luma.com/genai",
+      "researchNotes": "LA chapter of The AI Collective (formerly GenAI Collective), a nonprofit founded early 2023 in San Francisco by Chappy Asel (Co-Founder & Executive Director; ex-Apple AR/VR + AI/ML). Rebranded from @GenAICollective to @AICollectiveCo on X. 70,000+ members across 25+ global chapters. LA chapter launched October 2024 during LA Tech Week with Consumer AI event (96 attendees). Grant Hosford (Generative AI Ambassador, ex-CEO codeSpark, 20+ yrs tech) and Fil Graniczny are LA chapter organizers. Also on Instagram (@AICollectiveCo), YouTube (@the.ai.collective), and Substack (aicollective.substack.com). LA events at venues like Kings Row Gastropub in Pasadena. Website: aicollective.com."
     },
     {
       "id": "southern-california-genai",
@@ -1939,7 +2602,19 @@
       "groupName": "GenAI Collective LA / Southern California GenAI",
       "lat": 34.0322,
       "lng": -118.2437,
-      "country": "US"
+      "country": "US",
+      "founded": "2024-02",
+      "organizers": [
+        "John Carnahan"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-02-26",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/johncarnahan/"
+      },
+      "platformUrl": "https://www.meetup.com/southern-california-genai-meetup/",
+      "researchNotes": "1,487 Meetup members. 4.8/5 rating (130 ratings). Organized by John Carnahan (Data Science and Engineering). First event around February 2024. Monthly gatherings with expert talks, vendor demonstrations, and networking. Primary venue is OC Local Taproom in Laguna Niguel, CA. Focus area is Orange County/Southern California rather than LA proper. Most recent event Feb 26, 2026 featured Dr. Andrew C. Graczyk on semantic embeddings."
     },
     {
       "id": "ai-tinkerers-seattle",
@@ -1994,7 +2669,19 @@
       "groupName": null,
       "lat": 47.6262,
       "lng": -122.3321,
-      "country": "US"
+      "country": "US",
+      "founded": "2022-11",
+      "organizers": [
+        "Joe Heitzeberg"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-02-09",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://seattle.aitinkerers.org",
+      "researchNotes": "Founded by Joe Heitzeberg; first Seattle meetup Nov 2022 drew 12 people. 4,612 local members. Dev Tools Track format."
     },
     {
       "id": "aicamp-seattle",
@@ -2031,7 +2718,19 @@
       "groupName": null,
       "lat": 47.5882,
       "lng": -122.30092,
-      "country": "US"
+      "country": "US",
+      "founded": "2018",
+      "organizers": [
+        "Michael Ke Zhang"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-31",
+      "social": {
+        "twitter": "@aicampai",
+        "linkedin": "https://www.linkedin.com/company/aicampai"
+      },
+      "platformUrl": "https://www.meetup.com/seattle-ai",
+      "researchNotes": "AICamp global platform (500k+ devs, 50+ cities). Seattle chapter 6,127 Meetup members, 577 past events. Hosts at GitHub Bellevue."
     },
     {
       "id": "pydata-seattle",
@@ -2062,7 +2761,19 @@
       "groupName": "PyData Seattle / Seattle MLOps Community",
       "lat": 47.5862,
       "lng": -122.3321,
-      "country": "US"
+      "country": "US",
+      "founded": "2015",
+      "organizers": [
+        "NumFOCUS, Inc."
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-04-30",
+      "social": {
+        "twitter": "@PyData",
+        "linkedin": "https://www.linkedin.com/company/pydata"
+      },
+      "platformUrl": "https://meetup.com/pydata_seattle",
+      "researchNotes": "Regional chapter of PyData by NumFOCUS (501c3). 4,194 members. 99 past events. Founded by Eloisa."
     },
     {
       "id": "ai-tinkerers-chicago",
@@ -2108,7 +2819,20 @@
       "groupName": null,
       "lat": 41.8981,
       "lng": -87.6298,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-10",
+      "organizers": [
+        "Landon Campbell",
+        "Kartik Deshpande"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-14",
+      "social": {
+        "twitter": "@aiclubchicago",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://chicago.aitinkerers.org",
+      "researchNotes": "Inaugural meetup Oct 4, 2023 in Fulton Market. 1,842 members. Drive Capital hosts and sponsors. 20th meetup reached ~March 2026."
     },
     {
       "id": "chicago-ml",
@@ -2140,7 +2864,19 @@
       "groupName": "Chicago ML / Chicago AI / AICamp Chicago",
       "lat": 41.8921,
       "lng": -87.60555,
-      "country": "US"
+      "country": "US",
+      "founded": null,
+      "organizers": [
+        "Garrett Smith"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2025-06-09",
+      "social": {
+        "twitter": "@gar1t",
+        "linkedin": "https://www.linkedin.com/in/gar1t/"
+      },
+      "platformUrl": "https://meetup.com/chicago-ml",
+      "researchNotes": "Founded by Garrett Smith (CEO of Gage). 4,339 members. Self-described longest-running/largest Chicago ML meetup."
     },
     {
       "id": "chicago-ai",
@@ -2172,7 +2908,19 @@
       "groupName": "Chicago ML / Chicago AI / AICamp Chicago",
       "lat": 41.8601,
       "lng": -87.59862,
-      "country": "US"
+      "country": "US",
+      "founded": null,
+      "organizers": [
+        "Adam Betzen"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-03-25",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/adam-betzen-77701213/"
+      },
+      "platformUrl": "https://meetup.com/aichicago",
+      "researchNotes": "Organized by Adam Betzen (Herzum). 556 members. Part of Herzum's 37-group network."
     },
     {
       "id": "aicamp-chicago",
@@ -2204,7 +2952,19 @@
       "groupName": "Chicago ML / Chicago AI / AICamp Chicago",
       "lat": 41.8581,
       "lng": -87.6298,
-      "country": "US"
+      "country": "US",
+      "founded": "2018",
+      "organizers": [
+        "Michael Ke Zhang"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2026-04-23",
+      "social": {
+        "twitter": "@aicampai",
+        "linkedin": "https://www.linkedin.com/company/aicampai"
+      },
+      "platformUrl": "https://www.aicamp.ai/event/eventsquery?city=US-Chicago",
+      "researchNotes": "AICamp Chicago chapter. Events at Microsoft Chicago. Global platform: 500k+ devs."
     },
     {
       "id": "ai-tinkerers-austin",
@@ -2244,7 +3004,19 @@
       "groupName": null,
       "lat": 30.2812,
       "lng": -97.71885,
-      "country": "US"
+      "country": "US",
+      "founded": "2024-02",
+      "organizers": [
+        "Achyut Sarma Boggaram"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://austin.aitinkerers.org",
+      "researchNotes": "Inaugural meetup Feb 15, 2024. Named by Alex Graveley (GitHub Copilot creator). 819 members. Hosted at Capital Factory."
     },
     {
       "id": "austin-langchain-aimug",
@@ -2278,7 +3050,19 @@
       "groupName": null,
       "lat": 30.2492,
       "lng": -97.71192,
-      "country": "US"
+      "country": "US",
+      "founded": "2023-08",
+      "organizers": [
+        "Colin McNamara"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-05-06",
+      "social": {
+        "twitter": "@AustinLangChain",
+        "linkedin": "https://www.linkedin.com/in/colinmcnamara/"
+      },
+      "platformUrl": "https://www.meetup.com/austin-langchain-ai-group",
+      "researchNotes": "2,046 members. Monthly mixers on first Wednesday. Celebrated 2 years in late 2025. Focus on LangChain, LangGraph, Claude Code."
     },
     {
       "id": "hack-ai-austin",
@@ -2312,7 +3096,21 @@
       "groupName": "Hack AI Austin / AI Tinkerers Dallas Fort Worth",
       "lat": 30.2472,
       "lng": -97.7431,
-      "country": "US"
+      "country": "US",
+      "founded": "2024",
+      "organizers": [
+        "Reid McCrabb",
+        "Bryce Miles",
+        "Jake O'Shea"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-02",
+      "social": {
+        "twitter": "@aitxcommunity",
+        "linkedin": "https://www.linkedin.com/company/aitxmeetups"
+      },
+      "platformUrl": "https://meetup.com/hack-ai",
+      "researchNotes": "Part of AITX Community. 2,333 Meetup members. Events at Capital Factory. Sponsors: PostHog, NVIDIA."
     },
     {
       "id": "ai-tinkerers-dallas-fort-worth",
@@ -2346,7 +3144,20 @@
       "groupName": "Hack AI Austin / AI Tinkerers Dallas Fort Worth",
       "lat": 32.7767,
       "lng": -96.797,
-      "country": "US"
+      "country": "US",
+      "founded": "2025-07",
+      "organizers": [
+        "Anmolika Singh",
+        "Dwayne Joseph"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-10 (approximate, October 2025 meetup confirmed; monthly cadence suggests events continued into 2026 but specific 2026 dates not confirmed)",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://dallas-fort-worth.aitinkerers.org",
+      "researchNotes": "Inaugural meetup July 31, 2025 at HEXA Coworking, Richardson, TX (33 attendees, 4 live demos). Anmolika Singh is a data scientist at Stanley Black & Decker. Dwayne Joseph is a Messaging Developer at Merkle. Part of the global AI Tinkerers network (214 cities, 96k+ members). Format: live code demos only, no slides."
     },
     {
       "id": "ai-builders-denverboulder",
@@ -2384,7 +3195,22 @@
       "groupName": null,
       "lat": 39.7592,
       "lng": -104.9903,
-      "country": "US"
+      "country": "US",
+      "founded": "2023",
+      "organizers": [
+        "Ian Cairns",
+        "Eric Ryan",
+        "Natty Zola",
+        "Nina Stepanov"
+      ],
+      "cadence": "every 6 weeks, alternating between Boulder and Denver",
+      "lastEvent": "2026-05-07 (upcoming Boulder Startup Week edition; most recent past event ~Feb 2026)",
+      "social": {
+        "twitter": "@cairns (Ian Cairns, primary organizer)",
+        "linkedin": "https://www.linkedin.com/in/iancairns/"
+      },
+      "platformUrl": "https://boulderaibuilders.org",
+      "researchNotes": "3,000+ member community building AI products in Colorado. Hosted by Freeplay, Matchstick Ventures, and Ombud. Events draw 200-250+ attendees. Format: snacks & drinks, hot demos, community updates, hiring info. Ian Cairns is co-founder/CEO of Freeplay and hosts 'Deployed: The AI Builders Podcast'. Events managed via Luma."
     },
     {
       "id": "ai-tinkerers-denverboulder",
@@ -2423,7 +3249,21 @@
       "groupName": null,
       "lat": 39.7532,
       "lng": -104.96605,
-      "country": "US"
+      "country": "US",
+      "founded": "2023",
+      "organizers": [
+        "Junaid Dawud",
+        "Alex Volkov",
+        "Daniel Ritchie"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-01-30 (January 30, 2026 meetup confirmed; likely continued monthly into 2026)",
+      "social": {
+        "twitter": "@JunaidDawud (founder)",
+        "linkedin": "https://www.linkedin.com/in/junaid-dawud-48529564/"
+      },
+      "platformUrl": "https://denver-boulder.aitinkerers.org",
+      "researchNotes": "Junaid Dawud is founder/host; fell into AI in early 2022 via ChatGPT. Alex Volkov is AI Evangelist at Weights & Biases and founder/host of ThursdAI podcast. Daniel Ritchie is from Brain Wave Collective. Format: ~3 hours, two sets of 5-min lightning demos with running code (no slides), separated by networking. Part of global AI Tinkerers network."
     },
     {
       "id": "genai-collective-denver",
@@ -2457,7 +3297,24 @@
       "groupName": "GenAI Collective Denver / Denver AI / AICamp Denver",
       "lat": 39.7212,
       "lng": -104.95912,
-      "country": "US"
+      "country": "US",
+      "founded": "2024-12",
+      "organizers": [
+        "Kenneth Scott",
+        "Kristen Montesano",
+        "William Crum",
+        "Jerin Hiatt",
+        "Nick Trimmer",
+        "Chappy Asel"
+      ],
+      "cadence": "irregular/quarterly (approximately)",
+      "lastEvent": "2025-03-12 (approximate, based on Denver event #2 at Improper City)",
+      "social": {
+        "twitter": "@AICollectiveCo",
+        "linkedin": "https://www.linkedin.com/company/aicollective"
+      },
+      "platformUrl": "https://luma.com/gai-roam-denver",
+      "researchNotes": "Part of The AI Collective / GenAI Collective global network (40,000+ pioneers across 100+ forums, described as world's largest AI community with 200k+ participants). Denver kickoff was December 2024 at Wynkoop Brewing Company. Second Denver event was at Improper City. Events feature structured discussion groups, networking, appetizers/refreshments. Also on Instagram @AICollectiveCo and YouTube @the.ai.collective."
     },
     {
       "id": "denver-ai",
@@ -2491,7 +3348,19 @@
       "groupName": "GenAI Collective Denver / Denver AI / AICamp Denver",
       "lat": 39.7192,
       "lng": -104.9903,
-      "country": "US"
+      "country": "US",
+      "founded": "2023",
+      "organizers": [
+        "David Jitendranath"
+      ],
+      "cadence": "monthly (typically 4th Wednesday)",
+      "lastEvent": "2026-04-22 (upcoming: 'Show & Tell' at University of Denver, Olin Hall; previous: Feb 25, 2026)",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/denver-ai"
+      },
+      "platformUrl": "https://meetup.com/denverai",
+      "researchNotes": "Subgroup of Rocky Mountain AI Interest Group (RMAIIG), founded by Dan Murray in 2023. Denver AI focuses on practical AI adoption for professionals. David Jitendranath is Director of AI Apps at Lantern Consulting (Microsoft AI). 1,578 members, 4.6 stars (140 ratings). Meets at University of Denver (Ritchie School of Engineering). New 2026 partnership with DU. RMAIIG LinkedIn: https://www.linkedin.com/company/rmaiig"
     },
     {
       "id": "aicamp-denver",
@@ -2525,7 +3394,20 @@
       "groupName": "GenAI Collective Denver / Denver AI / AICamp Denver",
       "lat": 39.7252,
       "lng": -105.01455,
-      "country": "US"
+      "country": "US",
+      "founded": "2019 (AICamp platform founded; Denver chapter date unclear)",
+      "organizers": [
+        "Bill Liu (AICamp founder)",
+        "Kelvin (Denver lead per Meetup)"
+      ],
+      "cadence": "monthly (mix of in-person and virtual)",
+      "lastEvent": "2026-04-16 (approximate, based on recent meetup activity; most recent confirmed in-person Denver event details unclear for 2026)",
+      "social": {
+        "twitter": "@aicampai",
+        "linkedin": "https://www.linkedin.com/in/billliu1202/"
+      },
+      "platformUrl": "https://meetup.com/aittg-denver",
+      "researchNotes": "Part of AICamp global platform (500k+ developers worldwide, 50+ cities). Denver group has 1,741 members, 4.3 stars (128 ratings), 385+ past events. Formerly known as AITTG (AI Technology & Tools Group). Also has Discord community. Bill Liu is global founder of AICamp (aicamp.ai). Events feature deep-dive tech talks on AI/GenAI/LLMs/ML with food, drinks, and networking. Also on Facebook (facebook.com/aicampai) and Instagram (@aicamp.global)."
     },
     {
       "id": "ai-portland",
@@ -2558,7 +3440,21 @@
       "groupName": null,
       "lat": 45.5352,
       "lng": -122.6784,
-      "country": "US"
+      "country": "US",
+      "founded": "2023",
+      "organizers": [
+        "J. Nicole Mors",
+        "Megan Notarte"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-15 (Happy Hour with Prosper Portland and AI Portland | OSU AI Week)",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/ai-portland/",
+        "bluesky": "@aipdx.bsky.social"
+      },
+      "platformUrl": "https://aipdx.info",
+      "researchNotes": "Co-founded by Nicole Mors (Product Design Leader at Driveway) and Megan Notarte (Partner at Cloud Four). Idea started summer 2023 over wine and baby carrots. 2,868 members on Meetup. Over 20 events in 2024. Also has LinkedIn group (linkedin.com/groups/14375111/) and podcast '(Super)charged by AI' on Spotify. Upcoming: Build Challenge May 15, AI in the A.M. June 11. Contact: aipdx.info@gmail.com. Meetup: meetup.com/ai-portland/"
     },
     {
       "id": "ai-tinkerers-portland",
@@ -2589,7 +3485,20 @@
       "groupName": null,
       "lat": 45.5292,
       "lng": -122.65415,
-      "country": "US"
+      "country": "US",
+      "founded": "2024-07",
+      "organizers": [
+        "Surj Patel",
+        "Lord Amdal"
+      ],
+      "cadence": "monthly (approximately, varies 1-3 months)",
+      "lastEvent": "2026-03-05 (Building Voice Agents & Conversational AI Stacks at New NedSpace, 55 attendees)",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/surjp/"
+      },
+      "platformUrl": "https://portland.aitinkerers.org",
+      "researchNotes": "Inaugural meetup July 23, 2024. Surj Patel is founder, MIT Media Lab alum. Lord Amdal is Founder & CEO of Beaverhand (AI-driven recruitment and generative video). 566 members on Meetup. Also hosted Women in AI Gathering and Women AI Entrepreneurs workshop. Format: live code demos, no slides. Also listed on Meetup: meetup.com/ai-tinkerers-portland-or/"
     },
     {
       "id": "portland-data-ai-meetup",
@@ -2621,7 +3530,19 @@
       "groupName": null,
       "lat": 45.4972,
       "lng": -122.64722,
-      "country": "US"
+      "country": "US",
+      "founded": "2025-08",
+      "organizers": [
+        "Mark N."
+      ],
+      "cadence": "quarterly (approximately, events in Aug 2025, Dec 2025, Feb 2026, May 2026)",
+      "lastEvent": "2026-05-19 (upcoming: May session featuring Peter Davis on Agentic AI; most recent past: Feb 11, 2026)",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/portland-data-ai-meetup",
+      "researchNotes": "Databricks User Group. 240 members, 4.8 stars (12 ratings). Meets at Beaverton City Library, 12375 SW 5th St, Beaverton, OR. Described as 'the local hub for Databricks and open-source innovation.' Sponsored by Concentrix Catalyst. Also on Databricks Community: community.databricks.com/t5/portland. First event held August 2025."
     },
     {
       "id": "minneapolis-ai-engineer-meetup",
@@ -2655,7 +3576,19 @@
       "groupName": null,
       "lat": 44.9978,
       "lng": -93.265,
-      "country": "US"
+      "country": "US",
+      "founded": "2024",
+      "organizers": [
+        "Eric Ness"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-08",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/ericnessdata/"
+      },
+      "platformUrl": "https://www.meetup.com/minneapolis-ai-engineer-meetup",
+      "researchNotes": "610 members. Community channel: #minneapolis on AI Engineer / Latent Space Discord."
     },
     {
       "id": "wild-ai-meetup",
@@ -2689,7 +3622,20 @@
       "groupName": "Wild AI Meetup / AppliedAI Minnesota / Twin Cities AI for Business",
       "lat": 44.9918,
       "lng": -93.24075,
-      "country": "US"
+      "country": "US",
+      "founded": "2024",
+      "organizers": [
+        "Jake Osborn",
+        "Justin Trantham"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-10",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/groups/14608568/"
+      },
+      "platformUrl": "https://www.meetup.com/wild-ai/",
+      "researchNotes": "Minneapolis's 'raw, edgy AI meetup.' 761 members. Venues: DayBlock Brewing and Improving."
     },
     {
       "id": "appliedai-minnesota",
@@ -2723,7 +3669,19 @@
       "groupName": "Wild AI Meetup / AppliedAI Minnesota / Twin Cities AI for Business",
       "lat": 44.9598,
       "lng": -93.23382,
-      "country": "US"
+      "country": "US",
+      "founded": "2017",
+      "organizers": [
+        "Justin Grammens"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-16",
+      "social": {
+        "twitter": "@appliedaimn",
+        "linkedin": "https://www.linkedin.com/showcase/appliedai-mn/"
+      },
+      "platformUrl": "https://meetup.com/iotmpls",
+      "researchNotes": "501(c)(3) nonprofit. 5,638 members. Founded by Justin Grammens under Emerging Technologies North. Bi-weekly podcast."
     },
     {
       "id": "twin-cities-ai-for-business",
@@ -2757,7 +3715,19 @@
       "groupName": "Wild AI Meetup / AppliedAI Minnesota / Twin Cities AI for Business",
       "lat": 44.9578,
       "lng": -93.265,
-      "country": "US"
+      "country": "US",
+      "founded": null,
+      "organizers": [
+        "Craig Nelson"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2025-09-18",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/twin-cities-chapter-of-global-ai-community"
+      },
+      "platformUrl": "https://meetup.com/twin-cities-global-ai-community",
+      "researchNotes": "Part of The Global AI Community (64 chapters). 653 members. Microsoft-sponsored."
     },
     {
       "id": "ai-tinkerers-toronto",
@@ -2800,7 +3770,20 @@
       "groupName": null,
       "lat": 43.6732,
       "lng": -79.3832,
-      "country": "CA"
+      "country": "CA",
+      "founded": "2024-04",
+      "organizers": [
+        "Elena Yunusov",
+        "Pelumi Abiola"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-29 (upcoming: hosted by Shopify; previous confirmed: Feb 2026 at Cohere, Jan 2026 at Google)",
+      "social": {
+        "twitter": "@communicable (Elena Yunusov, organizer)",
+        "linkedin": "https://www.linkedin.com/in/elenayunusov/"
+      },
+      "platformUrl": "https://toronto.aitinkerers.org",
+      "researchNotes": "Inaugural meetup April 11, 2024 at University of Toronto. Organized by Human Feedback Foundation (Linux Foundation AI & Data nonprofit). Elena Yunusov is Executive Director at Human Feedback Foundation. 4,332 technical professionals; 32% AI/ML specialists, 17% Python experts. Notable talent from Shopify, Cohere, and major financial institutions. Hosted at top venues (Google, Cohere, Shopify). Canada's largest community of 3,000+ AI/ML builders."
     },
     {
       "id": "torontoai",
@@ -2831,7 +3814,21 @@
       "groupName": "TorontoAI / Toronto Machine Learning Summit",
       "lat": 43.6672,
       "lng": -79.35895,
-      "country": "CA"
+      "country": "CA",
+      "founded": "2018 (approximate, based on earliest confirmed activity)",
+      "organizers": [
+        "Dave MacDonald",
+        "Patrick O'Mara",
+        "Chandan K (current Meetup organizer)"
+      ],
+      "cadence": "bi-weekly",
+      "lastEvent": "2026-04-22 (upcoming: 'Vibe Code to Land Your Next Job' online; most recent past: March 12, 2026 panel discussion)",
+      "social": {
+        "twitter": "@_torontoai",
+        "linkedin": "https://www.linkedin.com/groups/12046859/"
+      },
+      "platformUrl": "https://torontoai.org",
+      "researchNotes": "5,000+ members in Greater Toronto Area (6,313 on Meetup). Founded by Dave MacDonald and Patrick O'Mara. Hosts bi-weekly in-person socials, tech meetups, and hands-on webinars. Also on Discord (y8E2uBM) and Facebook (torontoai.org). 30+ historic meetups. Focus areas: digital art, music, healthcare, marketing, fintech, VR, robotics. Meetup page: meetup.com/torontoai/. Offers starter code and projects for all skill levels."
     },
     {
       "id": "ai-tinkerers-london",
@@ -2884,7 +3881,19 @@
       "groupName": null,
       "lat": 51.5274,
       "lng": -0.1278,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2023",
+      "organizers": [
+        "Luke Harries"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-23",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://london.aitinkerers.org",
+      "researchNotes": "Part of global AI Tinkerers network (99k+ builders, 214 cities) founded by Joe Heitzeberg in late 2022. London chapter led by Luke Harries (ElevenLabs). Monthly live demo meetups, no slides/pitches."
     },
     {
       "id": "london-machine-learning-meetup",
@@ -2919,7 +3928,19 @@
       "groupName": null,
       "lat": 51.53436,
       "lng": -0.12025,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2011-12",
+      "organizers": [
+        "Martin Goodson"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-07-24",
+      "social": {
+        "twitter": "@martingoodson",
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/london-machine-learning-meetup",
+      "researchNotes": "Largest ML/AI community in Europe with 11,539 members. Founded Dec 2, 2011. Organizer Martin Goodson is CEO of Evolution AI. Has YouTube channel."
     },
     {
       "id": "aicamp-london",
@@ -2956,7 +3977,19 @@
       "groupName": null,
       "lat": 51.52105,
       "lng": -0.11318,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2019",
+      "organizers": [
+        "Kevin L"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-16",
+      "social": {
+        "twitter": "@aicampai",
+        "linkedin": "https://www.linkedin.com/company/aicampai"
+      },
+      "platformUrl": "https://www.meetup.com/london-ai-tech-talk",
+      "researchNotes": "Part of global AICamp platform (founded 2019, 500k+ developers, 50+ cities). London group has 8,255 members on Meetup. 397+ past events across platform."
     },
     {
       "id": "pydata-london",
@@ -2986,7 +4019,25 @@
       "groupName": null,
       "lat": 51.52028,
       "lng": -0.10294,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2014",
+      "organizers": [
+        "Ian Ozsvald",
+        "Cheuk Ting Ho",
+        "John Sandall",
+        "Alexandra Ross",
+        "Amit Kumar",
+        "Emlyn Clay",
+        "Hugh Evans"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-02-03",
+      "social": {
+        "twitter": "@pydatalondon",
+        "linkedin": "https://www.linkedin.com/company/pydata-london"
+      },
+      "platformUrl": "https://www.meetup.com/pydata-london-meetup",
+      "researchNotes": "16,241 members on Meetup. Meets first Tuesday of each month. Part of NumFOCUS (501c3). 104th meetup was Feb 3, 2026. Run by 16+ volunteers."
     },
     {
       "id": "mlops-community-london",
@@ -3016,7 +4067,23 @@
       "groupName": null,
       "lat": 51.51472,
       "lng": -0.09255,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2021-09",
+      "organizers": [
+        "Inga Veidmane Millere",
+        "Gleb Lukicov",
+        "Alex Jones",
+        "Ibrahim Malik",
+        "Opemioniye Onipede"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2026-03",
+      "social": {
+        "twitter": "@mlopscommunity",
+        "linkedin": "https://www.linkedin.com/company/mlopscommunity"
+      },
+      "platformUrl": "https://luma.com/london-mlops",
+      "researchNotes": "Part of global MLOps Community founded March 2020 by Demetrios Brinkmann. London chapter launched Sept 28, 2021. 4,432 members on Meetup. Slack community at mlops.community/join."
     },
     {
       "id": "hugging-face-london",
@@ -3048,7 +4115,19 @@
       "groupName": null,
       "lat": 51.50604,
       "lng": -0.10785,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2025",
+      "organizers": [
+        "Paul Dowling"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2026-03-05",
+      "social": {
+        "twitter": "@huggingfaceldn",
+        "linkedin": "https://www.linkedin.com/groups/13011201/"
+      },
+      "platformUrl": "https://www.meetup.com/hugging-face-london",
+      "researchNotes": "949 members on Meetup. 4.8 star rating. Most recent was Hugging Face London #4 on March 5, 2026 at Tessl AI. Also has Instagram @huggingfaceldn."
     },
     {
       "id": "ai-security-engineers-london",
@@ -3080,7 +4159,17 @@
       "groupName": null,
       "lat": 51.49802,
       "lng": -0.10142,
-      "country": "GB"
+      "country": "GB",
+      "founded": null,
+      "organizers": null,
+      "cadence": "monthly",
+      "lastEvent": "2026-04-08",
+      "social": {
+        "twitter": "@devseccon",
+        "linkedin": "https://www.linkedin.com/company/aiseceng"
+      },
+      "platformUrl": "https://www.meetup.com/mydevsecops-london",
+      "researchNotes": "1,891 members. Part of global AI Security Engineers Community (formerly DevSecCon/MyDevSecOps), sponsored by Snyk. Also on Reddit at r/AISecEng."
     },
     {
       "id": "london-ai-native-test-automation-devops",
@@ -3110,7 +4199,19 @@
       "groupName": null,
       "lat": 51.48664,
       "lng": -0.09839,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2012",
+      "organizers": [
+        "Shashi Jagtap"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2025-11-26",
+      "social": {
+        "twitter": "@londontadmeetup",
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/londontad",
+      "researchNotes": "2,790 members. Originally London Selenium Meetup, rebranded to LondonTAD. Organizer Shashi Jagtap is former Apple engineer and founder of Superagentic AI."
     },
     {
       "id": "ai-signals",
@@ -3141,7 +4242,19 @@
       "groupName": null,
       "lat": 51.49189,
       "lng": -0.11518,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2016",
+      "organizers": [
+        "Hugh Evans"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-17",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/ai-signals-community"
+      },
+      "platformUrl": "https://www.meetup.com/ai-and-dl-for-enterprise",
+      "researchNotes": "4,575 members. Founded 2016, paused during pandemic, revived 2022, rebranded to AI Signals 2025. 75+ talks since revival. Migrating from Meetup to Luma. YouTube: @ai-signals-community."
     },
     {
       "id": "data-ai-london",
@@ -3171,7 +4284,20 @@
       "groupName": null,
       "lat": 51.48172,
       "lng": -0.11664,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2022",
+      "organizers": [
+        "Rhys Davies",
+        "Rosalind C"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2026-02-17",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/data-ai-london",
+      "researchNotes": "6,359 members. Sponsored by Mesh-AI. Events at 100 Liverpool Street. No recruiters/vendors/sales pitches policy. Speakers from OpenAI, Nvidia, Google, Databricks."
     },
     {
       "id": "langchain-london",
@@ -3202,7 +4328,20 @@
       "groupName": null,
       "lat": 51.47174,
       "lng": -0.1229,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2023-07",
+      "organizers": [
+        "Matt Carey",
+        "Elle Futernick"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2024-04-10",
+      "social": {
+        "twitter": "@mattzcarey",
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/genai-london/",
+      "researchNotes": "Also known as GenAI London. Part of GenAI Days Organisation, run by team at aleios. Debut announced July 2023. Also listed on lu.ma as LangChain London co-hosted with Balderton Capital (Sivesh Sukumar, Harrison Chase, Steph Tyrrell, Melissa Negretti, James Wise). 1,284 members on Meetup. Last Meetup event listed is April 2024; may have shifted activity to Luma or GenAI Days platform. GenAI Days runs events in London, Paris, and New York."
     },
     {
       "id": "ai-safety-london",
@@ -3242,7 +4381,20 @@
       "groupName": "Data Science Festival London / Alan Turing Institute / AI Safety London / Data and AI Leaders UK / Futures Forum AI / Mindstone London",
       "lat": 51.47947,
       "lng": -0.15052,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2025",
+      "organizers": [
+        "Vicente Herrera",
+        "Jack Webb",
+        "Kabir Kumir"
+      ],
+      "lastEvent": "2025-02-27",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/ai-safety-london/",
+      "researchNotes": "Founded by BlueDot Impact alumni. Inaugural event 'AI Safety Group Inaugural Talks' held 27 Feb 2025 at Newspeak House, 70 attendees. 209 members on Meetup. Website: aisafetylondon.com. Also on Telegram and YouTube (@aisafetylondon). Vicente Herrera is a Principal Consultant at ControlPlane. Goal is to bring together AI safety researchers, cybersecurity specialists, engineers, and policy makers."
     },
     {
       "id": "data-and-ai-leaders-uk",
@@ -3282,7 +4434,20 @@
       "groupName": "Data Science Festival London / Alan Turing Institute / AI Safety London / Data and AI Leaders UK / Futures Forum AI / Mindstone London",
       "lat": 51.49587,
       "lng": -0.14414,
-      "country": "GB"
+      "country": "GB",
+      "founded": null,
+      "organizers": [
+        "Ethan Sumner",
+        "Mercedes Moxon Greenfield"
+      ],
+      "cadence": "bi-monthly",
+      "lastEvent": "2026-03-26",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/showcase/data-and-ai-leaders/about/"
+      },
+      "platformUrl": "https://www.meetup.com/data-and-ai-leaders-uk/",
+      "researchNotes": "Part of Community Stack ecosystem (communitystack.io), co-founded by Ethan Sumner (CEO) and Mercedes Moxon Greenfield (CTO). 394 members on Meetup. Bi-monthly in-person roundtables in London plus occasional online sessions. Most recent listed event was an IWD Celebration with Microsoft on 26 Mar 2026 (online). Practitioner-led community for Heads of Data, Directors of AI, CDOs, and senior data/AI leaders. Part of wider 18-community portfolio. Weekly newsletter via Meetup."
     },
     {
       "id": "futures-forum-ai",
@@ -3322,7 +4487,19 @@
       "groupName": "Data Science Festival London / Alan Turing Institute / AI Safety London / Data and AI Leaders UK / Futures Forum AI / Mindstone London",
       "lat": 51.49802,
       "lng": -0.15418,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2023-11",
+      "organizers": [
+        "SurrealDB Community"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-28",
+      "social": {
+        "twitter": "@SurrealDB",
+        "linkedin": "https://www.linkedin.com/company/surrealdb"
+      },
+      "platformUrl": "https://www.meetup.com/futures-forum-ai-llm-meetup/",
+      "researchNotes": "Now named 'Futures Forum: Agents & Data'. Powered by SurrealDB (CEO: Tobie Morgan Hitchcock). Launched 21 Nov 2023 at SurrealDB HQ, Huckletree Oxford Circus. 1,032 members on Meetup. Focus evolved from LLMs to agentic systems and databases. Upcoming event 'Agents in Production: The Memory Problem' on 28 Apr 2026. Also on Instagram (@surrealdb). Also uses Luma for events."
     },
     {
       "id": "mindstone-london",
@@ -3362,7 +4539,21 @@
       "groupName": "Data Science Festival London / Alan Turing Institute / AI Safety London / Data and AI Leaders UK / Futures Forum AI / Mindstone London",
       "lat": 51.50494,
       "lng": -0.16372,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2023-05",
+      "organizers": [
+        "Joshua Wohle",
+        "Barry Cranford",
+        "Mel Tizzard"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-21",
+      "social": {
+        "twitter": "@MindstoneHQ",
+        "linkedin": "https://www.linkedin.com/company/mindstonehq"
+      },
+      "platformUrl": "https://www.meetup.com/mindstone-london-ai-meetup/",
+      "researchNotes": "Billed as the biggest Practical AI Meetup in London. 3,579 members on Meetup. Co-organised by Mindstone and RecWorks. Joshua Wohle is CEO & Co-Founder of Mindstone; Barry Cranford is Founder of RecWorks. First meetup held May 2023. Monthly events with 300+ attendees. Next event 21 Apr 2026. Events also listed on community.mindstone.com. Upcoming May 19-26 also scheduled."
     },
     {
       "id": "ai-tinkerers-dublin",
@@ -3421,7 +4612,21 @@
       "groupName": null,
       "lat": 53.3698,
       "lng": -6.2603,
-      "country": "IE"
+      "country": "IE",
+      "founded": "2024-09",
+      "organizers": [
+        "Alessandro Cuppari",
+        "Esther Trapadoux",
+        "Shiv Rajappa"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://dublin.aitinkerers.org",
+      "researchNotes": "Part of global AI Tinkerers network (founded Nov 2022 in Seattle by Joe Heitzeberg). Dublin chapter founded ~Sep 2024 (anniversary meetup held Sep 2025). 758 members. Builder-focused: live demos, hackathons, technical meetups. 27 demos submitted, 26 presented as of Sep 2025. Community is 27% AI/ML experts, 19% Python devs, with PhD researchers and senior engineers from Amazon, Stripe. April 2026 event scheduled. Also uses Substack newsletter and Baseline platform. Social handles are for the global org."
     },
     {
       "id": "mindstone",
@@ -3455,7 +4660,21 @@
       "groupName": null,
       "lat": 51.51147,
       "lng": -0.14738,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2020",
+      "organizers": [
+        "Joshua Wohle",
+        "Florian Zysset",
+        "Stefan Keranov"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-21",
+      "social": {
+        "twitter": "@MindstoneHQ",
+        "linkedin": "https://www.linkedin.com/company/mindstonehq"
+      },
+      "platformUrl": "https://www.mindstone.com",
+      "researchNotes": "Mindstone the company/platform (vs the London meetup specifically). AI upskilling platform founded 2020 by Joshua Wohle, Florian Zysset, Stefan Keranov. Trusted by 70,000+ people globally. Global AI Community with 20,000+ members, 70+ events across 18 cities (London, NYC, Boston, Lisbon, Madrid, etc.). Previously a learning platform, pivoted to AI training. Wohle is ex-SuperAwesome (acquired by Epic Games). Also on Facebook (@MindstoneHQ)."
     },
     {
       "id": "cambridge-ai",
@@ -3489,7 +4708,19 @@
       "groupName": "Cambridge AI / Cambridge AI Reading Group / ai@cam",
       "lat": 52.2253,
       "lng": 0.1218,
-      "country": "GB"
+      "country": "GB",
+      "founded": null,
+      "organizers": [
+        "Mark Rogers"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2026-03-12",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/markrogers/"
+      },
+      "platformUrl": "https://www.meetup.com/meetup-group-mdhxintw/",
+      "researchNotes": "1,522 members. Covers AI in health, publishing, productivity, defence. Sponsored by GroundedAI and RedTech Recruitment. Original URL meetup.com/cambridge-ai returns 404; actual Meetup slug is meetup-group-mdhxintw. 4.7/5 stars (100 ratings). Events at The Glasshouse, 100 Hills Road, Cambridge. Most recent: 'Cambridge AI: AI in Marketing' (100 attendees)."
     },
     {
       "id": "cambridge-ai-reading-group",
@@ -3523,7 +4754,19 @@
       "groupName": "Cambridge AI / Cambridge AI Reading Group / ai@cam",
       "lat": 52.2193,
       "lng": 0.14605,
-      "country": "GB"
+      "country": "GB",
+      "founded": null,
+      "organizers": [
+        "Frank Morley"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-02-23",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/machine-learning-reading-group-cambridge-uk/",
+      "researchNotes": "349 members. Monthly on Wednesday evenings 6-8pm at The Castle Inn, Castle Hill, Cambridge. Each session covers a foundational AI/ML paper. Most recent listed event: paper reading #21 (LSTMs). Also has a website at caig.vercel.app (different directors listed: Eli Olcott, Davin Jeong, Emmanuel Rassor — may be a related but separate initiative). 4.8/5 stars (24 ratings)."
     },
     {
       "id": "aicam",
@@ -3557,7 +4800,20 @@
       "groupName": "Cambridge AI / Cambridge AI Reading Group / ai@cam",
       "lat": 51.52028,
       "lng": -0.15266,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2022",
+      "organizers": [
+        "Neil Lawrence",
+        "Jess Montgomery"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2026-04-21",
+      "social": {
+        "twitter": "@ai_cam_mission",
+        "linkedin": "https://www.linkedin.com/company/103543261/"
+      },
+      "platformUrl": "https://ai.cam.ac.uk",
+      "researchNotes": "University of Cambridge flagship AI mission. Surveyed Cambridge AI community Dec 2021-Mar 2022; launched formally 2022. Neil Lawrence is DeepMind Professor of Machine Learning; Jess Montgomery is Director of ai@cam. Twitter joined Oct 2023. Also on Bluesky (ai.cam.ac.uk). Runs workshops, symposia, bootcamps (e.g. AI Sciencepreneurship Bootcamp Feb 2026). Events on 21 Apr 2026, 13 May 2026, 12 Jul 2026 listed. Not a meetup community per se but a university research mission."
     },
     {
       "id": "manchester-ai",
@@ -3595,7 +4851,19 @@
       "groupName": "Manchester AI / Manchester AI User Group (AIUG) / MancAI",
       "lat": 53.4948,
       "lng": -2.21835,
-      "country": "GB"
+      "country": "GB",
+      "founded": null,
+      "organizers": [
+        "Keith Griggs"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-10-29",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/manchester-ai/",
+      "researchNotes": "2,283 members. Keith Griggs (FCA, AI Strategy Consultant) assumed leadership in early 2026 to prevent the group from closing after previous organizing team departed. 19+ past events. Partnered with Accenture, BJSS, Slalom, NatWest, Manchester United, University of Manchester. 4.6/5 stars (168 ratings). Most recent event: 'AI in Action: Building the Foundations and Delivering Value in Industry' (134 attendees)."
     },
     {
       "id": "manchester-ai-user-group-aiug",
@@ -3633,7 +4901,23 @@
       "groupName": "Manchester AI / Manchester AI User Group (AIUG) / MancAI",
       "lat": 53.4628,
       "lng": -2.21142,
-      "country": "GB"
+      "country": "GB",
+      "founded": null,
+      "organizers": [
+        "Stephanie Stasey",
+        "Melissa Hale",
+        "Janet Robb",
+        "Sarah Jones",
+        "Claire Connor"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-10",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/100379878"
+      },
+      "platformUrl": "https://www.meetup.com/manc-ai-user-group/",
+      "researchNotes": "521 members. Part of UK AI User Groups (aiug.uk). Events typically on Tuesdays at 6pm. aiug.uk domain returned ECONNREFUSED at time of research. Most recent event: 'The AI in Your Career One' (70 attendees). Organizers from Microsoft, Mace, ANS Group, MS Talent. Mission: empower everybody to use AI."
     },
     {
       "id": "mancai",
@@ -3671,7 +4955,19 @@
       "groupName": "Manchester AI / Manchester AI User Group (AIUG) / MancAI",
       "lat": 51.53197,
       "lng": -0.15411,
-      "country": "GB"
+      "country": "GB",
+      "founded": null,
+      "organizers": [
+        "Keith Griggs"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-10-29",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/manchester-ai/",
+      "researchNotes": "Also known as Manchester AI. Website: mancai.org. 2,283 members on Meetup, 1,300+ in wider community. North of England's leading community for data scientists, ML engineers, and AI practitioners. Keith Griggs FCA took over as organizer early 2026 after previous team departed. Meets 4th Thursday of each month at 18:30. 19+ events hosted. Last recorded event: 'AI in Action' on 29 Oct 2025 (134 attendees). Founding date not publicly documented; appears to predate 2020."
     },
     {
       "id": "ai-tinkerers-edinburgh",
@@ -3705,7 +5001,17 @@
       "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
       "lat": 55.9733,
       "lng": -3.1883,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2022",
+      "organizers": null,
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://edinburgh.aitinkerers.org/",
+      "researchNotes": "Part of global AI Tinkerers network (214 cities, 94k+ members) founded by Joe Heitzeberg (first meetup Nov 2022 in Seattle). Edinburgh chapter organizer names could not be confirmed — city-organizers page and chapter Substack both returned 403. Format: monthly live code demos, no slides/pitches. Founded year refers to global org; Edinburgh chapter launch date unknown. No specific Edinburgh event dates could be confirmed via web search."
     },
     {
       "id": "mlops-community-edinburgh",
@@ -3739,7 +5045,18 @@
       "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
       "lat": 55.9673,
       "lng": -3.16405,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2020-03",
+      "organizers": [
+        "Demetrios Brinkmann"
+      ],
+      "lastEvent": null,
+      "social": {
+        "twitter": "@mlopscommunity",
+        "linkedin": "https://www.linkedin.com/company/mlops-community/"
+      },
+      "platformUrl": "https://mlops.community/venue/edinburgh/",
+      "researchNotes": "MLOps Community founded globally by Demetrios Brinkmann in March 2020. Edinburgh venue page shows 0 events. Scotland MLOps Luma calendar (luma.com/scotland-mlops) also empty. Appears to have minimal or no Edinburgh-specific activity currently. Global community: 9,646+ members across 4 Meetup chapters. Social handles (Slack, YouTube, Medium, Twitter, LinkedIn) are for the global org."
     },
     {
       "id": "scottish-ai-alliance",
@@ -3773,7 +5090,19 @@
       "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
       "lat": 51.52449,
       "lng": -0.13819,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2021-03",
+      "organizers": [
+        "Catriona Campbell"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2026-05-27",
+      "social": {
+        "twitter": "@Scottish_AI",
+        "linkedin": "https://uk.linkedin.com/company/scottish-ai"
+      },
+      "platformUrl": "https://scottishai.com",
+      "researchNotes": "Partnership between The Data Lab and Scottish Government. Scotland's AI Strategy published March 2021. Chaired by Catriona Campbell (EY UK&I CTO), appointed by Scottish Government. Operated 2021-2026 (final year). 4,443 LinkedIn followers. Also on Bluesky. Runs Scottish AI Summit series, DataFest, Unhyped AI Seminars, Public Sector AI Task Force. DataFest 2026 on 27-28 May. Based at The Bayes Centre, Edinburgh. Also runs Turing's Triple Helix podcast."
     },
     {
       "id": "edinburgh-data-science",
@@ -3807,7 +5136,19 @@
       "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
       "lat": 55.9353,
       "lng": -3.15712,
-      "country": "GB"
+      "country": "GB",
+      "founded": "2024",
+      "organizers": [
+        "David Wood"
+      ],
+      "cadence": "bimonthly",
+      "lastEvent": "2026-04-02",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/edinburgh-data-science-and-ai"
+      },
+      "platformUrl": "https://www.meetup.com/edinburgh-data-science-ai/",
+      "researchNotes": "1,333 members. David Wood (Moonsift) and 2 other unnamed organizers. Events roughly every 2 months (April, January, November, September pattern). Held at CodeBase, 38 Castle Terrace, Edinburgh. Original URL meetup.com/edinburgh-data-science-and-ai returned 404; actual slug is edinburgh-data-science-ai. Inaugural meetup mid-2024 (second event was Sep 11, 2024). Most recent: Edinburgh Data Science April Meetup (76 attendees)."
     },
     {
       "id": "ai-in-action-dublin",
@@ -3835,7 +5176,18 @@
       "groupName": null,
       "lat": 53.3638,
       "lng": -6.23605,
-      "country": "IE"
+      "country": "IE",
+      "founded": null,
+      "organizers": [
+        "pogo"
+      ],
+      "lastEvent": "2020-11-11",
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/ai-in-action-dublin/",
+      "researchNotes": "Formerly known as Data Science Ireland. 1,869 members on Meetup. Appears inactive since November 2020 (last event was 'AI in Action Virtual Meetup' on 11 Nov 2020 with 27 attendees). Organizer listed only as 'pogo' (no full name found). Focused on AI, ML, and Data Science in Ireland. No social media presence found. Group likely dormant."
     },
     {
       "id": "ai-tinkerers-berlin",
@@ -3875,7 +5227,21 @@
       "groupName": null,
       "lat": 52.54,
       "lng": 13.405,
-      "country": "DE"
+      "country": "DE",
+      "founded": "2023",
+      "organizers": [
+        "Constantin Disselkamp",
+        "Dominik Scherm",
+        "Viet Le"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-11",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/in/disselkamp-constantin/"
+      },
+      "platformUrl": "https://berlin.aitinkerers.org/",
+      "researchNotes": "Monthly meetup for AI builders featuring live code demos (no slides, no pitches). Hosted at Merantix AI Campus, Max-Urich Str. 3, 13355 Berlin. Discord: discord.gg/8WsqnC6Hk3. Earliest documented Berlin event was Nov 2023 at Merantix. March 2026 event sponsored by Vercel, Langdock, Zed & Everyday Intelligence. Disselkamp is Co-Founder of pagent.ai; Scherm is Founder of Simulatrex.ai; Le is Partner at General Catalyst."
     },
     {
       "id": "ai-tinkerers-munich",
@@ -3917,7 +5283,21 @@
       "groupName": "AI Tinkerers Munich / Air Street Munich",
       "lat": 48.1551,
       "lng": 11.582,
-      "country": "DE"
+      "country": "DE",
+      "founded": "2024",
+      "organizers": [
+        "Lilly Guo",
+        "Andre Sprenger",
+        "Sebastian Voelkl"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-01-18",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://munich.aitinkerers.org/",
+      "researchNotes": "Monthly meetup for AI builders with live demos. Nov 2025 event post referenced 'an amazing first meetup last year', suggesting chapter started ~late 2024. Jan 2026 event sponsored by La Famiglia, hosted at CDTM. Additional organizers: Constantin Disselkamp, Dominik Scherm, Esther Trapadoux, Love Okum. Voelkl also on Twitter @basti_vkl. Guo is Software Developer at Civic; Sprenger is CTO at Photonic Insights."
     },
     {
       "id": "air-street-munich",
@@ -3959,7 +5339,19 @@
       "groupName": "AI Tinkerers Munich / Air Street Munich",
       "lat": 48.1491,
       "lng": 11.60625,
-      "country": "DE"
+      "country": "DE",
+      "founded": null,
+      "organizers": [
+        "Nathan Benaich"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2026-02-17",
+      "social": {
+        "twitter": "@nathanbenaich",
+        "linkedin": "https://www.linkedin.com/in/nathanbenaich/"
+      },
+      "platformUrl": "https://luma.com/munichai",
+      "researchNotes": "Organized by Air Street Capital and Nathan Benaich (author of State of AI Report). Feb 2026 event held alongside Munich Security Conference, sold out at ~150 attendees. Part of Air Street AI Meetup Europe Tour (Munich, Zurich, Paris). Speakers: Fabian Gura (Odyssey), Gustaf von Grothusen (Polar Mist). Air Street AI Network connects ~3,000 vetted members globally. Not a regular recurring local meetup but periodic city tours. Also: @airstreet on Twitter. Substack: press.airstreet.com."
     },
     {
       "id": "berlin-mlops-community",
@@ -3993,7 +5385,19 @@
       "groupName": null,
       "lat": 52.534,
       "lng": 13.42925,
-      "country": "DE"
+      "country": "DE",
+      "founded": "2022-06",
+      "organizers": [
+        "Demetrios Brinkmann"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2025-11-13",
+      "social": {
+        "twitter": "@mlopscommunity",
+        "linkedin": "https://www.linkedin.com/company/mlops-community/"
+      },
+      "platformUrl": "https://www.meetup.com/berlin-mlops-community/",
+      "researchNotes": "1,532 members on Meetup. First Berlin meetup was June 30, 2022. Also on Luma at luma.com/berlin-mlops. Most recent event: 'Berlin Builder Circle #1 LLMs for Confidential Data' (Nov 13, 2025). May 2025 event at 42 Berlin featured speakers from Google DeepMind, DataStax, Arize AI. Demetrios Brinkmann is founder of global MLOps Community; 8 additional unnamed local organizers on Meetup. Builder Circles are small invite-only sessions (~20 experts)."
     },
     {
       "id": "pydata-berlin",
@@ -4023,7 +5427,19 @@
       "groupName": null,
       "lat": 52.502,
       "lng": 13.43618,
-      "country": "DE"
+      "country": "DE",
+      "founded": "2014",
+      "organizers": [
+        "Theodore Meynard"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-11",
+      "social": {
+        "twitter": "@pydataberlin",
+        "linkedin": null
+      },
+      "platformUrl": "https://www.meetup.com/pydata-berlin/",
+      "researchNotes": "9,542 members. Educational program of NumFOCUS (501(c)(3) nonprofit). Monthly meetups on the third Wednesday of each month at rotating locations. 6 conferences (2014, 2015, 2016, 2017, 2019, 2022). 19 additional unnamed co-organizers. Contact: info@pydata.berlin. Also: GitHub (pydataberlin), Facebook (pydataberlin), YouTube (PyDataTV), Flickr (pydata). Website: berlin.pydata.org. Most recent: March 2026 meetup (133 attendees)."
     },
     {
       "id": "aicamp-berlin",
@@ -4063,7 +5479,19 @@
       "groupName": "AICamp Berlin / Global AI Berlin / Berlin AI/ML/CV",
       "lat": 52.5,
       "lng": 13.405,
-      "country": "DE"
+      "country": "DE",
+      "founded": "2015",
+      "organizers": [
+        "Bill Liu"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-05-07",
+      "social": {
+        "twitter": "@aicampai",
+        "linkedin": "https://www.linkedin.com/company/aicampai"
+      },
+      "platformUrl": "https://www.meetup.com/berlin-ai-tech-talk/",
+      "researchNotes": "Listed as 'Berlin AI Developers Group' on Meetup. 4,694 members. AICamp founded by Bill Liu in 2015 (some sources say 2019); 500k+ global developers, 10k+ in Berlin. 355+ past events. Events include virtual webinars, in-person workshops, bootcamps. Discord community. Website: aicamp.ai. Partners: Google, AWS, Microsoft, DataStax, Weaviate. Also: Instagram (@aicamp.global), Facebook (facebook.com/aicampai). Most recent: 'Open Source Data Builders Workshop' (39 RSVPs)."
     },
     {
       "id": "global-ai-berlin",
@@ -4103,7 +5531,24 @@
       "groupName": "AICamp Berlin / Global AI Berlin / Berlin AI/ML/CV",
       "lat": 52.506,
       "lng": 13.38075,
-      "country": "DE"
+      "country": "DE",
+      "founded": "2024",
+      "organizers": [
+        "Zaid Zaim",
+        "Christian Glessner",
+        "Janek Fellien",
+        "Aleksandra Baran",
+        "Zade Ibi",
+        "Arfaan Sayyad"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2026-05-19",
+      "social": {
+        "twitter": "@GlobAICommunity",
+        "linkedin": "https://www.linkedin.com/in/zaidzaim/"
+      },
+      "platformUrl": "https://www.meetup.com/global-ai-berlin/",
+      "researchNotes": "1,206 members on Meetup. Part of The Global AI Community network (64 groups). 21 past events on Meetup, 11 on globalai.community. Zaid Zaim is chapter lead (XR/AI at ignore gravity, Microsoft MVP). Sponsored by Microsoft and Neo4j. AgentCon 2026 scheduled May 19, 2026 at CODE University. Original URL meetup.com/global-ai-community-berlin returned 404; actual slug is global-ai-berlin. Earliest documented events from mid-2024. 4.5/5 stars (53 ratings). Also on Facebook (@TheGlobalAICommunity), YouTube (@GlobalAICommunity)."
     },
     {
       "id": "berlin-ai",
@@ -4143,7 +5588,19 @@
       "groupName": "AICamp Berlin / Global AI Berlin / Berlin AI/ML/CV",
       "lat": 52.538,
       "lng": 13.37382,
-      "country": "DE"
+      "country": "DE",
+      "founded": null,
+      "organizers": [
+        "Jimmy Guerrero"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-24",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/jiguerrero/"
+      },
+      "platformUrl": "https://www.meetup.com/berlin-ai-machine-learning-and-computer-vision-meetup/",
+      "researchNotes": "2,584 members. Listed as 'Berlin AI Machine Learning and Computer Vision Meetup' on Meetup. Original URL meetup.com/berlin-ai-ml-computer-vision returned 404; actual slug is berlin-ai-machine-learning-and-computer-vision-meetup. Sponsored by Voxel51 (FiftyOne open-source CV toolset). Part of 48-group AI/ML/Computer Vision Meetup Network. Monthly events (virtual and in-person). In-person at MotionLab.Berlin. 4.7/5 stars (127 ratings). Contact Guerrero via LinkedIn for speaking/sponsoring."
     },
     {
       "id": "ai-tinkerers-paris",
@@ -4200,7 +5657,20 @@
       "groupName": null,
       "lat": 48.8766,
       "lng": 2.3522,
-      "country": "FR"
+      "country": "FR",
+      "founded": "2024",
+      "organizers": [
+        "Minette Kaunismäki",
+        "Dominik Thomas Scherm"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-12",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://paris.aitinkerers.org",
+      "researchNotes": "Inaugural meetup featured Mistral AI. Minette is Developer Advocate at Koyeb; Dominik is Founder at Simulatrex.ai. Format: live code demos only, no slides. Also runs hackathons (SundAI sprints). Part of global AI Tinkerers network (214 cities, 99k+ members)."
     },
     {
       "id": "paris-ml-applications-group",
@@ -4242,7 +5712,20 @@
       "groupName": "Paris ML Applications Group / Generative AI Paris / AICamp Paris / Global AI Paris",
       "lat": 48.8706,
       "lng": 2.37645,
-      "country": "FR"
+      "country": "FR",
+      "founded": "2015",
+      "organizers": [
+        "Franck Bardol",
+        "Igor Carron"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-02-18",
+      "social": {
+        "twitter": "@ParisMLgroup",
+        "linkedin": "https://www.linkedin.com/groups/6400776"
+      },
+      "platformUrl": "https://www.meetup.com/Paris-Machine-learning-applications-group/",
+      "researchNotes": "7,485 Meetup members. 158 past events. One of the largest ML communities in Europe. Presentations in English and French. Facebook: @ParisMachineLearning. Blog: nuit-blanche.blogspot.com. Earliest documented meetup activity dates to ~2013; Meetup group created approximately 2015. Website: parismlgroup.org."
     },
     {
       "id": "generative-ai-paris",
@@ -4284,7 +5767,22 @@
       "groupName": "Paris ML Applications Group / Generative AI Paris / AICamp Paris / Global AI Paris",
       "lat": 48.8386,
       "lng": 2.38338,
-      "country": "FR"
+      "country": "FR",
+      "founded": "2023-02",
+      "organizers": [
+        "Maxime Thoonsen",
+        "Maria Romanenko",
+        "Nikolay Martynov",
+        "Damien"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-12-09",
+      "social": {
+        "twitter": "@genaiparis",
+        "linkedin": "https://www.linkedin.com/company/gen-ai-france"
+      },
+      "platformUrl": "https://www.meetup.com/generative-ai-paris/",
+      "researchNotes": "5,854 Meetup members. Part of Generative AI France network; Paris is the largest chapter. Upcoming: GenAI Days Paris 2026 on Apr 16, 2026. YouTube: @GenerativeAIFrance. Focus on product and tech community using generative AI. Inaugural event featured Mistral.ai co-founder Guillaume Lample and Meta AI researcher Thomas Scialom."
     },
     {
       "id": "aicamp-paris",
@@ -4326,7 +5824,19 @@
       "groupName": "Paris ML Applications Group / Generative AI Paris / AICamp Paris / Global AI Paris",
       "lat": 48.8366,
       "lng": 2.3522,
-      "country": "FR"
+      "country": "FR",
+      "founded": "2019",
+      "organizers": [
+        "Kevin L."
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-05",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/aicampai"
+      },
+      "platformUrl": "https://www.meetup.com/paris-ai-tech-talk/",
+      "researchNotes": "Listed as 'Paris AI Developers Group' on Meetup. 5,514 Meetup members; 500k+ globally. AICamp is a global organization running AI tech talks, workshops, and code labs. Paris events since at least 2023. Copyright on site says 2019-2026. Discord community available. Website: aicamp.ai. Also has events on aicamp.ai/event/eventsquery?city=France-Paris."
     },
     {
       "id": "global-ai-paris",
@@ -4368,7 +5878,19 @@
       "groupName": "Paris ML Applications Group / Generative AI Paris / AICamp Paris / Global AI Paris",
       "lat": 48.8426,
       "lng": 2.32795,
-      "country": "FR"
+      "country": "FR",
+      "founded": null,
+      "organizers": [
+        "Aymeric Weinbach"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2026-02",
+      "social": {
+        "twitter": "@GlobAICommunity",
+        "linkedin": "https://www.linkedin.com/company/global-ai-community"
+      },
+      "platformUrl": "https://www.meetup.com/global-ai-paris/",
+      "researchNotes": "571 Meetup members. Part of The Global AI Community (64 groups worldwide). 4.7-star rating. Microsoft-sponsored. Aymeric Weinbach is an MVP Microsoft Azure. Upcoming: Apr 28, 2026 'Multi Agents retour d'expérience'. Also listed at globalai.community/chapters/paris/ (74 members). Facebook: TheGlobalAICommunity. YouTube: globalaicommunity. Events are irregular, roughly quarterly."
     },
     {
       "id": "ai-on-the-amstel",
@@ -4405,7 +5927,19 @@
       "groupName": null,
       "lat": 52.3876,
       "lng": 4.9041,
-      "country": "NL"
+      "country": "NL",
+      "founded": "2024-07",
+      "organizers": [
+        "Grant Easterbrook"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-02",
+      "social": {
+        "twitter": "@Eastertweet",
+        "linkedin": "https://www.linkedin.com/company/ai-on-the-amstel-meetup"
+      },
+      "platformUrl": "https://www.meetup.com/ai-on-the-amstel-meetup/",
+      "researchNotes": "5,003 Meetup members. Largest monthly AI event in Amsterdam (200-300 attendees). First event July 2024. Founded by Grant Easterbrook, former AI founder who moved from NYC to Amsterdam Aug 2022; now Entrepreneur in Residence at Prosus Group. Features panel discussions + networking. Sponsored by Prosus. Free. 4.7 rating. Hosted at ABN AMRO, ING, Booking.com, Prosus, Picnic, Deloitte, UvA. Also on Eventbrite. Website: aiontheamstel.nl."
     },
     {
       "id": "ai-tinkerers-amsterdam",
@@ -4446,7 +5980,19 @@
       "groupName": null,
       "lat": 52.3816,
       "lng": 4.92835,
-      "country": "NL"
+      "country": "NL",
+      "founded": "2025-05",
+      "organizers": [
+        "Tomás Arribas"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-23",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://amsterdam.aitinkerers.org",
+      "researchNotes": "692 technical professionals. Inaugural meetup hosted by ML6 in May 2025. Tomás Arribas (Head of Technology at Chimnie) is the city organizer. Core expertise: AI/ML (33%), Python (16%), Full-Stack (11%). Also runs hackathons ('Netherland's shortest hackathon'). Members from Google, Tesla, Uber, Amazon, Nvidia, Meta, Microsoft. Part of global AI Tinkerers network."
     },
     {
       "id": "ai-native-netherlands",
@@ -4478,7 +6024,19 @@
       "groupName": "AI Native Netherlands / Amsterdam AI / AI Builders Amsterdam",
       "lat": 52.3496,
       "lng": 4.93528,
-      "country": "NL"
+      "country": "NL",
+      "founded": "2024",
+      "organizers": [
+        "Pini Reznik"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2025-05-07",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/re-cinq"
+      },
+      "platformUrl": "https://www.meetup.com/ai-native-amsterdam/",
+      "researchNotes": "1,127 Meetup members. 12 past events. Focus on Cloud Native to AI Native transition. Pini Reznik is CEO/Co-Founder of re:cinq (experts in Cloud Native and AI platform engineering). Joint meetups with Adyen Developer Events. Targets platform engineers, AI/ML engineers, SREs, architects, engineering leaders. 10th edition held at Adyen HQ. Website: re-cinq.com."
     },
     {
       "id": "amsterdam-ai",
@@ -4510,7 +6068,21 @@
       "groupName": "AI Native Netherlands / Amsterdam AI / AI Builders Amsterdam",
       "lat": 52.3476,
       "lng": 4.9041,
-      "country": "NL"
+      "country": "NL",
+      "founded": "2019",
+      "organizers": [
+        "Geert Wissink",
+        "Cees Snoek",
+        "Anna-Rose Clayton"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2025-11-27",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/amsterdamai"
+      },
+      "platformUrl": "https://www.meetup.com/amsterdam-data-science/",
+      "researchNotes": "8,398 Meetup members (listed as 'Amsterdam AI (AAI) Meetup'). 154 past events. Founded late 2019 as 'AI - Technology for People' by Amsterdam universities, research centres, medical centres, City of Amsterdam, and Amsterdam Economic Board. Geert Wissink (Managing Director), Cees Snoek (Scientific Director). Based at Lab42. Focus: Health & Care, Service Sector, Society. Quadruple helix model (education, government, business, society). Contact: info@amsterdamai.com. Last major event: Amsterdam AI Impact Festival at NEMO Science Museum. Website: amsterdamai.com."
     },
     {
       "id": "ai-builders-amsterdam",
@@ -4542,7 +6114,23 @@
       "groupName": "AI Native Netherlands / Amsterdam AI / AI Builders Amsterdam",
       "lat": 52.3536,
       "lng": 4.87985,
-      "country": "NL"
+      "country": "NL",
+      "founded": "2023",
+      "organizers": [
+        "Cristian",
+        "Fausto Albers",
+        "Ilya Maximov",
+        "Vijay Malhotra",
+        "Lukas Warnecke"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/98731573"
+      },
+      "platformUrl": "https://lu.ma/ai-builders",
+      "researchNotes": "5,000+ members globally, 70+ events/year. Self-organizing nonprofit community. Founded spring 2023. Monthly meetups at Startdock, Prins Hendrikkade 21, Amsterdam (first Thursday of month). ~100 attendees per event. Past speakers from LangChain, Hugging Face, Weaviate, Jina AI, Mozilla.ai. Also active in Berlin, London, Lisbon, Rotterdam, Miami. Instagram: @aibuildersclub. Website: aibuilders.club. Open Collective: opencollective.com/aibuilders. Discord and WhatsApp communities. Meetup: meetup.com/ai-builders-club."
     },
     {
       "id": "ai-tinkerers-lausanne",
@@ -4582,7 +6170,19 @@
       "groupName": null,
       "lat": 46.5197,
       "lng": 6.6323,
-      "country": "CH"
+      "country": "CH",
+      "founded": "2024-06",
+      "organizers": [
+        "Thomas Vetterli"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-30",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://lausanne.aitinkerers.org",
+      "researchNotes": "Inaugural meetup June 24, 2024 at EPFL Station. Thomas Vetterli is ML & Bioinformatics Engineer at HederaDx. Supported by Nexthink and Founderful. Events held at EPFL. Format: ~3 hours, two sets of 5-min lightning demos separated by networking. Topics: LLMs, generative AI, computer vision, robotics. Part of global AI Tinkerers network."
     },
     {
       "id": "ai-tinkerers-zrich",
@@ -4622,7 +6222,21 @@
       "groupName": null,
       "lat": 47.3969,
       "lng": 8.5417,
-      "country": "CH"
+      "country": "CH",
+      "founded": "2024",
+      "organizers": [
+        "Anirudhh Ramesh",
+        "Florian Cäsar",
+        "Severin Husmann"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-05-08",
+      "social": {
+        "twitter": "@AITinkerers",
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "platformUrl": "https://zurich.aitinkerers.org",
+      "researchNotes": "Anirudhh Ramesh: MSc CS at ETH Zurich, founder of Ambitious x Driven, ex-AWS. Florian Cäsar: Symbol Industries, built NLP startup (acquired 2022), co-built Radix. Severin Husmann: ML Engineer at aitama. Co-hosted by La Famiglia. Events at ETH Student Project House. Members from Google, Microsoft, NVIDIA, Amazon, IBM. Format: 3-hour sessions with 5-min live code demos, no slides. Part of global AI Tinkerers network."
     },
     {
       "id": "zrich-ai-club",
@@ -4658,7 +6272,20 @@
       "groupName": "Zürich AI Club / Zurich AI Festival / Generative AI Genève / Mindstone Geneva / Young AI Leaders / AI Suisse",
       "lat": 47.3589,
       "lng": 8.57288,
-      "country": "CH"
+      "country": "CH",
+      "founded": "2024",
+      "organizers": [
+        "Mike",
+        "Andrei I."
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-02-24",
+      "social": {
+        "twitter": "@zurichaiclub",
+        "linkedin": "https://www.linkedin.com/company/zürich-ai-meetup"
+      },
+      "platformUrl": "https://www.meetup.com/zurich-ai-meetup/",
+      "researchNotes": "1,593 Meetup members. Tagline: 'Raw knowledge sharing. No corporate fluff. Just code & models.' Hosted at ETH AI Center, AWS Zurich, Beekeeper. Topics: AI tooling, agent security, agentic RAG, production systems. CFP via papercall.io/zurichai-club. Website: zurichai.club. Upcoming: May 19, 2026 'Agentic Loops'."
     },
     {
       "id": "generative-ai-genve",
@@ -4694,7 +6321,20 @@
       "groupName": "Zürich AI Club / Zurich AI Festival / Generative AI Genève / Mindstone Geneva / Young AI Leaders / AI Suisse",
       "lat": 46.2184,
       "lng": 6.16745,
-      "country": "CH"
+      "country": "CH",
+      "founded": "2025",
+      "organizers": [
+        "Philippe Chartois",
+        "Valérie Pellat"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2026-03-31",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/pchartois"
+      },
+      "platformUrl": "https://www.meetup.com/generative-ai-geneve/",
+      "researchNotes": "318 Meetup members. Affiliated with Generative AI France network. Agile-inspired values: practice over theory, sharing over secrecy, use cases over technology. YouTube: @GenerativeAIFrance. Events held at Le Studio @Unlimitrust Campus, Prilly. Three past events (Nov 2025, Feb 2026, Mar 2026). LinkedIn: also linked to Generative AI France org page."
     },
     {
       "id": "young-ai-leaders",
@@ -4730,7 +6370,24 @@
       "groupName": "Zürich AI Club / Zurich AI Festival / Generative AI Genève / Mindstone Geneva / Young AI Leaders / AI Suisse",
       "lat": 47.3629,
       "lng": 8.51745,
-      "country": "CH"
+      "country": "CH",
+      "founded": "2025-04",
+      "organizers": [
+        "Gabriel Mohamed",
+        "Leo Zemljic",
+        "Noah Zemljic",
+        "Özgür Akis",
+        "Barkın Coşkun",
+        "Ladina Neubert"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-08",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/young-ai-leaders-zurich"
+      },
+      "platformUrl": "https://yailzh.ch",
+      "researchNotes": "Founded April 2025, legally established as association September 2025. Part of global network with 40+ hubs. Monthly hub meetup on 2nd Friday of each month. Strategic partner: ANTARES AG. Membership tiers: Guest (free), Active (CHF 50/yr), Passive (CHF 250/yr). Instagram: @youngaileaderszurich. Zurich ranked #1 in Europe for AI talent density. Four Swiss hubs: Zurich, Bern, Geneva, Lausanne. Last event: International Women's Day celebration."
     },
     {
       "id": "ai-suisse",
@@ -4766,7 +6423,19 @@
       "groupName": "Zürich AI Club / Zurich AI Festival / Generative AI Genève / Mindstone Geneva / Young AI Leaders / AI Suisse",
       "lat": 47.3949,
       "lng": 8.51052,
-      "country": "CH"
+      "country": "CH",
+      "founded": "2018",
+      "organizers": [
+        "Steffen Konrath"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2025-03-27",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/ai-suisse-meetup"
+      },
+      "platformUrl": "https://www.meetup.com/artificial-intelligence-suisse/",
+      "researchNotes": "4,994 Meetup members. 71 past events. Switzerland's largest AI community. First Swiss ambassador of Andrew Ng's deeplearning.ai. Founded 2018 by Steffen Konrath (also CEO/Founder of evAI Intelligence GmbH). Facebook: ArtificialIntelligenceToday. Contact: steffen.konrath@ai-suisse.ch. Focus on conference-level presentations and community exchange. Last event had 467 attendees (online). Website: aisuisse.ch."
     },
     {
       "id": "ai-tinkerers-barcelona",
@@ -4797,7 +6466,19 @@
       "groupName": null,
       "lat": 41.4074,
       "lng": 2.1686,
-      "country": "ES"
+      "country": "ES",
+      "founded": "2024",
+      "organizers": [
+        "Luca Borella",
+        "Raul Berganza Gomez"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "researchNotes": "Part of global AI Tinkerers. First known event: Structured Finance Hackathon on 2024-06-05."
     },
     {
       "id": "madrid-ai",
@@ -4833,7 +6514,18 @@
       "groupName": "Madrid AI/ML/CV Meetup / Mindstone Madrid",
       "lat": 40.4168,
       "lng": -3.7038,
-      "country": "ES"
+      "country": "ES",
+      "founded": null,
+      "organizers": [
+        "Jimmy Guerrero"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-09",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/jiguerrero/"
+      },
+      "researchNotes": "562 members. Sponsored by Voxel51. Jimmy Guerrero is VP Marketing at Voxel51."
     },
     {
       "id": "ml",
@@ -4869,7 +6561,18 @@
       "groupName": "Madrid AI/ML/CV Meetup / Mindstone Madrid",
       "lat": 41.4014,
       "lng": 2.19285,
-      "country": "ES"
+      "country": "ES",
+      "founded": "2023",
+      "organizers": [
+        "Joshua Wöhle"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-19",
+      "social": {
+        "twitter": "@MindstoneHQ",
+        "linkedin": "https://www.linkedin.com/company/mindstonehq"
+      },
+      "researchNotes": "978 members. Part of Mindstone #PracticalAI Community (35 groups globally). Three-talk format."
     },
     {
       "id": "ai-tinkerers-warsaw",
@@ -4915,7 +6618,20 @@
       "groupName": null,
       "lat": 52.2497,
       "lng": 21.0122,
-      "country": "PL"
+      "country": "PL",
+      "founded": "2024-11",
+      "organizers": [
+        "Tom Aniol",
+        "Artur Wala",
+        "Bartosz Kolasa"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-04",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "researchNotes": "First meetup Nov 21, 2024. Expanding to Poznan and Wroclaw. Hosted OpenAI and Google DeepMind hackathons."
     },
     {
       "id": "ai-tinkerers-stockholm",
@@ -4946,7 +6662,16 @@
       "groupName": null,
       "lat": 59.3493,
       "lng": 18.0686,
-      "country": "SE"
+      "country": "SE",
+      "founded": null,
+      "organizers": null,
+      "cadence": "monthly",
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+      },
+      "researchNotes": "Part of global AI Tinkerers. Members include ElevenLabs, Volvo Cars, Sana, Mentimeter."
     },
     {
       "id": "stockholm-ai",
@@ -4982,7 +6707,21 @@
       "groupName": "Stockholm AI / AI Meetup Copenhagen / Helsinki AI Meetup / AI Club Nordics",
       "lat": 59.3433,
       "lng": 18.09285,
-      "country": "SE"
+      "country": "SE",
+      "founded": "2015",
+      "organizers": [
+        "Ali Leylani",
+        "Armin Catovic",
+        "Christoffer Stuart",
+        "Alex Patow"
+      ],
+      "cadence": "irregular",
+      "lastEvent": null,
+      "social": {
+        "twitter": "@sthlmai",
+        "linkedin": "https://www.linkedin.com/company/stockholm-ai/"
+      },
+      "researchNotes": "Non-profit grassroots association. First AI Summit March 2015."
     },
     {
       "id": "ai-meetup-copenhagen",
@@ -5018,7 +6757,18 @@
       "groupName": "Stockholm AI / AI Meetup Copenhagen / Helsinki AI Meetup / AI Club Nordics",
       "lat": 55.6761,
       "lng": 12.5683,
-      "country": "DK"
+      "country": "DK",
+      "founded": "2024",
+      "organizers": [
+        "Martin Schultz"
+      ],
+      "cadence": "quarterly",
+      "lastEvent": "2026-02-19",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/ai-meetup-copenhagen"
+      },
+      "researchNotes": "1,172 members. Martin Schultz is Founder & CEO of Transmission."
     },
     {
       "id": "helsinki-ai-meetup",
@@ -5054,7 +6804,19 @@
       "groupName": "Stockholm AI / AI Meetup Copenhagen / Helsinki AI Meetup / AI Club Nordics",
       "lat": 60.1699,
       "lng": 24.9384,
-      "country": "FI"
+      "country": "FI",
+      "founded": "2026-02",
+      "organizers": [
+        "Helsinki XR Center",
+        "Digiole"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@helsinkixr",
+        "linkedin": "https://www.linkedin.com/company/helsinkixrcenter"
+      },
+      "researchNotes": "Very new -- launched Feb 11, 2026. Peer-led, hands-on AI working sessions."
     },
     {
       "id": "ai-club-nordics",
@@ -5090,7 +6852,18 @@
       "groupName": "Stockholm AI / AI Meetup Copenhagen / Helsinki AI Meetup / AI Club Nordics",
       "lat": 59.3113,
       "lng": 18.09978,
-      "country": "SE"
+      "country": "SE",
+      "founded": null,
+      "organizers": [
+        "Charles A."
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2025-04-28",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/groups/10071202/"
+      },
+      "researchNotes": "1,228 members. Collaborates with Agentics Foundation."
     },
     {
       "id": "vienna-ai-engineering",
@@ -5131,7 +6904,19 @@
       "groupName": null,
       "lat": 48.2082,
       "lng": 16.3738,
-      "country": "AT"
+      "country": "AT",
+      "founded": "2015",
+      "organizers": [
+        "Bogdan Pirvu",
+        "Alex Gavrilescu"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2026-03-10",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/bogdan-pirvu/"
+      },
+      "researchNotes": "3,124 members. Originally 'Vienna Spark Meetup' (2015). Alex Gavrilescu is OpenAI Codex Ambassador."
     },
     {
       "id": "ai-tinkerers-prague",
@@ -5171,7 +6956,18 @@
       "groupName": null,
       "lat": 50.0955,
       "lng": 14.4378,
-      "country": "CZ"
+      "country": "CZ",
+      "founded": "2024-09",
+      "organizers": [
+        "Marek Miltner"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-02-26",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/marek-miltner/"
+      },
+      "researchNotes": "Launch event Sep 2024 at CTU. Marek Miltner is Researcher at Stanford/CVUT."
     },
     {
       "id": "generative-ai-belgium",
@@ -5210,7 +7006,18 @@
       "groupName": "Generative AI Belgium / AI Community Belgium",
       "lat": 50.8703,
       "lng": 4.3517,
-      "country": "BE"
+      "country": "BE",
+      "founded": "2023",
+      "organizers": [
+        "Rémi Delanghe"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2025-03-05",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/company/generative-ai-belgium"
+      },
+      "researchNotes": "4,222 members. Rémi Delanghe is ML Lead at In The Pocket."
     },
     {
       "id": "ai-community-belgium",
@@ -5249,7 +7056,18 @@
       "groupName": "Generative AI Belgium / AI Community Belgium",
       "lat": 50.8643,
       "lng": 4.37595,
-      "country": "BE"
+      "country": "BE",
+      "founded": "2014",
+      "organizers": [
+        "Sam Rédelé"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2025-03-05",
+      "social": {
+        "twitter": "@samredele",
+        "linkedin": "https://www.linkedin.com/in/samredele"
+      },
+      "researchNotes": "4,262 members. Originally 'Data Science Belgium Community' (2014). 224 past events. 6 city chapters."
     },
     {
       "id": "mindstone-lisbon",
@@ -5281,7 +7099,18 @@
       "groupName": "Mindstone Lisbon / Hands-On AI Lisbon / Prague Gen AI",
       "lat": 38.7423,
       "lng": -9.1393,
-      "country": "PT"
+      "country": "PT",
+      "founded": "2023-11",
+      "organizers": [
+        "Joshua Wöhle"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-25",
+      "social": {
+        "twitter": "@MindstoneHQ",
+        "linkedin": "https://www.linkedin.com/company/mindstonehq"
+      },
+      "researchNotes": "989 members. First Lisbon event Nov 14, 2023 at LX Factory during Portugal Tech Week."
     },
     {
       "id": "hands-on-ai-lisbon",
@@ -5313,7 +7142,18 @@
       "groupName": "Mindstone Lisbon / Hands-On AI Lisbon / Prague Gen AI",
       "lat": 38.7363,
       "lng": -9.11505,
-      "country": "PT"
+      "country": "PT",
+      "founded": null,
+      "organizers": [
+        "Alex Russo"
+      ],
+      "cadence": "irregular",
+      "lastEvent": "2025-09-09",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/alessandro-russo-wym/"
+      },
+      "researchNotes": "542 members. Alex Russo is a 3x founder and applied AI educator."
     },
     {
       "id": "prague-gen-ai",
@@ -5345,7 +7185,20 @@
       "groupName": "Mindstone Lisbon / Hands-On AI Lisbon / Prague Gen AI",
       "lat": 50.0895,
       "lng": 14.46205,
-      "country": "CZ"
+      "country": "CZ",
+      "founded": "2023",
+      "organizers": [
+        "Petr Brzek",
+        "Jitka Vrtělová",
+        "Martin Repka"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-04-02",
+      "social": {
+        "twitter": null,
+        "linkedin": "https://www.linkedin.com/in/petr-brzek-76359417/"
+      },
+      "researchNotes": "1,672 members. Petr Brzek is co-founder of Avocode and CEO of Langtail/Macaly."
     },
     {
       "id": "warsawai",
@@ -5376,7 +7229,21 @@
       "groupName": null,
       "lat": 52.2437,
       "lng": 21.03645,
-      "country": "PL"
+      "country": "PL",
+      "founded": "2017",
+      "organizers": [
+        "Marek Cygan",
+        "Paweł Gora",
+        "Kacper Nowicki",
+        "Tomasz Trzciński"
+      ],
+      "cadence": "monthly",
+      "lastEvent": "2026-03-26",
+      "social": {
+        "twitter": "@warsawaigroup",
+        "linkedin": "https://www.linkedin.com/groups/7481210/"
+      },
+      "researchNotes": "First event June 27, 2017. Now organized by Fundacja Quantum AI. Weekly newsletter."
     },
     {
       "id": "mox-sf",
@@ -5415,7 +7282,19 @@
       "groupName": "Mox (SF) / EA Global / ARENA / AI Safety London / Stanford AI Alignment",
       "lat": 37.75619,
       "lng": -122.41474,
-      "country": "GLOBAL"
+      "country": "GLOBAL",
+      "founded": "2025-02",
+      "organizers": [
+        "Austin Chen",
+        "Rachel Shu"
+      ],
+      "cadence": "daily",
+      "lastEvent": "2026-04",
+      "social": {
+        "twitter": "@moxspace",
+        "linkedin": null
+      },
+      "researchNotes": "Launched Feb 15, 2025. 188 members. SF's largest AI safety community space. 20k sq ft venue."
     },
     {
       "id": "aicamp-dallas",
@@ -5443,7 +7322,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 32.7907,
-      "lng": -96.77275
+      "lng": -96.77275,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-san-diego",
@@ -5471,7 +7358,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 32.7357,
-      "lng": -117.1611
+      "lng": -117.1611,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-houston",
@@ -5499,7 +7394,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 29.7804,
-      "lng": -95.3698
+      "lng": -95.3698,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-los-angeles",
@@ -5527,7 +7430,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 34.0382,
-      "lng": -118.26795
+      "lng": -118.26795,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-vancouver",
@@ -5555,7 +7466,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 49.3027,
-      "lng": -123.1207
+      "lng": -123.1207,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-munich",
@@ -5583,7 +7502,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 48.1171,
-      "lng": 11.61318
+      "lng": 11.61318,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-amsterdam",
@@ -5611,7 +7538,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 52.3856,
-      "lng": 4.87292
+      "lng": 4.87292,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-stockholm",
@@ -5639,7 +7574,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 59.3093,
-      "lng": 18.0686
+      "lng": 18.0686,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-zrich",
@@ -5667,7 +7610,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 47.3629,
-      "lng": 8.51745
+      "lng": 8.51745,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-dublin",
@@ -5695,7 +7646,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 53.3318,
-      "lng": -6.22912
+      "lng": -6.22912,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-copenhagen",
@@ -5723,7 +7682,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 55.6901,
-      "lng": 12.59255
+      "lng": 12.59255,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-bangalore",
@@ -5751,7 +7718,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 12.9916,
-      "lng": 77.5946
+      "lng": 77.5946,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-chennai",
@@ -5779,7 +7754,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 13.1027,
-      "lng": 80.2707
+      "lng": 80.2707,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-delhi",
@@ -5807,7 +7790,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 28.6339,
-      "lng": 77.209
+      "lng": 77.209,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-hyderabad",
@@ -5835,7 +7826,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 17.405,
-      "lng": 78.4867
+      "lng": 78.4867,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-mumbai",
@@ -5863,7 +7862,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 19.096,
-      "lng": 72.8777
+      "lng": 72.8777,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-singapore",
@@ -5891,7 +7898,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 1.3721,
-      "lng": 103.8198
+      "lng": 103.8198,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-melbourne",
@@ -5919,7 +7934,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": -37.7936,
-      "lng": 144.9631
+      "lng": 144.9631,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-sydney",
@@ -5947,7 +7970,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": -33.8488,
-      "lng": 151.2093
+      "lng": 151.2093,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-brisbane",
@@ -5975,7 +8006,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": -27.4498,
-      "lng": 153.0251
+      "lng": 153.0251,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-auckland",
@@ -6003,7 +8042,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": -36.8285,
-      "lng": 174.7633
+      "lng": 174.7633,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-tokyo",
@@ -6031,7 +8078,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 35.6962,
-      "lng": 139.6503
+      "lng": 139.6503,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "aicamp-toronto",
@@ -6059,7 +8114,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 43.6352,
-      "lng": -79.35202
+      "lng": -79.35202,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-cape-town",
@@ -6087,7 +8150,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": -33.9049,
-      "lng": 18.4241
+      "lng": 18.4241,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-atlanta",
@@ -6115,7 +8186,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 33.729,
-      "lng": -84.388
+      "lng": -84.388,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-milan",
@@ -6143,7 +8222,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 45.4842,
-      "lng": 9.19
+      "lng": 9.19,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-miami",
@@ -6171,7 +8258,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 25.7417,
-      "lng": -80.1918
+      "lng": -80.1918,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-new-york",
@@ -6199,7 +8294,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 40.74398,
-      "lng": -74.024
+      "lng": -74.024,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-tel-aviv",
@@ -6227,7 +8330,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 32.1053,
-      "lng": 34.7818
+      "lng": 34.7818,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-paris",
@@ -6255,7 +8366,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 48.8746,
-      "lng": 2.32102
+      "lng": 2.32102,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-lisbon",
@@ -6283,7 +8402,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 38.7043,
-      "lng": -9.10812
+      "lng": -9.10812,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-frankfurt",
@@ -6311,7 +8438,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 50.1309,
-      "lng": 8.6821
+      "lng": 8.6821,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-amsterdam",
@@ -6339,7 +8474,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 52.38007,
-      "lng": 4.88846
+      "lng": 4.88846,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-bangalore",
@@ -6367,7 +8510,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 12.9856,
-      "lng": 77.61885
+      "lng": 77.61885,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-barcelona",
@@ -6395,7 +8546,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 41.3694,
-      "lng": 2.19978
+      "lng": 2.19978,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-chicago",
@@ -6423,7 +8582,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 41.8641,
-      "lng": -87.65405
+      "lng": -87.65405,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-boston",
@@ -6451,7 +8618,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 42.38768,
-      "lng": -71.08204
+      "lng": -71.08204,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-toronto",
@@ -6479,7 +8654,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 43.6332,
-      "lng": -79.3832
+      "lng": -79.3832,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-bristol",
@@ -6507,7 +8690,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 51.4745,
-      "lng": -2.5879
+      "lng": -2.5879,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-chennai",
@@ -6535,7 +8726,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 13.0967,
-      "lng": 80.29495
+      "lng": 80.29495,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-copenhagen",
@@ -6563,7 +8762,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 55.6581,
-      "lng": 12.59948
+      "lng": 12.59948,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-delhi",
@@ -6591,7 +8798,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 28.6279,
-      "lng": 77.23325
+      "lng": 77.23325,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-denver",
@@ -6619,7 +8834,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 39.7572,
-      "lng": -105.02148
+      "lng": -105.02148,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-lagos",
@@ -6647,7 +8870,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 6.5444,
-      "lng": 3.3792
+      "lng": 3.3792,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-los-angeles",
@@ -6675,7 +8906,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 34.0702,
-      "lng": -118.27488
+      "lng": -118.27488,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-luxembourg",
@@ -6703,7 +8942,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 49.6317,
-      "lng": 6.13
+      "lng": 6.13,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-melbourne",
@@ -6731,7 +8978,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": -37.7996,
-      "lng": 144.98735
+      "lng": 144.98735,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-mexico-city",
@@ -6759,7 +9014,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 19.4526,
-      "lng": -99.1332
+      "lng": -99.1332,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-mumbai",
@@ -6787,7 +9050,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 19.09,
-      "lng": 72.90195
+      "lng": 72.90195,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-munich",
@@ -6815,7 +9086,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 48.1151,
-      "lng": 11.582
+      "lng": 11.582,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-oslo",
@@ -6843,7 +9122,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 59.9339,
-      "lng": 10.7522
+      "lng": 10.7522,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-seattle",
@@ -6871,7 +9158,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 47.5862,
-      "lng": -122.3321
+      "lng": -122.3321,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-stockholm",
@@ -6899,7 +9194,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 59.3153,
-      "lng": 18.04435
+      "lng": 18.04435,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-switzerland",
@@ -6927,7 +9230,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 47.3949,
-      "lng": 8.51052
+      "lng": 8.51052,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-sydney",
@@ -6955,7 +9266,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": -33.8548,
-      "lng": 151.23355
+      "lng": 151.23355,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-washington-dc",
@@ -6983,7 +9302,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 38.9252,
-      "lng": -77.06808
+      "lng": -77.06808,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-seoul",
@@ -7011,7 +9338,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 37.5865,
-      "lng": 126.978
+      "lng": 126.978,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     },
     {
       "id": "mlops-community-medelln",
@@ -7039,7 +9374,15 @@
       "isGrouped": false,
       "groupName": null,
       "lat": 6.2676,
-      "lng": -75.5658
+      "lng": -75.5658,
+      "founded": null,
+      "organizers": null,
+      "cadence": null,
+      "lastEvent": null,
+      "social": {
+        "twitter": null,
+        "linkedin": null
+      }
     }
   ]
 }

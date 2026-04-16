@@ -265,7 +265,7 @@ test('10 — detail modal closes via X button and backdrop click', async ({ page
 
 // ─── 11. Clicking a map pin opens detail modal ──────────────────────────────
 
-test('11 — clicking a map pin shows popup with attendees, Details link opens modal', async ({ page }) => {
+test('11 — clicking a map pin shows popup, Details link opens modal', async ({ page }) => {
   await ready(page)
 
   // Filter to a small set so pins are easy to target
@@ -281,10 +281,9 @@ test('11 — clicking a map pin shows popup with attendees, Details link opens m
   await pins.first().click()
   await page.waitForTimeout(500)
 
-  // Popup should be visible with attendee count
+  // Popup should be visible with community name
   const popup = page.locator('.leaflet-popup-content')
   await expect(popup).toBeVisible({ timeout: 3000 })
-  await expect(popup).toContainText('attendees')
   await expect(popup).toContainText('Geneva')
 
   // Modal should NOT be open yet

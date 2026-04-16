@@ -65,24 +65,13 @@ export default function MapView() {
 
       const tools = c.hasAICodingTools ? '<span style="color:#d97706;margin-left:4px">&#9881;</span>' : ''
 
-      // Attendee count: use real data, or estimate from members / priority
-      let attendees = c.attendanceEstimate
-      let isEstimate = false
-      if (!attendees || attendees < 9) {
-        isEstimate = true
-        if (c.memberCount && c.memberCount >= 100) {
-          // ~5% of members typically attend a single event
-          attendees = Math.round(c.memberCount * 0.05 / 10) * 10
-          if (attendees < 20) attendees = 20
-        } else {
-          // Fallback by priority
-          attendees = c.priority >= 3 ? 150 : c.priority >= 1 ? 75 : 40
-        }
+      // Stats line: last event attendees if available, otherwise member count
+      let statsLine = ''
+      if (c.attendanceEstimate) {
+        statsLine = `<span style="font-weight:600;color:#374151">${c.attendanceEstimate.toLocaleString()}+</span> last event attendees`
+      } else if (c.memberCount) {
+        statsLine = `<span style="font-weight:600;color:#374151">${c.memberCount.toLocaleString()}</span> members`
       }
-      const attendeeLabel = `${attendees.toLocaleString()}+`
-      const estTag = isEstimate
-        ? '<span style="color:#9ca3af;font-style:italic"> est.</span>'
-        : ''
 
       const siblingCount = filtered.filter(s =>
         s.id !== c.id && (c.isGrouped ? s.groupName === c.groupName : s.regionId === c.regionId)
@@ -96,9 +85,7 @@ export default function MapView() {
           <div style="font-weight:600;font-size:13px;line-height:1.3;margin-bottom:2px">
             ${c.name}${tools}
           </div>
-          <div style="display:inline-block;font-size:11px;color:#6b7280;margin-bottom:6px">
-            <span style="font-weight:600;color:#374151">${attendeeLabel}</span> attendees${estTag}
-          </div>
+          ${statsLine ? `<div style="display:inline-block;font-size:11px;color:#6b7280;margin-bottom:6px">${statsLine}</div>` : ''}
           ${siblingLine}
           <div style="color:#6b7280;font-size:11px;line-height:1.4;margin-bottom:8px">
             ${c.description.slice(0, 120)}${c.description.length > 120 ? '...' : ''}

@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "parse": "node scripts/parse-markdown.js"
+    "parse": "node scripts/parse-markdown.js",
+    "discover": "node scripts/discover-chapters.js",
+    "scrape-events": "node scripts/scrape-events.js",
+    "pipeline": "node scripts/run-pipeline.js",
+    "report": "node scripts/pipeline-report.js"
   },
   "dependencies": {
     "@tanstack/react-table": "^8.20.6",
