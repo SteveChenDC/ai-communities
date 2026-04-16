@@ -1,16 +1,15 @@
 {
   "metadata": {
-    "generatedAt": "2026-04-16T05:32:00.428Z",
+    "generatedAt": "2026-04-16T06:15:23.879Z",
     "sourceFile": "ai_communities_sonar_v2.md",
-    "totalCommunities": 189,
-    "totalRegions": 41,
-    "communitiesWithDates": 21,
-    "communitiesWithCodingTools": 38,
+    "totalCommunities": 206,
+    "totalRegions": 64,
+    "communitiesWithDates": 1,
+    "communitiesWithCodingTools": 24,
     "byPriority": {
-      "0": 157,
-      "1": 24,
-      "2": 0,
-      "3": 8
+      "0": 121,
+      "1": 21,
+      "3": 6
     }
   },
   "communities": [
@@ -67,121 +66,6 @@
       "lat": 46.2244,
       "lng": 6.1432,
       "country": "CH"
-    },
-    {
-      "id": "ai-engineer-summit-code-summit-worlds-fair",
-      "name": "AI Engineer Summit / Code Summit / World's Fair",
-      "regionId": "global",
-      "priority": 3,
-      "tags": [],
-      "url": "https://www.ai.engineer",
-      "urls": [
-        "https://www.ai.engineer"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "sponsorships@ai.engineer"
-      },
-      "description": "Premier AI engineering conference series. World's Fair (SF, Jun 2025) drew 6,000+ attendees; Code Summit (NYC, Nov 2025) and AI Engineer Europe (London, Apr 2026) cover AI coding, agents, and code quality at depth.",
-      "notableCompanies": [
-        "Google DeepMind",
-        "Anthropic",
-        "Cursor",
-        "Sourcegraph/Cody",
-        "Factory",
-        "Graphite",
-        "Weights & Biases",
-        "Neo4j",
-        "Sentry",
-        "Okta/Auth0",
-        "Daytona",
-        "speakers from Windsurf",
-        "Replit",
-        "Cline",
-        "CodeRabbit",
-        "Vercel",
-        "Qodo",
-        "OpenAI",
-        "Anthropic",
-        "Meta FAIR"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Cline",
-        "CodeRabbit",
-        "Cody",
-        "Cursor",
-        "Factory",
-        "Graphite",
-        "Qodo",
-        "Replit",
-        "Sourcegraph",
-        "Vercel",
-        "Windsurf"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": 6000,
-      "events": [],
-      "whyTarget": "The definitive conference series for AI engineers. AI Engineer Code Summit (Nov 2025, NYC) directly discussed \"code review as the ultimate bottleneck\" and \"AI as a force multiplier that turns weak standards into architectural chaos\" — Sonar's exact messaging. Every major AI coding tool competitor is already there; Sonar cannot afford to be absent.",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 30.02,
-      "lng": 0,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "ai-tinkerers-global-network",
-      "name": "AI Tinkerers Global Network",
-      "regionId": "global",
-      "priority": 3,
-      "tags": [],
-      "url": "https://aitinkerers.org",
-      "urls": [
-        "https://aitinkerers.org"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "admin@aitinkerers.org"
-      },
-      "description": "World's largest AI builder community with 220+ city chapters and a strict live-code demo format. Tiered sponsorship packages for meetups, VIP dinners, hackathons, and workshops.",
-      "notableCompanies": [
-        "OpenAI",
-        "Anthropic",
-        "Google Cloud",
-        "Microsoft",
-        "Amazon",
-        "NVIDIA",
-        "Meta",
-        "Samsung",
-        "Shopify",
-        "Intel AI",
-        "Cerebras",
-        "Vercel",
-        "Zed",
-        "Cursor",
-        "ElevenLabs",
-        "Weights & Biases",
-        "Cloudflare",
-        "Okta/Auth0",
-        "Redis",
-        "Groq"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "CodeRabbit",
-        "Cursor",
-        "Vercel",
-        "Zed"
-      ],
-      "memberCount": 99000,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "99,000+ screened members across 220+ cities with a code-first, no-slides format — exactly the builders shipping AI-generated code that Sonar cleans up. A single global relationship (or a small portfolio of key chapters) covers Seattle's Dev Tools Track, Paris, Dublin, Berlin, NYC, London, and more. Zero code quality competitors currently sponsor any chapter except CodeRabbit at Atlanta.",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 30.0198,
-      "lng": 0.0198,
-      "country": "GLOBAL"
     },
     {
       "id": "ai-tinkerers-san-francisco",
@@ -458,34 +342,6 @@
       "groupName": null,
       "lat": 37.76076,
       "lng": -122.40526,
-      "country": "US"
-    },
-    {
-      "id": "bond-ai",
-      "name": "Bond AI",
-      "regionId": "sf-bay-area",
-      "priority": 0,
-      "tags": [],
-      "url": "https://bondcommunity.ai",
-      "urls": [
-        "https://bondcommunity.ai"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Direct outreach via bondcommunity.ai"
-      },
-      "description": "120K+ member aggregator that matches sponsors with AI events across SF and NYC. Distribution channel more than direct organizer.",
-      "notableCompanies": [],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 37.74903,
-      "lng": -122.40868,
       "country": "US"
     },
     {
@@ -889,42 +745,6 @@
       "country": "US"
     },
     {
-      "id": "pulse-nyc-ai-week-new-york",
-      "name": "Pulse NYC / AI Week New York",
-      "regionId": "nyc",
-      "priority": 0,
-      "tags": [],
-      "url": "https://pulse.nyc/ai-week",
-      "urls": [
-        "https://pulse.nyc/ai-week"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Contact via pulse.nyc"
-      },
-      "description": "11,000+ members. AI Week NY is a citywide festival with 100+ events hosted by 30+ organizations. Next edition: May 11–17, 2026.",
-      "notableCompanies": [
-        "Not publicly disclosed per edition"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": 11000,
-      "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-05-11",
-          "dateRaw": "May 11–17, 2026",
-          "datePrecision": "day"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 40.71521,
-      "lng": -73.98615,
-      "country": "US"
-    },
-    {
       "id": "data-science-salon-nyc",
       "name": "Data Science Salon NYC",
       "regionId": "nyc",
@@ -1016,45 +836,6 @@
       "groupName": null,
       "lat": 40.69338,
       "lng": -74.00121,
-      "country": "US"
-    },
-    {
-      "id": "bond-ai-nyc",
-      "name": "Bond AI NYC",
-      "regionId": "nyc",
-      "priority": 0,
-      "tags": [],
-      "url": "https://luma.com/genai-ny",
-      "urls": [
-        "https://luma.com/genai-ny",
-        "https://meetup.com/new-york-machine-learning-meetup-group",
-        "https://meetup.com/deep-learning-nyc",
-        "https://meetup.com/ai-nyc",
-        "https://meetup.com/nyc-ai-salon",
-        "https://meetup.com/nyc-artificial-intelligence-machine-learning"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Individual Meetup contact pages; Bond AI via bondcommunity.ai"
-      },
-      "description": "Six additional NYC meetups ranging from Bond AI's distribution network (120K+) to NYC ML (13,475 members, Paul Dix), NYC Agentic AI at AWS (6,682 members, rebranded from Deep Learning NYC), and smaller fintech/cross-industry groups.",
-      "notableCompanies": [
-        "AWS",
-        "BlackTree AutoML",
-        "Claude Code discussed at NYC Agentic AI"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [
-        "Claude Code"
-      ],
-      "memberCount": 13475,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
-      "lat": 40.68561,
-      "lng": -74.0127,
       "country": "US"
     },
     {
@@ -1323,38 +1104,6 @@
       "groupName": null,
       "lat": 42.38155,
       "lng": -71.0409,
-      "country": "US"
-    },
-    {
-      "id": "boston-ai-week",
-      "name": "Boston AI Week",
-      "regionId": "boston",
-      "priority": 0,
-      "tags": [],
-      "url": "https://aiweek.boston",
-      "urls": [
-        "https://aiweek.boston"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Contact via aiweek.boston"
-      },
-      "description": "125+ events and 15,000+ participants in 2025; targeting 300+ events and 30,000+ in 2026.",
-      "notableCompanies": [
-        "Microsoft",
-        "Creatio",
-        "GAI Insights"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 42.36635,
-      "lng": -71.02345,
       "country": "US"
     },
     {
@@ -1883,51 +1632,6 @@
       "country": "US"
     },
     {
-      "id": "atlanta-ai-week",
-      "name": "Atlanta AI Week",
-      "regionId": "atlanta",
-      "priority": 0,
-      "tags": [],
-      "url": "https://atlantaaiweek.com",
-      "urls": [
-        "https://atlantaaiweek.com",
-        "https://meetup.com/aittg-atlanta",
-        "https://meetup.com/atl-ai"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "info@aicamp.ai"
-      },
-      "description": "Three additional Atlanta events: AI Week (1,000+ attendees, April 20–22, 2026 at Atlanta Tech Village), AICamp Atlanta (8,000+ devs at Google + ATDC venues), and Atlanta Generative AI Group (monthly).",
-      "notableCompanies": [
-        "Delta",
-        "Home Depot",
-        "Coca-Cola",
-        "Microsoft",
-        "Google Cloud",
-        "Improving",
-        "Snowflake",
-        "ETA"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": 1000,
-      "events": [
-        {
-          "date": "2026-04-20",
-          "dateRaw": "April 20–22, 2026",
-          "datePrecision": "day"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Atlanta AI Week / AICamp Atlanta / Atlanta Generative AI",
-      "lat": 33.763,
-      "lng": -84.36375,
-      "country": "US"
-    },
-    {
       "id": "aicamp-atlanta",
       "name": "AICamp Atlanta",
       "regionId": "atlanta",
@@ -1958,13 +1662,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 1000,
-      "events": [
-        {
-          "date": "2026-04-20",
-          "dateRaw": "April 20–22, 2026",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Atlanta AI Week / AICamp Atlanta / Atlanta Generative AI",
@@ -2003,13 +1701,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 1000,
-      "events": [
-        {
-          "date": "2026-04-20",
-          "dateRaw": "April 20–22, 2026",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Atlanta AI Week / AICamp Atlanta / Atlanta Generative AI",
@@ -2116,39 +1808,6 @@
       "groupName": "Miami AI Hub / PyData Miami / eMerge Americas",
       "lat": 25.7437,
       "lng": -80.16062,
-      "country": "US"
-    },
-    {
-      "id": "emerge-americas",
-      "name": "eMerge Americas",
-      "regionId": "miami",
-      "priority": 0,
-      "tags": [],
-      "url": "https://emergeamericas.com",
-      "urls": [
-        "https://miamiaihub.com",
-        "https://meetup.com/miami-machine-learning-meetup",
-        "https://emergeamericas.com"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "meet@miamiaihub.com"
-      },
-      "description": "Miami AI Hub runs monthly \"Generative Gatherings\"; PyData Miami meets at MDC Wolfson AI Center; eMerge Americas is a broader tech ecosystem event with AI tracks.",
-      "notableCompanies": [
-        "Miami Dade College",
-        "Microsoft partnership"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Miami AI Hub / PyData Miami / eMerge Americas",
-      "lat": 25.7417,
-      "lng": -80.1918,
       "country": "US"
     },
     {
@@ -2338,45 +1997,6 @@
       "country": "US"
     },
     {
-      "id": "seattle-ai-week",
-      "name": "Seattle AI Week",
-      "regionId": "seattle",
-      "priority": 0,
-      "tags": [],
-      "url": "https://www.washingtontechnology.org/ai-week",
-      "urls": [
-        "https://www.washingtontechnology.org/ai-week"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Contact via washingtontechnology.org"
-      },
-      "description": "5,000+ attendees across 75+ events (Oct 27–31, 2025). WTIA AI Summit main day ~500 attendees.",
-      "notableCompanies": [
-        "Accenture",
-        "AWS",
-        "Google",
-        "Google DeepMind hosted \"Tech@Night\" during AI Week"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": 5000,
-      "events": [
-        {
-          "date": "2025-10-27",
-          "dateRaw": "Oct 27–31, 2025",
-          "datePrecision": "day"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 47.6202,
-      "lng": -122.30785,
-      "country": "US"
-    },
-    {
       "id": "aicamp-seattle",
       "name": "AICamp Seattle",
       "regionId": "seattle",
@@ -2436,13 +2056,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 400,
-      "events": [
-        {
-          "date": "2025-11-07",
-          "dateRaw": "Nov 7–9, 2025",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "PyData Seattle / Seattle MLOps Community",
@@ -2590,71 +2204,6 @@
       "groupName": "Chicago ML / Chicago AI / AICamp Chicago",
       "lat": 41.8581,
       "lng": -87.6298,
-      "country": "US"
-    },
-    {
-      "id": "mlops-world-genai-summit-austin",
-      "name": "MLOps World / GenAI Summit Austin",
-      "regionId": "austin",
-      "priority": 1,
-      "tags": [
-        "HIGH-VALUE CONFERENCE"
-      ],
-      "url": "https://mlopsworld.com",
-      "urls": [
-        "https://mlopsworld.com"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "info@mlopsworld.com"
-      },
-      "description": "800+ attendees (Oct 6–9, 2025, Renaissance Austin). 2025 agenda included \"The Iteration Trap: Why Gen AI Code Refinements Could Be Silently Undermining Your Security\" — a Sonar-perfect talk theme.",
-      "notableCompanies": [
-        "Weights & Biases",
-        "Databricks",
-        "Outerbounds",
-        "Comet",
-        "speakers from OpenAI",
-        "Google DeepMind",
-        "Google Cloud",
-        "Microsoft Azure",
-        "Hugging Face",
-        "Together AI",
-        "Meta",
-        "Weaviate",
-        "AWS",
-        "OpenHands",
-        "F500 speakers from Uber",
-        "Shopify",
-        "PayPal",
-        "Toyota",
-        "BlackRock",
-        "Cisco",
-        "Target",
-        "CapitalOne",
-        "BestBuy",
-        "Marriott",
-        "Wells Fargo",
-        "Charles Schwab"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "OpenHands"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": 800,
-      "events": [
-        {
-          "date": "2025-10-06",
-          "dateRaw": "Oct 6–9, 2025",
-          "datePrecision": "day"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 30.2872,
-      "lng": -97.7431,
       "country": "US"
     },
     {
@@ -3285,37 +2834,6 @@
       "country": "CA"
     },
     {
-      "id": "toronto-machine-learning-summit",
-      "name": "Toronto Machine Learning Summit",
-      "regionId": "toronto",
-      "priority": 0,
-      "tags": [],
-      "url": "https://torontomachinelearning.com",
-      "urls": [
-        "https://torontoai.org",
-        "https://torontomachinelearning.com"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites"
-      },
-      "description": "TorontoAI runs bi-weekly socials and tech meetups with equity focus; TMLS is a paid conference with strong AI governance and EU AI Act coverage.",
-      "notableCompanies": [
-        "Not publicly disclosed per year"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "TorontoAI / Toronto Machine Learning Summit",
-      "lat": 43.6352,
-      "lng": -79.35202,
-      "country": "CA"
-    },
-    {
       "id": "ai-tinkerers-london",
       "name": "AI Tinkerers London",
       "regionId": "london",
@@ -3404,51 +2922,6 @@
       "country": "GB"
     },
     {
-      "id": "the-ai-summit-london",
-      "name": "The AI Summit London",
-      "regionId": "london",
-      "priority": 0,
-      "tags": [],
-      "url": "https://london.theaisummit.com",
-      "urls": [
-        "https://london.theaisummit.com"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Sponsorship form on site; Fringe Events program"
-      },
-      "description": "Jun 11–12, 2025 at Tobacco Dock, 5,000+ attendees, 300+ speakers, 100+ exhibitors. Sonar's highest-scale London opportunity.",
-      "notableCompanies": [
-        "AWS",
-        "OpenAI",
-        "Intel",
-        "Microsoft",
-        "2026 Ambassador Chapter confirmed: Mastercard",
-        "Vodafone",
-        "EY",
-        "IBM",
-        "AstraZeneca",
-        "Google DeepMind"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": 5000,
-      "events": [
-        {
-          "date": "2025-06-11",
-          "dateRaw": "Jun 11–12, 2025",
-          "datePrecision": "day"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 51.53816,
-      "lng": -0.10909,
-      "country": "GB"
-    },
-    {
       "id": "aicamp-london",
       "name": "AICamp London",
       "regionId": "london",
@@ -3507,13 +2980,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-06-05",
-          "dateRaw": "Jun 5–7, 2026",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -3738,86 +3205,6 @@
       "country": "GB"
     },
     {
-      "id": "data-science-festival-london",
-      "name": "Data Science Festival London",
-      "regionId": "london",
-      "priority": 0,
-      "tags": [],
-      "url": "https://datasciencefestival.com",
-      "urls": [
-        "https://datasciencefestival.com",
-        "https://turing.ac.uk/events",
-        "https://meetup.com/ai-safety-london",
-        "https://meetup.com/data-and-ai-leaders-uk",
-        "https://meetup.com/futures-forum-ai-llm-meetup",
-        "https://mindstone.com"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites"
-      },
-      "description": "Six additional London communities: DSF (40K+ community, free festivals at CodeNode); Alan Turing Institute (AI UK flagship 4,500+ attendees); AI Safety London (~200 members at Newspeak House); Data & AI Leaders UK (bi-monthly CDO roundtables); Futures Forum (GenAI + database); Mindstone London (three-talk format featuring Cursor 🔧 in Feb 2025).",
-      "notableCompanies": [
-        "Mindstone — Gamma",
-        "Founders Capital",
-        "Data Science Festival — Wise",
-        "Dunnhumby speakers"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Cursor"
-      ],
-      "memberCount": 200,
-      "attendanceEstimate": 4500,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Data Science Festival London / Alan Turing Institute / AI Safety London / Data and AI Leaders UK / Futures Forum AI / Mindstone London",
-      "lat": 51.48759,
-      "lng": -0.13052,
-      "country": "GB"
-    },
-    {
-      "id": "alan-turing-institute",
-      "name": "Alan Turing Institute",
-      "regionId": "london",
-      "priority": 0,
-      "tags": [],
-      "url": "https://turing.ac.uk/events",
-      "urls": [
-        "https://datasciencefestival.com",
-        "https://turing.ac.uk/events",
-        "https://meetup.com/ai-safety-london",
-        "https://meetup.com/data-and-ai-leaders-uk",
-        "https://meetup.com/futures-forum-ai-llm-meetup",
-        "https://mindstone.com"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites"
-      },
-      "description": "Six additional London communities: DSF (40K+ community, free festivals at CodeNode); Alan Turing Institute (AI UK flagship 4,500+ attendees); AI Safety London (~200 members at Newspeak House); Data & AI Leaders UK (bi-monthly CDO roundtables); Futures Forum (GenAI + database); Mindstone London (three-talk format featuring Cursor 🔧 in Feb 2025).",
-      "notableCompanies": [
-        "Mindstone — Gamma",
-        "Founders Capital",
-        "Data Science Festival — Wise",
-        "Dunnhumby speakers"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Cursor"
-      ],
-      "memberCount": 200,
-      "attendanceEstimate": 4500,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Data Science Festival London / Alan Turing Institute / AI Safety London / Data and AI Leaders UK / Futures Forum AI / Mindstone London",
-      "lat": 51.48172,
-      "lng": -0.13896,
-      "country": "GB"
-    },
-    {
       "id": "ai-safety-london",
       "name": "AI Safety London",
       "regionId": "london",
@@ -4035,83 +3422,6 @@
       "lat": 53.3698,
       "lng": -6.2603,
       "country": "IE"
-    },
-    {
-      "id": "oxford-ai-society-oxai-oxbridge-ai-challenge",
-      "name": "Oxford AI Society (OXAI) / Oxbridge AI Challenge",
-      "regionId": "oxford",
-      "priority": 0,
-      "tags": [],
-      "url": "https://oxai.org",
-      "urls": [
-        "https://oxai.org"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Contact via oxai.org; Oxbridge AI Challenge sponsorship via site"
-      },
-      "description": "University-affiliated society with AI Gala at Natural History Museum. Oxbridge AI Challenge offers £60K prizes + £150K Azure credits.",
-      "notableCompanies": [
-        "Microsoft for Startups",
-        "Stability AI",
-        "Digital Realty",
-        "JPMorgan Chase",
-        "Alan Turing Institute",
-        "Oxford Seed Fund"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 51.752,
-      "lng": -1.2577,
-      "country": "GB"
-    },
-    {
-      "id": "manchester-tech-festival",
-      "name": "Manchester Tech Festival",
-      "regionId": "manchester",
-      "priority": 0,
-      "tags": [],
-      "url": "https://manchestertechfestival.co.uk/aiconference",
-      "urls": [
-        "https://manchestertechfestival.co.uk/aiconference"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Sponsorship packages for 2026 published on site"
-      },
-      "description": "Multi-day festival (Sep 23–Oct 3, 2025). AI Conference Oct 1.",
-      "notableCompanies": [
-        "Equal Experts",
-        "AO.com"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2025-10-03",
-          "dateRaw": "Oct 3, 2025",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2025-09-23",
-          "dateRaw": "Sep 23–Oct 3, 2025",
-          "datePrecision": "day"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 53.5008,
-      "lng": -2.2426,
-      "country": "GB"
     },
     {
       "id": "mindstone",
@@ -4497,35 +3807,6 @@
       "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
       "lat": 55.9353,
       "lng": -3.15712,
-      "country": "GB"
-    },
-    {
-      "id": "other-uk",
-      "name": "Other UK",
-      "regionId": "london",
-      "priority": 0,
-      "tags": [],
-      "url": "",
-      "urls": [],
-      "contact": {
-        "type": "unknown",
-        "value": ""
-      },
-      "description": "",
-      "notableCompanies": [
-        "Parallax",
-        "Microsoft"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": 2778,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 51.53436,
-      "lng": -0.13535,
       "country": "GB"
     },
     {
@@ -5344,68 +4625,6 @@
       "country": "CH"
     },
     {
-      "id": "genai-zrich-2026",
-      "name": "GenAI Zürich 2026",
-      "regionId": "zurich",
-      "priority": 1,
-      "tags": [
-        "MAJOR SWISS EVENT"
-      ],
-      "url": "https://genaizurich.ch",
-      "urls": [
-        "https://genaizurich.ch"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Contact via genaizurich.ch sponsorship page"
-      },
-      "description": "1,000+ attendees, 120+ sessions, 8+ stages (Apr 1–2, 2026, Volkshaus Zürich). Lovable is hackathon partner — only coding tool sponsor at the event.",
-      "notableCompanies": [
-        "AWS",
-        "Cloudera",
-        "Dataiku",
-        "Snowflake",
-        "MongoDB",
-        "Red Hat",
-        "DeepL",
-        "Cohesity",
-        "KPMG",
-        "Cognizant",
-        "speakers from Google DeepMind",
-        "Hugging Face",
-        "Cohere",
-        "NVIDIA",
-        "ETH AI Center",
-        "Swiss Post",
-        "Zurich Insurance",
-        "Lovable",
-        "Hugging Face",
-        "Databricks",
-        "Qdrant",
-        "Siemens",
-        "Sony AI"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Lovable"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": 1000,
-      "events": [
-        {
-          "date": "2026-04-01",
-          "dateRaw": "Apr 1–2, 2026",
-          "datePrecision": "day"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 47.3909,
-      "lng": 8.56595,
-      "country": "CH"
-    },
-    {
       "id": "zrich-ai-club",
       "name": "Zürich AI Club",
       "regionId": "zurich",
@@ -5433,70 +4652,12 @@
       "codingTools": [],
       "memberCount": 1580,
       "attendanceEstimate": 5000,
-      "events": [
-        {
-          "date": "2025-10-04",
-          "dateRaw": "Oct 4, 2025",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2025-09-29",
-          "dateRaw": "Sep 29–Oct 4, 2025",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Zürich AI Club / Zurich AI Festival / Generative AI Genève / Mindstone Geneva / Young AI Leaders / AI Suisse",
       "lat": 47.3589,
       "lng": 8.57288,
-      "country": "CH"
-    },
-    {
-      "id": "zurich-ai-festival",
-      "name": "Zurich AI Festival",
-      "regionId": "zurich",
-      "priority": 0,
-      "tags": [],
-      "url": "https://zurichai.ch",
-      "urls": [
-        "https://zurichai.club",
-        "https://zurichai.ch",
-        "https://meetup.com/generative-ai-geneve",
-        "https://mindstone.com",
-        "https://yailzh.ch",
-        "https://aisuisse.ch"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "CFP papercall.io/zurichai-club; via respective sites"
-      },
-      "description": "Six additional Swiss communities: Zurich AI Club (1,580 members at AWS Zurich and ETH AI Center); Zurich AI Festival (Sep 29–Oct 4, 2025, 5,000+ attendees across 25+ events, organized by ETH AI Center); Generative AI Genève (318 members, growing); Mindstone Geneva (monthly); YAIL Zurich (monthly + dinners with Bern/Geneva/Lausanne hubs); AI Suisse (Switzerland's largest AI community, first Swiss DeepLearning.AI ambassador).",
-      "notableCompanies": [
-        "AWS",
-        "ETH AI Center"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": 1580,
-      "attendanceEstimate": 5000,
-      "events": [
-        {
-          "date": "2025-10-04",
-          "dateRaw": "Oct 4, 2025",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2025-09-29",
-          "dateRaw": "Sep 29–Oct 4, 2025",
-          "datePrecision": "day"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Zürich AI Club / Zurich AI Festival / Generative AI Genève / Mindstone Geneva / Young AI Leaders / AI Suisse",
-      "lat": 47.3569,
-      "lng": 8.5417,
       "country": "CH"
     },
     {
@@ -5527,18 +4688,7 @@
       "codingTools": [],
       "memberCount": 1580,
       "attendanceEstimate": 5000,
-      "events": [
-        {
-          "date": "2025-10-04",
-          "dateRaw": "Oct 4, 2025",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2025-09-29",
-          "dateRaw": "Sep 29–Oct 4, 2025",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Zürich AI Club / Zurich AI Festival / Generative AI Genève / Mindstone Geneva / Young AI Leaders / AI Suisse",
@@ -5574,18 +4724,7 @@
       "codingTools": [],
       "memberCount": 1580,
       "attendanceEstimate": 5000,
-      "events": [
-        {
-          "date": "2025-10-04",
-          "dateRaw": "Oct 4, 2025",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2025-09-29",
-          "dateRaw": "Sep 29–Oct 4, 2025",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Zürich AI Club / Zurich AI Festival / Generative AI Genève / Mindstone Geneva / Young AI Leaders / AI Suisse",
@@ -5621,18 +4760,7 @@
       "codingTools": [],
       "memberCount": 1580,
       "attendanceEstimate": 5000,
-      "events": [
-        {
-          "date": "2025-10-04",
-          "dateRaw": "Oct 4, 2025",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2025-09-29",
-          "dateRaw": "Sep 29–Oct 4, 2025",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Zürich AI Club / Zurich AI Festival / Generative AI Genève / Mindstone Geneva / Young AI Leaders / AI Suisse",
@@ -6251,699 +5379,6 @@
       "country": "PL"
     },
     {
-      "id": "langchain-community-interrupt-conference",
-      "name": "LangChain Community / Interrupt Conference",
-      "regionId": "global-sf",
-      "priority": 1,
-      "tags": [],
-      "url": "https://www.langchain.com/community",
-      "urls": [
-        "https://www.langchain.com/community"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "community@langchain.dev"
-      },
-      "description": "70M+ monthly downloads. Interrupt 2025 drew 800 attendees; Interrupt 2026 (May 13–14, SF) targets 1,000+ with Andrew Ng keynote.",
-      "notableCompanies": [
-        "Cisco",
-        "Uber",
-        "Replit",
-        "LinkedIn",
-        "BlackRock",
-        "JPMorgan",
-        "Kong",
-        "Redis",
-        "Oracle",
-        "Cloudflare",
-        "Daytona"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Replit"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": 800,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 37.8,
-      "lng": -122.4,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "anthropic-community-events",
-      "name": "Anthropic Community Events",
-      "regionId": "global-sf",
-      "priority": 0,
-      "tags": [],
-      "url": "https://www.anthropic.com/events",
-      "urls": [
-        "https://www.anthropic.com/events"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Contact via anthropic.com/events"
-      },
-      "description": "Code with Claude conference (SF, London, Tokyo 2026). Builder Summits in London, Tokyo, Bengaluru. Claude Community Ambassadors across 74 cities in 33 countries. Co-founded Agentic AI Foundation with OpenAI and Block.",
-      "notableCompanies": [
-        "Anthropic",
-        "OpenAI",
-        "Block",
-        "AWS",
-        "Microsoft",
-        "Google",
-        "Accel",
-        "Menlo Ventures"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": false,
-      "groupName": null,
-      "lat": 37.80611,
-      "lng": -122.38989,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "weights-biases-events",
-      "name": "Weights & Biases Events",
-      "regionId": "global-sf",
-      "priority": 0,
-      "tags": [],
-      "url": "https://wandb.ai/site/resources/events",
-      "urls": [
-        "https://wandb.ai/site/resources/events",
-        "https://datacouncil.ai"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites; sponsorships at datacouncil.ai"
-      },
-      "description": "Three more major global series: W&B Fully Connected (SF/London/Tokyo); Data Council / AI Council 2026 (1,200–2,000 attendees, dedicated \"Coding Agents & Autonomous Dev\" track); Meta LlamaCon 2025 with Mark Zuckerberg, Satya Nadella, Ali Ghodsi plus Llama hackathons (SF/NYC/Seattle/Oslo) and Llama Impact Grants up to $500K.",
-      "notableCompanies": [
-        "CoreWeave",
-        "NVIDIA",
-        "OpenAI",
-        "Snowflake",
-        "GitLab",
-        "Microsoft",
-        "Hugging Face",
-        "Cerebral Valley",
-        "AWS",
-        "NVIDIA"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": 2000,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Weights & Biases Events / Data Council / Meta LlamaCon",
-      "lat": 37.8066,
-      "lng": -122.37575,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "data-council",
-      "name": "Data Council",
-      "regionId": "global-sf",
-      "priority": 0,
-      "tags": [],
-      "url": "https://datacouncil.ai",
-      "urls": [
-        "https://wandb.ai/site/resources/events",
-        "https://datacouncil.ai"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites; sponsorships at datacouncil.ai"
-      },
-      "description": "Three more major global series: W&B Fully Connected (SF/London/Tokyo); Data Council / AI Council 2026 (1,200–2,000 attendees, dedicated \"Coding Agents & Autonomous Dev\" track); Meta LlamaCon 2025 with Mark Zuckerberg, Satya Nadella, Ali Ghodsi plus Llama hackathons (SF/NYC/Seattle/Oslo) and Llama Impact Grants up to $500K.",
-      "notableCompanies": [
-        "CoreWeave",
-        "NVIDIA",
-        "OpenAI",
-        "Snowflake",
-        "GitLab",
-        "Microsoft",
-        "Hugging Face",
-        "Cerebral Valley",
-        "AWS",
-        "NVIDIA"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": null,
-      "attendanceEstimate": 2000,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Weights & Biases Events / Data Council / Meta LlamaCon",
-      "lat": 37.78891,
-      "lng": -122.3821,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "vercel-meetup-sdk",
-      "name": "Vercel Meetup SDK",
-      "regionId": "global-sf",
-      "priority": 0,
-      "tags": [],
-      "url": "https://meetup-sdk.vercel.com",
-      "urls": [
-        "https://meetup-sdk.vercel.com",
-        "https://huggingface.co/events",
-        "https://pinecone.io/community",
-        "https://groq.com",
-        "https://llamaindex.ai",
-        "https://weaviate.io/community"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites"
-      },
-      "description": "Six global infrastructure providers with active community programs. Vercel 🔧 provides swag/credits/food stipends via Meetup SDK; HF hosts mega meetups (5K+ in SF); Pinecone runs meetups at a16z offices across SF/NYC/Seattle + $100K+ hackathons; Groq sponsors hackathons (UCSD, AI Tinkerers, India); LlamaIndex co-hosts with AICamp and Snowflake; Weaviate runs Berlin hackathons, NYC \"Whiskey & Wisdom,\" CALIBRATE conference with Comet at AWS GenAI Loft.",
-      "notableCompanies": [
-        "Vercel",
-        "Hugging Face",
-        "Pinecone",
-        "Groq",
-        "Weaviate",
-        "a16z",
-        "AWS",
-        "OpenAI",
-        "HuggingFace",
-        "LangChain",
-        "Cohere",
-        "Vercel",
-        "AWS"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Vercel"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Vercel Meetup SDK / Hugging Face Global / Pinecone / Groq / LlamaIndex / Weaviate",
-      "lat": 37.78258,
-      "lng": -122.37212,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "hugging-face-global",
-      "name": "Hugging Face Global",
-      "regionId": "global-sf",
-      "priority": 0,
-      "tags": [],
-      "url": "https://huggingface.co/events",
-      "urls": [
-        "https://meetup-sdk.vercel.com",
-        "https://huggingface.co/events",
-        "https://pinecone.io/community",
-        "https://groq.com",
-        "https://llamaindex.ai",
-        "https://weaviate.io/community"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites"
-      },
-      "description": "Six global infrastructure providers with active community programs. Vercel 🔧 provides swag/credits/food stipends via Meetup SDK; HF hosts mega meetups (5K+ in SF); Pinecone runs meetups at a16z offices across SF/NYC/Seattle + $100K+ hackathons; Groq sponsors hackathons (UCSD, AI Tinkerers, India); LlamaIndex co-hosts with AICamp and Snowflake; Weaviate runs Berlin hackathons, NYC \"Whiskey & Wisdom,\" CALIBRATE conference with Comet at AWS GenAI Loft.",
-      "notableCompanies": [
-        "Vercel",
-        "Hugging Face",
-        "Pinecone",
-        "Groq",
-        "Weaviate",
-        "a16z",
-        "AWS",
-        "OpenAI",
-        "HuggingFace",
-        "LangChain",
-        "Cohere",
-        "Vercel",
-        "AWS"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Vercel"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Vercel Meetup SDK / Hugging Face Global / Pinecone / Groq / LlamaIndex / Weaviate",
-      "lat": 37.77015,
-      "lng": -122.36537,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "pinecone",
-      "name": "Pinecone",
-      "regionId": "global-sf",
-      "priority": 0,
-      "tags": [],
-      "url": "https://pinecone.io/community",
-      "urls": [
-        "https://meetup-sdk.vercel.com",
-        "https://huggingface.co/events",
-        "https://pinecone.io/community",
-        "https://groq.com",
-        "https://llamaindex.ai",
-        "https://weaviate.io/community"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites"
-      },
-      "description": "Six global infrastructure providers with active community programs. Vercel 🔧 provides swag/credits/food stipends via Meetup SDK; HF hosts mega meetups (5K+ in SF); Pinecone runs meetups at a16z offices across SF/NYC/Seattle + $100K+ hackathons; Groq sponsors hackathons (UCSD, AI Tinkerers, India); LlamaIndex co-hosts with AICamp and Snowflake; Weaviate runs Berlin hackathons, NYC \"Whiskey & Wisdom,\" CALIBRATE conference with Comet at AWS GenAI Loft.",
-      "notableCompanies": [
-        "Vercel",
-        "Hugging Face",
-        "Pinecone",
-        "Groq",
-        "Weaviate",
-        "a16z",
-        "AWS",
-        "OpenAI",
-        "HuggingFace",
-        "LangChain",
-        "Cohere",
-        "Vercel",
-        "AWS"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Vercel"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Vercel Meetup SDK / Hugging Face Global / Pinecone / Groq / LlamaIndex / Weaviate",
-      "lat": 37.76795,
-      "lng": -122.38404,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "groq",
-      "name": "Groq",
-      "regionId": "global-sf",
-      "priority": 0,
-      "tags": [],
-      "url": "https://groq.com",
-      "urls": [
-        "https://meetup-sdk.vercel.com",
-        "https://huggingface.co/events",
-        "https://pinecone.io/community",
-        "https://groq.com",
-        "https://llamaindex.ai",
-        "https://weaviate.io/community"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites"
-      },
-      "description": "Six global infrastructure providers with active community programs. Vercel 🔧 provides swag/credits/food stipends via Meetup SDK; HF hosts mega meetups (5K+ in SF); Pinecone runs meetups at a16z offices across SF/NYC/Seattle + $100K+ hackathons; Groq sponsors hackathons (UCSD, AI Tinkerers, India); LlamaIndex co-hosts with AICamp and Snowflake; Weaviate runs Berlin hackathons, NYC \"Whiskey & Wisdom,\" CALIBRATE conference with Comet at AWS GenAI Loft.",
-      "notableCompanies": [
-        "Vercel",
-        "Hugging Face",
-        "Pinecone",
-        "Groq",
-        "Weaviate",
-        "a16z",
-        "AWS",
-        "OpenAI",
-        "HuggingFace",
-        "LangChain",
-        "Cohere",
-        "Vercel",
-        "AWS"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Vercel"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Vercel Meetup SDK / Hugging Face Global / Pinecone / Groq / LlamaIndex / Weaviate",
-      "lat": 37.75619,
-      "lng": -122.38526,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "llamaindex",
-      "name": "LlamaIndex",
-      "regionId": "global-sf",
-      "priority": 0,
-      "tags": [],
-      "url": "https://llamaindex.ai",
-      "urls": [
-        "https://meetup-sdk.vercel.com",
-        "https://huggingface.co/events",
-        "https://pinecone.io/community",
-        "https://groq.com",
-        "https://llamaindex.ai",
-        "https://weaviate.io/community"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites"
-      },
-      "description": "Six global infrastructure providers with active community programs. Vercel 🔧 provides swag/credits/food stipends via Meetup SDK; HF hosts mega meetups (5K+ in SF); Pinecone runs meetups at a16z offices across SF/NYC/Seattle + $100K+ hackathons; Groq sponsors hackathons (UCSD, AI Tinkerers, India); LlamaIndex co-hosts with AICamp and Snowflake; Weaviate runs Berlin hackathons, NYC \"Whiskey & Wisdom,\" CALIBRATE conference with Comet at AWS GenAI Loft.",
-      "notableCompanies": [
-        "Vercel",
-        "Hugging Face",
-        "Pinecone",
-        "Groq",
-        "Weaviate",
-        "a16z",
-        "AWS",
-        "OpenAI",
-        "HuggingFace",
-        "LangChain",
-        "Cohere",
-        "Vercel",
-        "AWS"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Vercel"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Vercel Meetup SDK / Hugging Face Global / Pinecone / Groq / LlamaIndex / Weaviate",
-      "lat": 37.74461,
-      "lng": -122.39339,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "weaviate",
-      "name": "Weaviate",
-      "regionId": "global-sf",
-      "priority": 0,
-      "tags": [],
-      "url": "https://weaviate.io/community",
-      "urls": [
-        "https://meetup-sdk.vercel.com",
-        "https://huggingface.co/events",
-        "https://pinecone.io/community",
-        "https://groq.com",
-        "https://llamaindex.ai",
-        "https://weaviate.io/community"
-      ],
-      "contact": {
-        "type": "text",
-        "value": "Via respective sites"
-      },
-      "description": "Six global infrastructure providers with active community programs. Vercel 🔧 provides swag/credits/food stipends via Meetup SDK; HF hosts mega meetups (5K+ in SF); Pinecone runs meetups at a16z offices across SF/NYC/Seattle + $100K+ hackathons; Groq sponsors hackathons (UCSD, AI Tinkerers, India); LlamaIndex co-hosts with AICamp and Snowflake; Weaviate runs Berlin hackathons, NYC \"Whiskey & Wisdom,\" CALIBRATE conference with Comet at AWS GenAI Loft.",
-      "notableCompanies": [
-        "Vercel",
-        "Hugging Face",
-        "Pinecone",
-        "Groq",
-        "Weaviate",
-        "a16z",
-        "AWS",
-        "OpenAI",
-        "HuggingFace",
-        "LangChain",
-        "Cohere",
-        "Vercel",
-        "AWS"
-      ],
-      "hasAICodingTools": true,
-      "codingTools": [
-        "Vercel"
-      ],
-      "memberCount": null,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Vercel Meetup SDK / Hugging Face Global / Pinecone / Groq / LlamaIndex / Weaviate",
-      "lat": 37.76034,
-      "lng": -122.40367,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "women-in-ai-wai",
-      "name": "Women in AI (WAI)",
-      "regionId": "global",
-      "priority": 0,
-      "tags": [],
-      "url": "https://womeninai.co",
-      "urls": [
-        "https://womeninai.co",
-        "https://wimlds.org",
-        "https://blackinai.org",
-        "https://latinxinai.org",
-        "https://queerinai.com",
-        "https://ai-4-all.org"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "info@wimlds.org"
-      },
-      "description": "Six diversity-focused AI communities: WAI (20,000+ members, 130+ countries, 40+ chapters, June 2025 NA Summit 500+); WiMLDS (~100 chapters, 50,000+ members, 501(c)(3), NYC chapter 4,777 members); Black in AI (5,900+ members, 117 countries, NeurIPS workshop, MacArthur grant); LatinX in AI (NeurIPS/ICRA/ACL workshops); Queer in AI (1,000+ Slack, ACL first archival papers 2025); AI4ALL (Dr. Fei-Fei Li co-founded, Stanford/UCSF summer programs).",
-      "notableCompanies": [
-        "NeurIPS",
-        "ICRA",
-        "ACL",
-        "MacArthur Foundation",
-        "Stanford",
-        "UCSF"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": 20000,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
-      "lat": 30,
-      "lng": 0.036,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "wimlds",
-      "name": "WiMLDS",
-      "regionId": "global",
-      "priority": 0,
-      "tags": [],
-      "url": "https://wimlds.org",
-      "urls": [
-        "https://womeninai.co",
-        "https://wimlds.org",
-        "https://blackinai.org",
-        "https://latinxinai.org",
-        "https://queerinai.com",
-        "https://ai-4-all.org"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "info@wimlds.org"
-      },
-      "description": "Six diversity-focused AI communities: WAI (20,000+ members, 130+ countries, 40+ chapters, June 2025 NA Summit 500+); WiMLDS (~100 chapters, 50,000+ members, 501(c)(3), NYC chapter 4,777 members); Black in AI (5,900+ members, 117 countries, NeurIPS workshop, MacArthur grant); LatinX in AI (NeurIPS/ICRA/ACL workshops); Queer in AI (1,000+ Slack, ACL first archival papers 2025); AI4ALL (Dr. Fei-Fei Li co-founded, Stanford/UCSF summer programs).",
-      "notableCompanies": [
-        "NeurIPS",
-        "ICRA",
-        "ACL",
-        "MacArthur Foundation",
-        "Stanford",
-        "UCSF"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": 20000,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
-      "lat": 29.98586,
-      "lng": 0.01414,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "black-in-ai",
-      "name": "Black in AI",
-      "regionId": "global",
-      "priority": 0,
-      "tags": [],
-      "url": "https://blackinai.org",
-      "urls": [
-        "https://womeninai.co",
-        "https://wimlds.org",
-        "https://blackinai.org",
-        "https://latinxinai.org",
-        "https://queerinai.com",
-        "https://ai-4-all.org"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "info@wimlds.org"
-      },
-      "description": "Six diversity-focused AI communities: WAI (20,000+ members, 130+ countries, 40+ chapters, June 2025 NA Summit 500+); WiMLDS (~100 chapters, 50,000+ members, 501(c)(3), NYC chapter 4,777 members); Black in AI (5,900+ members, 117 countries, NeurIPS workshop, MacArthur grant); LatinX in AI (NeurIPS/ICRA/ACL workshops); Queer in AI (1,000+ Slack, ACL first archival papers 2025); AI4ALL (Dr. Fei-Fei Li co-founded, Stanford/UCSF summer programs).",
-      "notableCompanies": [
-        "NeurIPS",
-        "ICRA",
-        "ACL",
-        "MacArthur Foundation",
-        "Stanford",
-        "UCSF"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": 20000,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
-      "lat": 29.972,
-      "lng": 0,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "latinx-in-ai",
-      "name": "LatinX in AI",
-      "regionId": "global",
-      "priority": 0,
-      "tags": [],
-      "url": "https://latinxinai.org",
-      "urls": [
-        "https://womeninai.co",
-        "https://wimlds.org",
-        "https://blackinai.org",
-        "https://latinxinai.org",
-        "https://queerinai.com",
-        "https://ai-4-all.org"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "info@wimlds.org"
-      },
-      "description": "Six diversity-focused AI communities: WAI (20,000+ members, 130+ countries, 40+ chapters, June 2025 NA Summit 500+); WiMLDS (~100 chapters, 50,000+ members, 501(c)(3), NYC chapter 4,777 members); Black in AI (5,900+ members, 117 countries, NeurIPS workshop, MacArthur grant); LatinX in AI (NeurIPS/ICRA/ACL workshops); Queer in AI (1,000+ Slack, ACL first archival papers 2025); AI4ALL (Dr. Fei-Fei Li co-founded, Stanford/UCSF summer programs).",
-      "notableCompanies": [
-        "NeurIPS",
-        "ICRA",
-        "ACL",
-        "MacArthur Foundation",
-        "Stanford",
-        "UCSF"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": 20000,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
-      "lat": 29.97454,
-      "lng": -0.02546,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "queer-in-ai",
-      "name": "Queer in AI",
-      "regionId": "global",
-      "priority": 0,
-      "tags": [],
-      "url": "https://queerinai.com",
-      "urls": [
-        "https://womeninai.co",
-        "https://wimlds.org",
-        "https://blackinai.org",
-        "https://latinxinai.org",
-        "https://queerinai.com",
-        "https://ai-4-all.org"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "info@wimlds.org"
-      },
-      "description": "Six diversity-focused AI communities: WAI (20,000+ members, 130+ countries, 40+ chapters, June 2025 NA Summit 500+); WiMLDS (~100 chapters, 50,000+ members, 501(c)(3), NYC chapter 4,777 members); Black in AI (5,900+ members, 117 countries, NeurIPS workshop, MacArthur grant); LatinX in AI (NeurIPS/ICRA/ACL workshops); Queer in AI (1,000+ Slack, ACL first archival papers 2025); AI4ALL (Dr. Fei-Fei Li co-founded, Stanford/UCSF summer programs).",
-      "notableCompanies": [
-        "NeurIPS",
-        "ICRA",
-        "ACL",
-        "MacArthur Foundation",
-        "Stanford",
-        "UCSF"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": 20000,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
-      "lat": 30,
-      "lng": -0.02,
-      "country": "GLOBAL"
-    },
-    {
-      "id": "ai4all",
-      "name": "AI4ALL",
-      "regionId": "global",
-      "priority": 0,
-      "tags": [],
-      "url": "https://ai-4-all.org",
-      "urls": [
-        "https://womeninai.co",
-        "https://wimlds.org",
-        "https://blackinai.org",
-        "https://latinxinai.org",
-        "https://queerinai.com",
-        "https://ai-4-all.org"
-      ],
-      "contact": {
-        "type": "email",
-        "value": "info@wimlds.org"
-      },
-      "description": "Six diversity-focused AI communities: WAI (20,000+ members, 130+ countries, 40+ chapters, June 2025 NA Summit 500+); WiMLDS (~100 chapters, 50,000+ members, 501(c)(3), NYC chapter 4,777 members); Black in AI (5,900+ members, 117 countries, NeurIPS workshop, MacArthur grant); LatinX in AI (NeurIPS/ICRA/ACL workshops); Queer in AI (1,000+ Slack, ACL first archival papers 2025); AI4ALL (Dr. Fei-Fei Li co-founded, Stanford/UCSF summer programs).",
-      "notableCompanies": [
-        "NeurIPS",
-        "ICRA",
-        "ACL",
-        "MacArthur Foundation",
-        "Stanford",
-        "UCSF"
-      ],
-      "hasAICodingTools": false,
-      "codingTools": [],
-      "memberCount": 20000,
-      "attendanceEstimate": null,
-      "events": [],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Women in AI (WAI) / WiMLDS / Black in AI / LatinX in AI / Queer in AI / AI4ALL",
-      "lat": 30.0198,
-      "lng": -0.0198,
-      "country": "GLOBAL"
-    },
-    {
       "id": "mox-sf",
       "name": "Mox (SF)",
       "regionId": "global-sf",
@@ -6983,286 +5418,1628 @@
       "country": "GLOBAL"
     },
     {
-      "id": "ea-global",
-      "name": "EA Global",
-      "regionId": "global-sf",
+      "id": "aicamp-dallas",
+      "name": "AICamp Dallas",
+      "regionId": "dallas",
+      "country": "US",
       "priority": 0,
       "tags": [],
-      "url": "https://eaglobal.org",
+      "url": "https://www.aicamp.ai/event/eventsquery?city=US-Dallas",
       "urls": [
-        "https://mox.community",
-        "https://eaglobal.org",
-        "https://arena.education",
-        "https://meetup.com/ai-safety-london",
-        "https://stanfordaialignment.org"
+        "https://www.aicamp.ai/event/eventsquery?city=US-Dallas"
       ],
       "contact": {
-        "type": "text",
-        "value": "Via respective sites; application forms"
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=US-Dallas"
       },
-      "description": "Five safety-focused communities: Mox (SF's largest AI safety space, 377 events in past year, partners MIRI/FAR.AI/Redwood); EA Global (application-based conferences in SF Feb 2026 + NYC Oct 2025, 1,000+ attendees); ARENA (4–5 week ML bootcamp London Jan–Feb 2026); AI Safety London (200 members); Stanford AI Alignment (weekly meetings with UC Berkeley/UCLA/Caltech).",
-      "notableCompanies": [
-        "MIRI",
-        "FAR.AI",
-        "Redwood Research",
-        "pipeline to Anthropic",
-        "OpenAI",
-        "DeepMind"
-      ],
+      "description": "Dallas chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
       "hasAICodingTools": false,
       "codingTools": [],
-      "memberCount": 200,
-      "attendanceEstimate": 1000,
+      "memberCount": null,
+      "attendanceEstimate": null,
       "events": [],
       "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Mox (SF) / EA Global / ARENA / AI Safety London / Stanford AI Alignment",
-      "lat": 37.75831,
-      "lng": -122.42873,
-      "country": "GLOBAL"
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 32.7907,
+      "lng": -96.77275
     },
     {
-      "id": "arena",
-      "name": "ARENA",
-      "regionId": "global-sf",
+      "id": "aicamp-san-diego",
+      "name": "AICamp San Diego",
+      "regionId": "san-diego",
+      "country": "US",
       "priority": 0,
       "tags": [],
-      "url": "https://arena.education",
+      "url": "https://www.aicamp.ai/event/eventsquery?city=US-San+Diego",
       "urls": [
-        "https://mox.community",
-        "https://eaglobal.org",
-        "https://arena.education",
-        "https://meetup.com/ai-safety-london",
-        "https://stanfordaialignment.org"
+        "https://www.aicamp.ai/event/eventsquery?city=US-San+Diego"
       ],
       "contact": {
-        "type": "text",
-        "value": "Via respective sites; application forms"
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=US-San+Diego"
       },
-      "description": "Five safety-focused communities: Mox (SF's largest AI safety space, 377 events in past year, partners MIRI/FAR.AI/Redwood); EA Global (application-based conferences in SF Feb 2026 + NYC Oct 2025, 1,000+ attendees); ARENA (4–5 week ML bootcamp London Jan–Feb 2026); AI Safety London (200 members); Stanford AI Alignment (weekly meetings with UC Berkeley/UCLA/Caltech).",
-      "notableCompanies": [
-        "MIRI",
-        "FAR.AI",
-        "Redwood Research",
-        "pipeline to Anthropic",
-        "OpenAI",
-        "DeepMind"
-      ],
+      "description": "San Diego chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
       "hasAICodingTools": false,
       "codingTools": [],
-      "memberCount": 200,
-      "attendanceEstimate": 1000,
+      "memberCount": null,
+      "attendanceEstimate": null,
       "events": [],
       "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "Mox (SF) / EA Global / ARENA / AI Safety London / Stanford AI Alignment",
-      "lat": 37.77453,
-      "lng": -122.41924,
-      "country": "GLOBAL"
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 32.7357,
+      "lng": -117.1611
     },
     {
-      "id": "ai-dev-deeplearningai-andrew-ng",
-      "name": "AI Dev (DeepLearning.AI, Andrew Ng)",
-      "regionId": "global-sf",
+      "id": "aicamp-houston",
+      "name": "AICamp Houston",
+      "regionId": "houston",
+      "country": "US",
       "priority": 0,
       "tags": [],
-      "url": "https://aidev.deeplearning.ai",
+      "url": "https://www.aicamp.ai/event/eventsquery?city=US-Houston",
       "urls": [
-        "https://aidev.deeplearning.ai",
-        "https://aidevsummit.co",
-        "https://devrel.com/devrelcon",
-        "https://cdcon.lfevents.org"
+        "https://www.aicamp.ai/event/eventsquery?city=US-Houston"
       ],
       "contact": {
-        "type": "email",
-        "value": "devrelcon@mlh.io"
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=US-Houston"
       },
-      "description": "Four developer-tool-adjacent conferences: AI Dev 26 SF (Apr 28–29, 2026, 3,000+ devs, Andrew Ng hosted); AI DevSummit (May 27–28, 2026, South SF, 750+ attendees, includes AI Security and Ethics track); DevRelCon (Jul 22–23, 2026, Brooklyn, DevRel professionals with AI tracks); cdCon 2026 (Linux Foundation, dedicated AI/ML in CI/CD track + security/governance — directly relevant to Sonar).",
-      "notableCompanies": [
-        "DeepLearning.AI",
-        "Linux Foundation",
-        "AI DevSummit sponsor history not publicly disclosed per year"
-      ],
+      "description": "Houston chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
       "hasAICodingTools": false,
       "codingTools": [],
       "memberCount": null,
-      "attendanceEstimate": 750,
-      "events": [
-        {
-          "date": "2026-04-28",
-          "dateRaw": "Apr 28–29, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-05-27",
-          "dateRaw": "May 27–28, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-07-22",
-          "dateRaw": "Jul 22–23, 2026",
-          "datePrecision": "day"
-        }
-      ],
+      "attendanceEstimate": null,
+      "events": [],
       "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "AI Dev (DeepLearning.AI, Andrew Ng) / AI DevSummit / DevRelCon / cdCon 2026",
-      "lat": 37.78258,
-      "lng": -122.42788,
-      "country": "GLOBAL"
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 29.7804,
+      "lng": -95.3698
     },
     {
-      "id": "ai-devsummit",
-      "name": "AI DevSummit",
-      "regionId": "global-sf",
+      "id": "aicamp-los-angeles",
+      "name": "AICamp Los Angeles",
+      "regionId": "los-angeles",
+      "country": "US",
       "priority": 0,
       "tags": [],
-      "url": "https://aidevsummit.co",
+      "url": "https://www.aicamp.ai/event/eventsquery?city=US-Los+Angeles",
       "urls": [
-        "https://aidev.deeplearning.ai",
-        "https://aidevsummit.co",
-        "https://devrel.com/devrelcon",
-        "https://cdcon.lfevents.org"
+        "https://www.aicamp.ai/event/eventsquery?city=US-Los+Angeles"
       ],
       "contact": {
-        "type": "email",
-        "value": "devrelcon@mlh.io"
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=US-Los+Angeles"
       },
-      "description": "Four developer-tool-adjacent conferences: AI Dev 26 SF (Apr 28–29, 2026, 3,000+ devs, Andrew Ng hosted); AI DevSummit (May 27–28, 2026, South SF, 750+ attendees, includes AI Security and Ethics track); DevRelCon (Jul 22–23, 2026, Brooklyn, DevRel professionals with AI tracks); cdCon 2026 (Linux Foundation, dedicated AI/ML in CI/CD track + security/governance — directly relevant to Sonar).",
-      "notableCompanies": [
-        "DeepLearning.AI",
-        "Linux Foundation",
-        "AI DevSummit sponsor history not publicly disclosed per year"
-      ],
+      "description": "Los Angeles chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
       "hasAICodingTools": false,
       "codingTools": [],
       "memberCount": null,
-      "attendanceEstimate": 750,
-      "events": [
-        {
-          "date": "2026-04-28",
-          "dateRaw": "Apr 28–29, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-05-27",
-          "dateRaw": "May 27–28, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-07-22",
-          "dateRaw": "Jul 22–23, 2026",
-          "datePrecision": "day"
-        }
-      ],
+      "attendanceEstimate": null,
+      "events": [],
       "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "AI Dev (DeepLearning.AI, Andrew Ng) / AI DevSummit / DevRelCon / cdCon 2026",
-      "lat": 37.79605,
-      "lng": -122.43223,
-      "country": "GLOBAL"
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 34.0382,
+      "lng": -118.26795
     },
     {
-      "id": "devrelcon",
-      "name": "DevRelCon",
-      "regionId": "global-sf",
+      "id": "aicamp-vancouver",
+      "name": "AICamp Vancouver",
+      "regionId": "vancouver",
+      "country": "CA",
       "priority": 0,
       "tags": [],
-      "url": "https://devrel.com/devrelcon",
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Canada-Vancouver",
       "urls": [
-        "https://aidev.deeplearning.ai",
-        "https://aidevsummit.co",
-        "https://devrel.com/devrelcon",
-        "https://cdcon.lfevents.org"
+        "https://www.aicamp.ai/event/eventsquery?city=Canada-Vancouver"
       ],
       "contact": {
-        "type": "email",
-        "value": "devrelcon@mlh.io"
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Canada-Vancouver"
       },
-      "description": "Four developer-tool-adjacent conferences: AI Dev 26 SF (Apr 28–29, 2026, 3,000+ devs, Andrew Ng hosted); AI DevSummit (May 27–28, 2026, South SF, 750+ attendees, includes AI Security and Ethics track); DevRelCon (Jul 22–23, 2026, Brooklyn, DevRel professionals with AI tracks); cdCon 2026 (Linux Foundation, dedicated AI/ML in CI/CD track + security/governance — directly relevant to Sonar).",
-      "notableCompanies": [
-        "DeepLearning.AI",
-        "Linux Foundation",
-        "AI DevSummit sponsor history not publicly disclosed per year"
-      ],
+      "description": "Vancouver chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
       "hasAICodingTools": false,
       "codingTools": [],
       "memberCount": null,
-      "attendanceEstimate": 750,
-      "events": [
-        {
-          "date": "2026-04-28",
-          "dateRaw": "Apr 28–29, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-05-27",
-          "dateRaw": "May 27–28, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-07-22",
-          "dateRaw": "Jul 22–23, 2026",
-          "datePrecision": "day"
-        }
-      ],
+      "attendanceEstimate": null,
+      "events": [],
       "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "AI Dev (DeepLearning.AI, Andrew Ng) / AI DevSummit / DevRelCon / cdCon 2026",
-      "lat": 37.79478,
-      "lng": -122.41347,
-      "country": "GLOBAL"
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 49.3027,
+      "lng": -123.1207
     },
     {
-      "id": "cdcon-2026",
-      "name": "cdCon 2026",
-      "regionId": "global-sf",
+      "id": "aicamp-munich",
+      "name": "AICamp Munich",
+      "regionId": "munich",
+      "country": "DE",
       "priority": 0,
       "tags": [],
-      "url": "https://cdcon.lfevents.org",
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Germany-Munich",
       "urls": [
-        "https://aidev.deeplearning.ai",
-        "https://aidevsummit.co",
-        "https://devrel.com/devrelcon",
-        "https://cdcon.lfevents.org"
+        "https://www.aicamp.ai/event/eventsquery?city=Germany-Munich"
       ],
       "contact": {
-        "type": "email",
-        "value": "devrelcon@mlh.io"
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Germany-Munich"
       },
-      "description": "Four developer-tool-adjacent conferences: AI Dev 26 SF (Apr 28–29, 2026, 3,000+ devs, Andrew Ng hosted); AI DevSummit (May 27–28, 2026, South SF, 750+ attendees, includes AI Security and Ethics track); DevRelCon (Jul 22–23, 2026, Brooklyn, DevRel professionals with AI tracks); cdCon 2026 (Linux Foundation, dedicated AI/ML in CI/CD track + security/governance — directly relevant to Sonar).",
-      "notableCompanies": [
-        "DeepLearning.AI",
-        "Linux Foundation",
-        "AI DevSummit sponsor history not publicly disclosed per year"
-      ],
+      "description": "Munich chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
       "hasAICodingTools": false,
       "codingTools": [],
       "memberCount": null,
-      "attendanceEstimate": 750,
-      "events": [
-        {
-          "date": "2026-04-28",
-          "dateRaw": "Apr 28–29, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-05-27",
-          "dateRaw": "May 27–28, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-07-22",
-          "dateRaw": "Jul 22–23, 2026",
-          "datePrecision": "day"
-        }
-      ],
+      "attendanceEstimate": null,
+      "events": [],
       "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "AI Dev (DeepLearning.AI, Andrew Ng) / AI DevSummit / DevRelCon / cdCon 2026",
-      "lat": 37.80611,
-      "lng": -122.41011,
-      "country": "GLOBAL"
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 48.1171,
+      "lng": 11.61318
+    },
+    {
+      "id": "aicamp-amsterdam",
+      "name": "AICamp Amsterdam",
+      "regionId": "amsterdam",
+      "country": "NL",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Netherlands-Amsterdam",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Netherlands-Amsterdam"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Netherlands-Amsterdam"
+      },
+      "description": "Amsterdam chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 52.3856,
+      "lng": 4.87292
+    },
+    {
+      "id": "aicamp-stockholm",
+      "name": "AICamp Stockholm",
+      "regionId": "stockholm",
+      "country": "SE",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Sweden-Stockholm",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Sweden-Stockholm"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Sweden-Stockholm"
+      },
+      "description": "Stockholm chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 59.3093,
+      "lng": 18.0686
+    },
+    {
+      "id": "aicamp-zrich",
+      "name": "AICamp Zürich",
+      "regionId": "zurich",
+      "country": "CH",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Switzerland-Zürich",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Switzerland-Zürich"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Switzerland-Zürich"
+      },
+      "description": "Zürich chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 47.3629,
+      "lng": 8.51745
+    },
+    {
+      "id": "aicamp-dublin",
+      "name": "AICamp Dublin",
+      "regionId": "dublin",
+      "country": "IE",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Ireland-Dublin",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Ireland-Dublin"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Ireland-Dublin"
+      },
+      "description": "Dublin chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 53.3318,
+      "lng": -6.22912
+    },
+    {
+      "id": "aicamp-copenhagen",
+      "name": "AICamp Copenhagen",
+      "regionId": "copenhagen",
+      "country": "DK",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Denmark-Copenhagen",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Denmark-Copenhagen"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Denmark-Copenhagen"
+      },
+      "description": "Copenhagen chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 55.6901,
+      "lng": 12.59255
+    },
+    {
+      "id": "aicamp-bangalore",
+      "name": "AICamp Bangalore",
+      "regionId": "bangalore",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=India-Bangalore",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=India-Bangalore"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=India-Bangalore"
+      },
+      "description": "Bangalore chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 12.9916,
+      "lng": 77.5946
+    },
+    {
+      "id": "aicamp-chennai",
+      "name": "AICamp Chennai",
+      "regionId": "chennai",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=India-Chennai",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=India-Chennai"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=India-Chennai"
+      },
+      "description": "Chennai chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 13.1027,
+      "lng": 80.2707
+    },
+    {
+      "id": "aicamp-delhi",
+      "name": "AICamp Delhi",
+      "regionId": "delhi",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=India-Delhi",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=India-Delhi"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=India-Delhi"
+      },
+      "description": "Delhi chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 28.6339,
+      "lng": 77.209
+    },
+    {
+      "id": "aicamp-hyderabad",
+      "name": "AICamp Hyderabad",
+      "regionId": "hyderabad",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=India-Hyderabad",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=India-Hyderabad"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=India-Hyderabad"
+      },
+      "description": "Hyderabad chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 17.405,
+      "lng": 78.4867
+    },
+    {
+      "id": "aicamp-mumbai",
+      "name": "AICamp Mumbai",
+      "regionId": "mumbai",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=India-Mumbai",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=India-Mumbai"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=India-Mumbai"
+      },
+      "description": "Mumbai chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 19.096,
+      "lng": 72.8777
+    },
+    {
+      "id": "aicamp-singapore",
+      "name": "AICamp Singapore",
+      "regionId": "singapore",
+      "country": "SG",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Singapore",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Singapore"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Singapore"
+      },
+      "description": "Singapore chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 1.3721,
+      "lng": 103.8198
+    },
+    {
+      "id": "aicamp-melbourne",
+      "name": "AICamp Melbourne",
+      "regionId": "melbourne",
+      "country": "AU",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Australia-Melbourne",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Australia-Melbourne"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Australia-Melbourne"
+      },
+      "description": "Melbourne chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": -37.7936,
+      "lng": 144.9631
+    },
+    {
+      "id": "aicamp-sydney",
+      "name": "AICamp Sydney",
+      "regionId": "sydney",
+      "country": "AU",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Australia-Sydney",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Australia-Sydney"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Australia-Sydney"
+      },
+      "description": "Sydney chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": -33.8488,
+      "lng": 151.2093
+    },
+    {
+      "id": "aicamp-brisbane",
+      "name": "AICamp Brisbane",
+      "regionId": "brisbane",
+      "country": "AU",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Australia-Brisbane",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Australia-Brisbane"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Australia-Brisbane"
+      },
+      "description": "Brisbane chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": -27.4498,
+      "lng": 153.0251
+    },
+    {
+      "id": "aicamp-auckland",
+      "name": "AICamp Auckland",
+      "regionId": "auckland",
+      "country": "NZ",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=New+Zealand-Auckland",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=New+Zealand-Auckland"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=New+Zealand-Auckland"
+      },
+      "description": "Auckland chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": -36.8285,
+      "lng": 174.7633
+    },
+    {
+      "id": "aicamp-tokyo",
+      "name": "AICamp Tokyo",
+      "regionId": "tokyo",
+      "country": "JP",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Japan-Tokyo",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Japan-Tokyo"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Japan-Tokyo"
+      },
+      "description": "Tokyo chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 35.6962,
+      "lng": 139.6503
+    },
+    {
+      "id": "aicamp-toronto",
+      "name": "AICamp Toronto",
+      "regionId": "toronto",
+      "country": "CA",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicamp.ai/event/eventsquery?city=Canada-Toronto",
+      "urls": [
+        "https://www.aicamp.ai/event/eventsquery?city=Canada-Toronto"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.aicamp.ai/event/eventsquery?city=Canada-Toronto"
+      },
+      "description": "Toronto chapter of AICamp, a global AI developer community with 500K+ members. Monthly tech talks with sponsor packages including speaking slots.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 43.6352,
+      "lng": -79.35202
+    },
+    {
+      "id": "mlops-community-cape-town",
+      "name": "MLOps Community Cape Town",
+      "regionId": "cape-town",
+      "country": "ZA",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/capetown-mlops",
+      "urls": [
+        "https://lu.ma/capetown-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/capetown-mlops"
+      },
+      "description": "Cape Town chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": -33.9049,
+      "lng": 18.4241
+    },
+    {
+      "id": "mlops-community-atlanta",
+      "name": "MLOps Community Atlanta",
+      "regionId": "atlanta",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/atlanta-mlops",
+      "urls": [
+        "https://lu.ma/atlanta-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/atlanta-mlops"
+      },
+      "description": "Atlanta chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 33.729,
+      "lng": -84.388
+    },
+    {
+      "id": "mlops-community-milan",
+      "name": "MLOps Community Milan",
+      "regionId": "milan",
+      "country": "IT",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/milan-mlops",
+      "urls": [
+        "https://lu.ma/milan-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/milan-mlops"
+      },
+      "description": "Milan chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 45.4842,
+      "lng": 9.19
+    },
+    {
+      "id": "mlops-community-miami",
+      "name": "MLOps Community Miami",
+      "regionId": "miami",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/miami-mlops",
+      "urls": [
+        "https://lu.ma/miami-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/miami-mlops"
+      },
+      "description": "Miami chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 25.7417,
+      "lng": -80.1918
+    },
+    {
+      "id": "mlops-community-new-york",
+      "name": "MLOps Community New York",
+      "regionId": "nyc",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.meetup.com/MLOps-NYC/",
+      "urls": [
+        "https://www.meetup.com/MLOps-NYC/"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.meetup.com/MLOps-NYC/"
+      },
+      "description": "New York chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 40.74398,
+      "lng": -74.024
+    },
+    {
+      "id": "mlops-community-tel-aviv",
+      "name": "MLOps Community Tel Aviv",
+      "regionId": "tel-aviv",
+      "country": "IL",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/telavivyafo-mlops",
+      "urls": [
+        "https://lu.ma/telavivyafo-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/telavivyafo-mlops"
+      },
+      "description": "Tel Aviv chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 32.1053,
+      "lng": 34.7818
+    },
+    {
+      "id": "mlops-community-paris",
+      "name": "MLOps Community Paris",
+      "regionId": "paris",
+      "country": "FR",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/paris-mlops",
+      "urls": [
+        "https://lu.ma/paris-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/paris-mlops"
+      },
+      "description": "Paris chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 48.8746,
+      "lng": 2.32102
+    },
+    {
+      "id": "mlops-community-lisbon",
+      "name": "MLOps Community Lisbon",
+      "regionId": "lisbon",
+      "country": "PT",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/lisbon-mlops",
+      "urls": [
+        "https://lu.ma/lisbon-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/lisbon-mlops"
+      },
+      "description": "Lisbon chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 38.7043,
+      "lng": -9.10812
+    },
+    {
+      "id": "mlops-community-frankfurt",
+      "name": "MLOps Community Frankfurt",
+      "regionId": "frankfurt",
+      "country": "DE",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/frankfurt-mlops",
+      "urls": [
+        "https://lu.ma/frankfurt-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/frankfurt-mlops"
+      },
+      "description": "Frankfurt chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 50.1309,
+      "lng": 8.6821
+    },
+    {
+      "id": "mlops-community-amsterdam",
+      "name": "MLOps Community Amsterdam",
+      "regionId": "amsterdam",
+      "country": "NL",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.meetup.com/amsterdam-mlops-community/",
+      "urls": [
+        "https://www.meetup.com/amsterdam-mlops-community/"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.meetup.com/amsterdam-mlops-community/"
+      },
+      "description": "Amsterdam chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 52.38007,
+      "lng": 4.88846
+    },
+    {
+      "id": "mlops-community-bangalore",
+      "name": "MLOps Community Bangalore",
+      "regionId": "bangalore",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/india-mlops",
+      "urls": [
+        "https://lu.ma/india-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/india-mlops"
+      },
+      "description": "Bangalore chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 12.9856,
+      "lng": 77.61885
+    },
+    {
+      "id": "mlops-community-barcelona",
+      "name": "MLOps Community Barcelona",
+      "regionId": "barcelona",
+      "country": "ES",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/barcelona-mlops",
+      "urls": [
+        "https://lu.ma/barcelona-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/barcelona-mlops"
+      },
+      "description": "Barcelona chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 41.3694,
+      "lng": 2.19978
+    },
+    {
+      "id": "mlops-community-chicago",
+      "name": "MLOps Community Chicago",
+      "regionId": "chicago",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/chicago-mlops",
+      "urls": [
+        "https://lu.ma/chicago-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/chicago-mlops"
+      },
+      "description": "Chicago chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 41.8641,
+      "lng": -87.65405
+    },
+    {
+      "id": "mlops-community-boston",
+      "name": "MLOps Community Boston",
+      "regionId": "boston",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/boston-mlops",
+      "urls": [
+        "https://lu.ma/boston-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/boston-mlops"
+      },
+      "description": "Boston chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 42.38768,
+      "lng": -71.08204
+    },
+    {
+      "id": "mlops-community-toronto",
+      "name": "MLOps Community Toronto",
+      "regionId": "toronto",
+      "country": "CA",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/toronto-mlops",
+      "urls": [
+        "https://lu.ma/toronto-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/toronto-mlops"
+      },
+      "description": "Toronto chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 43.6332,
+      "lng": -79.3832
+    },
+    {
+      "id": "mlops-community-bristol",
+      "name": "MLOps Community Bristol",
+      "regionId": "bristol",
+      "country": "GB",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/bristol-mlops",
+      "urls": [
+        "https://lu.ma/bristol-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/bristol-mlops"
+      },
+      "description": "Bristol chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 51.4745,
+      "lng": -2.5879
+    },
+    {
+      "id": "mlops-community-chennai",
+      "name": "MLOps Community Chennai",
+      "regionId": "chennai",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.meetup.com/chennai-mlops-community/",
+      "urls": [
+        "https://www.meetup.com/chennai-mlops-community/"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.meetup.com/chennai-mlops-community/"
+      },
+      "description": "Chennai chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 13.0967,
+      "lng": 80.29495
+    },
+    {
+      "id": "mlops-community-copenhagen",
+      "name": "MLOps Community Copenhagen",
+      "regionId": "copenhagen",
+      "country": "DK",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/copenhagen-mlops",
+      "urls": [
+        "https://lu.ma/copenhagen-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/copenhagen-mlops"
+      },
+      "description": "Copenhagen chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 55.6581,
+      "lng": 12.59948
+    },
+    {
+      "id": "mlops-community-delhi",
+      "name": "MLOps Community Delhi",
+      "regionId": "delhi",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.meetup.com/delhi-mlops-community/",
+      "urls": [
+        "https://www.meetup.com/delhi-mlops-community/"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.meetup.com/delhi-mlops-community/"
+      },
+      "description": "Delhi chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 28.6279,
+      "lng": 77.23325
+    },
+    {
+      "id": "mlops-community-denver",
+      "name": "MLOps Community Denver",
+      "regionId": "denver",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.meetup.com/denver-mlops-community/",
+      "urls": [
+        "https://www.meetup.com/denver-mlops-community/"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.meetup.com/denver-mlops-community/"
+      },
+      "description": "Denver chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 39.7572,
+      "lng": -105.02148
+    },
+    {
+      "id": "mlops-community-lagos",
+      "name": "MLOps Community Lagos",
+      "regionId": "lagos",
+      "country": "NG",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/lagos-mlops",
+      "urls": [
+        "https://lu.ma/lagos-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/lagos-mlops"
+      },
+      "description": "Lagos chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 6.5444,
+      "lng": 3.3792
+    },
+    {
+      "id": "mlops-community-los-angeles",
+      "name": "MLOps Community Los Angeles",
+      "regionId": "los-angeles",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/losangeles-mlops",
+      "urls": [
+        "https://lu.ma/losangeles-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/losangeles-mlops"
+      },
+      "description": "Los Angeles chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 34.0702,
+      "lng": -118.27488
+    },
+    {
+      "id": "mlops-community-luxembourg",
+      "name": "MLOps Community Luxembourg",
+      "regionId": "luxembourg",
+      "country": "LU",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/luxembourg-mlops",
+      "urls": [
+        "https://lu.ma/luxembourg-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/luxembourg-mlops"
+      },
+      "description": "Luxembourg chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 49.6317,
+      "lng": 6.13
+    },
+    {
+      "id": "mlops-community-melbourne",
+      "name": "MLOps Community Melbourne",
+      "regionId": "melbourne",
+      "country": "AU",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/melbourne-mlops",
+      "urls": [
+        "https://lu.ma/melbourne-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/melbourne-mlops"
+      },
+      "description": "Melbourne chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": -37.7996,
+      "lng": 144.98735
+    },
+    {
+      "id": "mlops-community-mexico-city",
+      "name": "MLOps Community Mexico City",
+      "regionId": "mexico-city",
+      "country": "MX",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/mexicocity-mlops",
+      "urls": [
+        "https://lu.ma/mexicocity-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/mexicocity-mlops"
+      },
+      "description": "Mexico City chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 19.4526,
+      "lng": -99.1332
+    },
+    {
+      "id": "mlops-community-mumbai",
+      "name": "MLOps Community Mumbai",
+      "regionId": "mumbai",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.meetup.com/mumbai-mlops/",
+      "urls": [
+        "https://www.meetup.com/mumbai-mlops/"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.meetup.com/mumbai-mlops/"
+      },
+      "description": "Mumbai chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 19.09,
+      "lng": 72.90195
+    },
+    {
+      "id": "mlops-community-munich",
+      "name": "MLOps Community Munich",
+      "regionId": "munich",
+      "country": "DE",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/munich-mlops",
+      "urls": [
+        "https://lu.ma/munich-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/munich-mlops"
+      },
+      "description": "Munich chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 48.1151,
+      "lng": 11.582
+    },
+    {
+      "id": "mlops-community-oslo",
+      "name": "MLOps Community Oslo",
+      "regionId": "oslo",
+      "country": "NO",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/oslo-mlops",
+      "urls": [
+        "https://lu.ma/oslo-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/oslo-mlops"
+      },
+      "description": "Oslo chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 59.9339,
+      "lng": 10.7522
+    },
+    {
+      "id": "mlops-community-seattle",
+      "name": "MLOps Community Seattle",
+      "regionId": "seattle",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/seattle-mlops",
+      "urls": [
+        "https://lu.ma/seattle-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/seattle-mlops"
+      },
+      "description": "Seattle chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 47.5862,
+      "lng": -122.3321
+    },
+    {
+      "id": "mlops-community-stockholm",
+      "name": "MLOps Community Stockholm",
+      "regionId": "stockholm",
+      "country": "SE",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.meetup.com/stockholm-mlops-community/",
+      "urls": [
+        "https://www.meetup.com/stockholm-mlops-community/"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://www.meetup.com/stockholm-mlops-community/"
+      },
+      "description": "Stockholm chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 59.3153,
+      "lng": 18.04435
+    },
+    {
+      "id": "mlops-community-switzerland",
+      "name": "MLOps Community Switzerland",
+      "regionId": "zurich",
+      "country": "CH",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/switzerland-mlops",
+      "urls": [
+        "https://lu.ma/switzerland-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/switzerland-mlops"
+      },
+      "description": "Switzerland chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 47.3949,
+      "lng": 8.51052
+    },
+    {
+      "id": "mlops-community-sydney",
+      "name": "MLOps Community Sydney",
+      "regionId": "sydney",
+      "country": "AU",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/sydney-mlops",
+      "urls": [
+        "https://lu.ma/sydney-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/sydney-mlops"
+      },
+      "description": "Sydney chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": -33.8548,
+      "lng": 151.23355
+    },
+    {
+      "id": "mlops-community-washington-dc",
+      "name": "MLOps Community Washington DC",
+      "regionId": "dc",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/washington-mlops",
+      "urls": [
+        "https://lu.ma/washington-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/washington-mlops"
+      },
+      "description": "Washington DC chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 38.9252,
+      "lng": -77.06808
+    },
+    {
+      "id": "mlops-community-seoul",
+      "name": "MLOps Community Seoul",
+      "regionId": "seoul",
+      "country": "KR",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/seoul-mlops",
+      "urls": [
+        "https://lu.ma/seoul-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/seoul-mlops"
+      },
+      "description": "Seoul chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 37.5865,
+      "lng": 126.978
+    },
+    {
+      "id": "mlops-community-medelln",
+      "name": "MLOps Community Medellín",
+      "regionId": "medellin",
+      "country": "CO",
+      "priority": 0,
+      "tags": [],
+      "url": "https://lu.ma/medellin-mlops",
+      "urls": [
+        "https://lu.ma/medellin-mlops"
+      ],
+      "contact": {
+        "type": "url",
+        "value": "https://lu.ma/medellin-mlops"
+      },
+      "description": "Medellín chapter of the global MLOps Community (85,000+ AI/ML practitioners across 37+ cities). Monthly in-person meetups covering production ML and agentic MLOps.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 6.2676,
+      "lng": -75.5658
     }
   ]
 }

@@ -84,6 +84,13 @@ export default function MapView() {
         ? '<span style="color:#9ca3af;font-style:italic"> est.</span>'
         : ''
 
+      const siblingCount = filtered.filter(s =>
+        s.id !== c.id && (c.isGrouped ? s.groupName === c.groupName : s.regionId === c.regionId)
+      ).length
+      const siblingLine = siblingCount > 0
+        ? `<div style="font-size:10px;color:#9ca3af;margin-bottom:6px">${siblingCount} related group${siblingCount > 1 ? 's' : ''} nearby</div>`
+        : ''
+
       marker.bindPopup(`
         <div style="font-family:system-ui,-apple-system,sans-serif;min-width:200px;max-width:280px">
           <div style="font-weight:600;font-size:13px;line-height:1.3;margin-bottom:2px">
@@ -92,6 +99,7 @@ export default function MapView() {
           <div style="display:inline-block;font-size:11px;color:#6b7280;margin-bottom:6px">
             <span style="font-weight:600;color:#374151">${attendeeLabel}</span> attendees${estTag}
           </div>
+          ${siblingLine}
           <div style="color:#6b7280;font-size:11px;line-height:1.4;margin-bottom:8px">
             ${c.description.slice(0, 120)}${c.description.length > 120 ? '...' : ''}
           </div>
@@ -115,6 +123,7 @@ export default function MapView() {
       const link = e.target.closest('[data-detail-id]')
       if (link) {
         e.preventDefault()
+        map.closePopup()
         dispatch({ type: 'SELECT', id: link.dataset.detailId })
       }
     }
@@ -122,9 +131,11 @@ export default function MapView() {
     return () => map.getContainer().removeEventListener('click', handler)
   }, [filtered, dispatch])
 
-  // Pan to selected community
+  // Pan to selected community and close any open popup
   useEffect(() => {
-    if (!selectedId || !mapRef.current) return
+    if (!mapRef.current) return
+    mapRef.current.closePopup()
+    if (!selectedId) return
     const c = filtered.find(c => c.id === selectedId)
     if (c?.lat && c?.lng) {
       mapRef.current.flyTo([c.lat, c.lng], Math.max(mapRef.current.getZoom(), 6), { duration: 0.5 })

@@ -191,8 +191,8 @@ test('8 — AI Tools filter shows only communities with coding tools', async ({ 
 
   const pinsBefore = await page.locator('.leaflet-interactive').count()
 
-  // Click the AI Tools filter
-  const toolsButton = page.locator('button', { hasText: 'AI Tools' })
+  // Click the AI coding tool sponsor filter
+  const toolsButton = page.locator('button', { hasText: 'Has AI Coding Tool Sponsors' })
   await toolsButton.click()
   await page.waitForTimeout(500)
 

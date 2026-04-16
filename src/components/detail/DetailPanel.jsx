@@ -79,6 +79,35 @@ export default function DetailModal() {
           <div className="flex-1 overflow-auto px-6 py-4 space-y-5">
             <p className="text-sm text-gray-600 leading-relaxed">{c.description}</p>
 
+            {/* Related / Nearby Communities */}
+            {(() => {
+              const siblings = c.isGrouped
+                ? communities.filter(s => s.id !== c.id && s.groupName === c.groupName)
+                : communities.filter(s => s.id !== c.id && s.regionId === c.regionId)
+              if (!siblings.length) return null
+              return (
+                <div>
+                  <h3 className="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
+                    {c.isGrouped ? 'Related Communities' : 'Nearby Communities'}
+                  </h3>
+                  <div className="flex flex-wrap gap-1.5">
+                    {siblings.map(s => {
+                      const sp = PRIORITY_COLORS[s.priority] || PRIORITY_COLORS[0]
+                      return (
+                        <button key={s.id}
+                          onClick={() => dispatch({ type: 'SELECT', id: s.id })}
+                          className="flex items-center gap-1.5 text-xs px-2.5 py-1.5 bg-gray-50 hover:bg-blue-50 text-gray-700 hover:text-blue-700 rounded-lg border border-gray-100 hover:border-blue-200 transition-colors">
+                          <span className="w-2 h-2 rounded-full shrink-0" style={{ background: sp.fill }} />
+                          <span className="truncate max-w-[140px]">{s.name}</span>
+                          {s.hasAICodingTools && <Wrench size={10} className="text-amber-400 shrink-0" />}
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+              )
+            })()}
+
             {/* Stats row */}
             {(c.memberCount || c.attendanceEstimate) && (
               <div className="flex gap-3">

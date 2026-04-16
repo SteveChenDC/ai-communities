@@ -62,6 +62,38 @@ export const REGIONS = {
   "brussels":           { name: "Brussels",               lat: 50.8503,  lng: 4.3517,    country: "BE" },
   "lisbon":             { name: "Lisbon",                 lat: 38.7223,  lng: -9.1393,   country: "PT" },
 
+  // --- ASIA-PACIFIC ---
+  "bangalore":          { name: "Bangalore",              lat: 12.9716,  lng: 77.5946,   country: "IN" },
+  "chennai":            { name: "Chennai",                lat: 13.0827,  lng: 80.2707,   country: "IN" },
+  "delhi":              { name: "Delhi",                  lat: 28.6139,  lng: 77.2090,   country: "IN" },
+  "hyderabad":          { name: "Hyderabad",              lat: 17.3850,  lng: 78.4867,   country: "IN" },
+  "mumbai":             { name: "Mumbai",                 lat: 19.0760,  lng: 72.8777,   country: "IN" },
+  "singapore":          { name: "Singapore",              lat: 1.3521,   lng: 103.8198,  country: "SG" },
+  "tokyo":              { name: "Tokyo",                  lat: 35.6762,  lng: 139.6503,  country: "JP" },
+  "seoul":              { name: "Seoul",                  lat: 37.5665,  lng: 126.9780,  country: "KR" },
+  "melbourne":          { name: "Melbourne",              lat: -37.8136, lng: 144.9631,  country: "AU" },
+  "sydney":             { name: "Sydney",                 lat: -33.8688, lng: 151.2093,  country: "AU" },
+  "brisbane":           { name: "Brisbane",               lat: -27.4698, lng: 153.0251,  country: "AU" },
+  "auckland":           { name: "Auckland",               lat: -36.8485, lng: 174.7633,  country: "NZ" },
+
+  // --- AMERICAS (new) ---
+  "vancouver":          { name: "Vancouver",              lat: 49.2827,  lng: -123.1207, country: "CA" },
+  "san-diego":          { name: "San Diego",              lat: 32.7157,  lng: -117.1611, country: "US" },
+  "houston":            { name: "Houston",                lat: 29.7604,  lng: -95.3698,  country: "US" },
+  "mexico-city":        { name: "Mexico City",            lat: 19.4326,  lng: -99.1332,  country: "MX" },
+  "medellin":           { name: "Medellín",               lat: 6.2476,   lng: -75.5658,  country: "CO" },
+
+  // --- EUROPE (new) ---
+  "milan":              { name: "Milan",                  lat: 45.4642,  lng: 9.1900,    country: "IT" },
+  "frankfurt":          { name: "Frankfurt",              lat: 50.1109,  lng: 8.6821,    country: "DE" },
+  "oslo":               { name: "Oslo",                   lat: 59.9139,  lng: 10.7522,   country: "NO" },
+  "luxembourg":         { name: "Luxembourg",             lat: 49.6117,  lng: 6.1300,    country: "LU" },
+
+  // --- MIDDLE EAST / AFRICA ---
+  "tel-aviv":           { name: "Tel Aviv",               lat: 32.0853,  lng: 34.7818,   country: "IL" },
+  "cape-town":          { name: "Cape Town",              lat: -33.9249, lng: 18.4241,   country: "ZA" },
+  "lagos":              { name: "Lagos",                  lat: 6.5244,   lng: 3.3792,    country: "NG" },
+
   // --- GLOBAL (pinned to primary city or centroid) ---
   "global":             { name: "Global",                 lat: 30.0,     lng: 0.0,       country: "GLOBAL" },
   "global-sf":          { name: "Global (SF-based)",      lat: 37.78,    lng: -122.40,   country: "GLOBAL" },

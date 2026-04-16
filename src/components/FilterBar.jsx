@@ -74,7 +74,7 @@ export default function FilterBar() {
             ? 'border-gray-800 bg-gray-800 text-white shadow-sm'
             : 'border-gray-200 text-gray-400 hover:border-gray-300 hover:text-gray-600'
         }`}>
-        <Wrench size={11} /> AI Tools
+        <Wrench size={11} /> Has AI Coding Tool Sponsors
       </button>
 
       {hasFilters && (
