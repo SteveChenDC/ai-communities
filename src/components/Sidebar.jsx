@@ -24,6 +24,10 @@ function getEventUrl(community, event) {
   return community.url || null
 }
 
+function getHostname(url) {
+  try { return new URL(url).hostname.replace(/^www\./, '') } catch { return url }
+}
+
 function EventItem({ community, event }) {
   const { selectedId, dispatch } = useApp()
   const isSelected = community.id === selectedId
@@ -55,13 +59,14 @@ function EventItem({ community, event }) {
         <div className="text-[11px] text-gray-400 truncate">{region?.name}</div>
       </div>
       {community.hasAICodingTools && (
-        <span title="AI Coding Tools" className="shrink-0 flex">
+        <span title="Sponsored by tools company" className="shrink-0 flex">
           <Wrench size={12} className="text-amber-400" />
         </span>
       )}
       {eventUrl && (
         <a href={eventUrl} target="_blank" rel="noopener noreferrer"
           onClick={e => e.stopPropagation()}
+          title={`Open on ${getHostname(eventUrl)}`}
           className="text-gray-300 hover:text-blue-500 shrink-0 transition-colors">
           <ExternalLink size={12} />
         </a>
@@ -90,13 +95,14 @@ function CommunityItem({ community }) {
         <div className="text-[11px] text-gray-400 truncate">{region?.name}</div>
       </div>
       {community.hasAICodingTools && (
-        <span title="AI Coding Tools" className="shrink-0 flex">
+        <span title="Sponsored by tools company" className="shrink-0 flex">
           <Wrench size={11} className="text-amber-400" />
         </span>
       )}
       {community.url && (
         <a href={community.url} target="_blank" rel="noopener noreferrer"
           onClick={e => e.stopPropagation()}
+          title={`Open on ${getHostname(community.url)}`}
           className="text-gray-300 hover:text-blue-500 shrink-0 transition-colors">
           <ExternalLink size={12} />
         </a>
