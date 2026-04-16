@@ -1,4 +1,4 @@
-import { Search, X, Wrench } from 'lucide-react'
+import { Search, X } from 'lucide-react'
 import { useApp } from '../context/AppContext'
 import { PRIORITY_COLORS } from '../utils/constants'
 
@@ -8,7 +8,7 @@ export default function FilterBar() {
   const setFilter = (key, value) => dispatch({ type: 'SET_FILTER', key, value })
   const clearAll = () => dispatch({ type: 'CLEAR_FILTERS' })
 
-  const hasFilters = filters.search || filters.regions.length || filters.priorities.length || filters.aiToolsOnly
+  const hasFilters = !!filters.search || filters.regions.length > 0 || filters.priorities.length > 0
 
   const toggleArray = (key, val) => {
     const cur = filters[key]
@@ -56,30 +56,23 @@ export default function FilterBar() {
       <div className="w-px h-5 bg-gray-200" />
 
       {/* Priority */}
-      {[3, 1].map(p => (
-        <button key={p} onClick={() => toggleArray('priorities', p)}
-          className={`text-xs px-2.5 py-1 rounded-lg border transition-all ${
-            filters.priorities.includes(p)
-              ? 'border-gray-800 bg-gray-800 text-white shadow-sm'
-              : 'border-gray-200 text-gray-400 hover:border-gray-300 hover:text-gray-600'
-          }`}>
-          {PRIORITY_COLORS[p].label}
-        </button>
-      ))}
-
-      {/* AI Tools */}
-      <button onClick={() => setFilter('aiToolsOnly', !filters.aiToolsOnly)}
-        className={`flex items-center gap-1 text-xs px-2.5 py-1 rounded-lg border transition-all ${
-          filters.aiToolsOnly
-            ? 'border-gray-800 bg-gray-800 text-white shadow-sm'
-            : 'border-gray-200 text-gray-400 hover:border-gray-300 hover:text-gray-600'
-        }`}>
-        <Wrench size={11} /> Has AI Coding Tool Sponsors
-      </button>
+      {[3, 1].map(p => {
+        const active = filters.priorities.includes(p)
+        const color = p === 3
+          ? { active: 'bg-red-500 border-red-500 text-white shadow-sm', inactive: 'border-red-200 text-red-500 hover:border-red-300 hover:bg-red-50', dot: '#ef4444' }
+          : { active: 'bg-blue-500 border-blue-500 text-white shadow-sm', inactive: 'border-blue-200 text-blue-500 hover:border-blue-300 hover:bg-blue-50', dot: '#3b82f6' }
+        return (
+          <button key={p} onClick={() => toggleArray('priorities', p)}
+            className={`flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-lg border transition-all ${active ? color.active : color.inactive}`}>
+            <span className="w-2 h-2 rounded-full shrink-0" style={{ background: active ? '#fff' : color.dot }} />
+            {PRIORITY_COLORS[p].label}
+          </button>
+        )
+      })}
 
       {hasFilters && (
-        <button onClick={clearAll} className="text-xs text-gray-400 hover:text-red-500 ml-auto transition-colors">
-          Clear
+        <button onClick={clearAll} className="flex items-center gap-1 text-xs px-2.5 py-1 rounded-lg border border-emerald-400 bg-emerald-400 text-white hover:bg-emerald-500 hover:border-emerald-500 ml-auto transition-colors shadow-sm">
+          <X size={11} /> Clear
         </button>
       )}
     </div>

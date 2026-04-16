@@ -6,6 +6,14 @@ import { REGIONS } from '../../data/regions'
 
 const EVENT_PLATFORMS = ['meetup.com', 'lu.ma', 'luma.com', 'eventbrite.com']
 
+function formatEventDate(ev) {
+  if (ev.date) {
+    const d = new Date(ev.date + 'T12:00:00')
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  }
+  return ev.dateRaw || 'TBD'
+}
+
 function getEventUrl(community, event) {
   if (event.url) return event.url
   if (community.url && EVENT_PLATFORMS.some(p => community.url.includes(p))) return community.url
@@ -169,13 +177,13 @@ export default function DetailModal() {
                       <a key={i} href={evUrl} target="_blank" rel="noopener noreferrer"
                         className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-2.5 py-1.5 rounded-lg transition-colors">
                         <Calendar size={12} className="text-blue-400 shrink-0" />
-                        {ev.dateRaw}
+                        {formatEventDate(ev)}
                         <ExternalLink size={11} className="shrink-0 opacity-50 ml-auto" />
                       </a>
                     ) : (
                       <div key={i} className="flex items-center gap-2 text-sm text-gray-600 bg-gray-50 px-2.5 py-1.5 rounded-lg">
                         <Calendar size={12} className="text-gray-400 shrink-0" />
-                        {ev.dateRaw}
+                        {formatEventDate(ev)}
                       </div>
                     )
                   })}
