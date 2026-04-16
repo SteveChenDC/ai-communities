@@ -1,0 +1,137 @@
+{
+  "ai-tinkerers-san-francisco": {
+    "founded": "2022-11",
+    "organizers": ["Joe Heitzeberg", "Dexter Horthy", "Ian Butler"],
+    "cadence": "monthly",
+    "lastEvent": "2026-02-18",
+    "social": { "twitter": "@aitinkerers", "linkedin": "https://www.linkedin.com/company/ai-tinkerers" },
+    "platformUrl": "https://sf.aitinkerers.org",
+    "notes": "Global community founded by Joe Heitzeberg after Nat Friedman tweet in Sep 2022. First meetup Nov 2022 in Seattle with 12 people. Name coined by Alex Graveley. Now 99,000+ members across 214 cities."
+  },
+  "aicamp-sf-bay-area": {
+    "founded": "2015-08",
+    "organizers": ["Bill Liu"],
+    "cadence": "biweekly to monthly",
+    "lastEvent": "2026-04-30",
+    "social": { "twitter": "@aicampai", "linkedin": "https://www.linkedin.com/in/billliu1202" },
+    "platformUrl": "https://www.meetup.com/sfbay-ai/",
+    "notes": "Founded by Bill Liu in August 2015. Global platform with 500K+ developer members in 100+ countries."
+  },
+  "cerebral-valley": {
+    "founded": "2023-03",
+    "organizers": ["Eric Newcomer", "Max Child", "James Wilsterman"],
+    "cadence": "biannual",
+    "lastEvent": "2026-05-06",
+    "social": { "twitter": "@cerebral_valley", "linkedin": "https://www.linkedin.com/company/cerebralvalley" },
+    "platformUrl": "https://cerebralvalley.com",
+    "notes": "First event March 2023 originated from Eric Newcomer's bachelor party. Invite-only, 300+ attendees. Also publishes newsletter on Beehiiv."
+  },
+  "agi-house": {
+    "founded": "2023-02",
+    "organizers": ["Rocky Yu", "Jeremy Nixon", "Tim Shi"],
+    "cadence": "weekly to multiple times per week",
+    "lastEvent": "2026-04",
+    "social": { "twitter": "@agihouse_org", "linkedin": "https://www.linkedin.com/company/agi-house" },
+    "platformUrl": "https://luma.com/agi-house",
+    "notes": "Launched Feb 1, 2023 by Rocky Yu. Located in $68M Hillsborough mansion plus SF Twin Peaks location. Merit-based access, never charges."
+  },
+  "mlops-community-san-francisco": {
+    "founded": "2020-03",
+    "organizers": ["Demetrios Brinkmann"],
+    "cadence": "monthly",
+    "lastEvent": "2025-07",
+    "social": { "twitter": "@mlopscommunity", "linkedin": "https://www.linkedin.com/in/dpbrinkm" },
+    "platformUrl": "https://luma.com/mlops-community-sfbayarea",
+    "notes": "Founded by Demetrios Brinkmann March-April 2020. Global community 75K+ ML practitioners. Slack 21K+ members. 37 cities."
+  },
+  "latent-space": {
+    "founded": "2023-02",
+    "organizers": ["swyx (Shawn Wang)", "Alessio Fanelli"],
+    "cadence": "weekly podcast + monthly in-person",
+    "lastEvent": "2026-04",
+    "social": { "twitter": "@latentspacepod", "linkedin": "https://www.linkedin.com/company/latent-space-podcast" },
+    "platformUrl": "https://www.latent.space",
+    "notes": "Newsletter started 2022, podcast launched Feb 23, 2023. 200K+ subscribers, 10M+ annual readers. Top 10 US tech podcast."
+  },
+  "the-ai-collective": {
+    "founded": "2023",
+    "organizers": ["Chappy Asel"],
+    "cadence": "multiple times per week across chapters",
+    "lastEvent": "2026-04",
+    "social": { "twitter": "@AICollectiveCo", "linkedin": "https://www.linkedin.com/company/aicollective" },
+    "platformUrl": "https://luma.com/genai-collective",
+    "notes": "Formerly 'The GenAI Collective', rebranded June 2025. 200K+ members across 100+ global chapters. 350+ organizers. Non-profit."
+  },
+  "sf-python": {
+    "founded": "2008-11",
+    "organizers": ["Grace Law", "James Abel", "Simeon Franklin", "Daniel Pyrathon"],
+    "cadence": "twice monthly",
+    "lastEvent": "2026-01-14",
+    "social": { "twitter": "@sfpythonmeetup", "linkedin": null },
+    "platformUrl": "https://www.meetup.com/sfpython",
+    "notes": "Founded November 2008 by Grace Law. Largest, longest-running community-run meetup in SF Bay Area. 13,266 members. Annual PyBay conference."
+  },
+  "house-of-ai": {
+    "founded": "2024",
+    "organizers": ["Christian Byza", "Arndt Voges"],
+    "cadence": "multiple times per week",
+    "lastEvent": "2026-04",
+    "social": { "twitter": null, "linkedin": "https://www.linkedin.com/company/house-of-ai/" },
+    "platformUrl": "https://luma.com/house-of-ai",
+    "notes": "6,000 sq ft AI coworking space and event venue at 40 Boardman Pl, SoMa, SF. Built by bepurple.ai team."
+  },
+  "bay-area-ai": {
+    "founded": "2015",
+    "organizers": ["Alexy Khrabrov"],
+    "cadence": "irregular",
+    "lastEvent": "2025-11-03",
+    "social": { "twitter": null, "linkedin": null },
+    "platformUrl": "https://www.meetup.com/bay-area-ai",
+    "notes": "Described as longest-running AI meetup in the world. 5,546 members. Khrabrov is AI Community Architect at Neo4j."
+  },
+  "sf-bayarea-ml": {
+    "founded": "2011-04",
+    "organizers": ["Tony Tran", "David Andrzejewski"],
+    "cadence": "irregular",
+    "lastEvent": "2024-09-26",
+    "social": { "twitter": "@SFMachineLearn", "linkedin": null },
+    "platformUrl": "https://www.meetup.com/sf-bayarea-machine-learning",
+    "notes": "Founded April 21, 2011. 7,208+ members. 66 past events. Appears less active recently."
+  },
+  "san-francisco-ai-engineers": {
+    "founded": "2024",
+    "organizers": ["Fonzi AI"],
+    "cadence": "monthly",
+    "lastEvent": "2026-05-13",
+    "social": { "twitter": "@FonziAI", "linkedin": "https://www.linkedin.com/company/fonziai" },
+    "platformUrl": "https://www.meetup.com/san-francisco-ai-engineers",
+    "notes": "Run by Fonzi talent marketplace. 3,399 members. Events at House of AI. Also runs New York chapter."
+  },
+  "the-ai-salon-sf": {
+    "founded": "2022-12",
+    "organizers": ["Kyle Shannon", "Leah Fasten"],
+    "cadence": "weekly to biweekly",
+    "lastEvent": "2026-04",
+    "social": { "twitter": "@TheAISalonSF", "linkedin": "https://www.linkedin.com/company/the-ai-salon" },
+    "platformUrl": "https://luma.com/ai-salon",
+    "notes": "Founded December 7, 2022. Focuses on meaning and societal impact of AI. Expanded to 6 cities across 3 continents."
+  },
+  "stanford-ai-alignment": {
+    "founded": "2022",
+    "organizers": ["Emma Beharry", "Andrew Zeng", "Ella Pfeffer", "Patrick Ye"],
+    "cadence": "1-3x per quarter",
+    "lastEvent": "2026-04",
+    "social": { "twitter": "@SAIA_Alignment", "linkedin": "https://www.linkedin.com/company/stanford-ai-alignment" },
+    "platformUrl": "https://linktr.ee/stanfordaialignment",
+    "notes": "Stanford Existential Risks Initiative sub-group. Born spring 2022. Programs: AI War Gaming, AI Policy lectures, ARENA upskilling."
+  },
+  "bair-berkeley-ai-research": {
+    "founded": "2016",
+    "organizers": ["Pieter Abbeel", "Trevor Darrell"],
+    "cadence": "periodic seminars and annual summits",
+    "lastEvent": "2026-08",
+    "social": { "twitter": "@berkeley_ai", "linkedin": "https://www.linkedin.com/company/bair-lab" },
+    "platformUrl": null,
+    "notes": "UC Berkeley academic AI research lab. Runs BAIR Commons program. Publishes BAIR Blog."
+  }
+}

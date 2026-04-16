@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generatedAt": "2026-04-16T08:23:05.867Z",
+    "generatedAt": "2026-04-16T08:38:49.258Z",
     "sourceFile": "ai_communities_sonar_v2.md",
     "totalCommunities": 189,
     "totalRegions": 41,
-    "communitiesWithDates": 103,
+    "communitiesWithDates": 107,
     "communitiesWithCodingTools": 38,
     "byPriority": {
       "0": 157,
@@ -221,33 +221,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": 150,
-      "events": [
-        {
-          "date": "2026-11-04",
-          "dateRaw": "November 4, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-11-13",
-          "dateRaw": "November 13, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-11-20",
-          "dateRaw": "November 20, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-12-06",
-          "dateRaw": "December 6, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-12-11",
-          "dateRaw": "December 11, 2026",
-          "datePrecision": "day"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -306,8 +280,9 @@
       "regionId": "sf-bay-area",
       "priority": 0,
       "tags": [],
-      "url": "https://cerebralvalley.ai",
+      "url": "https://cerebralvalley.ai/events",
       "urls": [
+        "https://cerebralvalley.ai/events",
         "https://cerebralvalley.ai"
       ],
       "contact": {
@@ -336,7 +311,23 @@
       ],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "Apr 16, 2026",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-18",
+          "dateRaw": "Apr 18, 2026",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-07-04",
+          "dateRaw": "Jul 4, 2026",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -506,26 +497,6 @@
           "datePrecision": "day"
         },
         {
-          "date": "2026-04-30",
-          "dateRaw": "Apr 30, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-05-01",
-          "dateRaw": "May 1, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-05-04",
-          "dateRaw": "May 4, 2026",
-          "datePrecision": "day"
-        },
-        {
-          "date": "2026-05-05",
-          "dateRaw": "May 5, 2026",
-          "datePrecision": "day"
-        },
-        {
           "date": "2026-06-04",
           "dateRaw": "Jun 4, 2026",
           "datePrecision": "day"
@@ -569,8 +540,9 @@
       "regionId": "sf-bay-area",
       "priority": 0,
       "tags": [],
-      "url": "https://bondcommunity.ai",
+      "url": "https://luma.com/genai-sf",
       "urls": [
+        "https://luma.com/genai-sf",
         "https://bondcommunity.ai"
       ],
       "contact": {
@@ -583,7 +555,18 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T08:00:00.000-07:00",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-16T17:00:00.000-07:00",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -1006,7 +989,18 @@
       ],
       "memberCount": null,
       "attendanceEstimate": 100,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-05-11",
+          "dateRaw": "May 11, 2026",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-05-13",
+          "dateRaw": "May 13, 2026",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -2753,7 +2747,18 @@
       ],
       "memberCount": 4612,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-21",
+          "dateRaw": "April 21, 2026",
+          "datePrecision": "day"
+        },
+        {
+          "date": "2026-04-22",
+          "dateRaw": "April 22, 2026",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -6943,7 +6948,13 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "April 16, 2026",
+          "datePrecision": "day"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,

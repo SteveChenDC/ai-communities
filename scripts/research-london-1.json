@@ -1,0 +1,122 @@
+{
+  "ai-tinkerers-london": {
+    "founded": "2023",
+    "organizers": ["Luke Harries"],
+    "cadence": "monthly",
+    "lastEvent": "2026-04-23",
+    "social": {
+      "twitter": "@AITinkerers",
+      "linkedin": "https://www.linkedin.com/company/ai-tinkerers"
+    },
+    "platformUrl": "https://london.aitinkerers.org",
+    "notes": "Part of global AI Tinkerers network (99k+ builders, 214 cities) founded by Joe Heitzeberg in late 2022. London chapter led by Luke Harries (ElevenLabs). Monthly live demo meetups, no slides/pitches."
+  },
+  "london-machine-learning-meetup": {
+    "founded": "2011-12",
+    "organizers": ["Martin Goodson"],
+    "cadence": "monthly",
+    "lastEvent": "2025-07-24",
+    "social": {
+      "twitter": "@martingoodson",
+      "linkedin": null
+    },
+    "platformUrl": "https://www.meetup.com/london-machine-learning-meetup",
+    "notes": "Largest ML/AI community in Europe with 11,539 members. Founded Dec 2, 2011. Organizer Martin Goodson is CEO of Evolution AI. Has YouTube channel."
+  },
+  "aicamp-london": {
+    "founded": "2019",
+    "organizers": ["Kevin L"],
+    "cadence": "monthly",
+    "lastEvent": "2026-04-16",
+    "social": {
+      "twitter": "@aicampai",
+      "linkedin": "https://www.linkedin.com/company/aicampai"
+    },
+    "platformUrl": "https://www.meetup.com/london-ai-tech-talk",
+    "notes": "Part of global AICamp platform (founded 2019, 500k+ developers, 50+ cities). London group has 8,255 members on Meetup. 397+ past events across platform."
+  },
+  "pydata-london": {
+    "founded": "2014",
+    "organizers": ["Ian Ozsvald", "Cheuk Ting Ho", "John Sandall", "Alexandra Ross", "Amit Kumar", "Emlyn Clay", "Hugh Evans"],
+    "cadence": "monthly",
+    "lastEvent": "2026-02-03",
+    "social": {
+      "twitter": "@pydatalondon",
+      "linkedin": "https://www.linkedin.com/company/pydata-london"
+    },
+    "platformUrl": "https://www.meetup.com/pydata-london-meetup",
+    "notes": "16,241 members on Meetup. Meets first Tuesday of each month. Part of NumFOCUS (501c3). 104th meetup was Feb 3, 2026. Run by 16+ volunteers."
+  },
+  "mlops-community-london": {
+    "founded": "2021-09",
+    "organizers": ["Inga Veidmane Millere", "Gleb Lukicov", "Alex Jones", "Ibrahim Malik", "Opemioniye Onipede"],
+    "cadence": "quarterly",
+    "lastEvent": "2026-03",
+    "social": {
+      "twitter": "@mlopscommunity",
+      "linkedin": "https://www.linkedin.com/company/mlopscommunity"
+    },
+    "platformUrl": "https://luma.com/london-mlops",
+    "notes": "Part of global MLOps Community founded March 2020 by Demetrios Brinkmann. London chapter launched Sept 28, 2021. 4,432 members on Meetup. Slack community at mlops.community/join."
+  },
+  "hugging-face-london": {
+    "founded": "2025",
+    "organizers": ["Paul Dowling"],
+    "cadence": "quarterly",
+    "lastEvent": "2026-03-05",
+    "social": {
+      "twitter": "@huggingfaceldn",
+      "linkedin": "https://www.linkedin.com/groups/13011201/"
+    },
+    "platformUrl": "https://www.meetup.com/hugging-face-london",
+    "notes": "949 members on Meetup. 4.8 star rating. Most recent was Hugging Face London #4 on March 5, 2026 at Tessl AI. Also has Instagram @huggingfaceldn."
+  },
+  "ai-security-engineers-london": {
+    "founded": null,
+    "organizers": null,
+    "cadence": "monthly",
+    "lastEvent": "2026-04-08",
+    "social": {
+      "twitter": "@devseccon",
+      "linkedin": "https://www.linkedin.com/company/aiseceng"
+    },
+    "platformUrl": "https://www.meetup.com/mydevsecops-london",
+    "notes": "1,891 members. Part of global AI Security Engineers Community (formerly DevSecCon/MyDevSecOps), sponsored by Snyk. Also on Reddit at r/AISecEng."
+  },
+  "london-ai-native-test-automation-devops": {
+    "founded": "2012",
+    "organizers": ["Shashi Jagtap"],
+    "cadence": "quarterly",
+    "lastEvent": "2025-11-26",
+    "social": {
+      "twitter": "@londontadmeetup",
+      "linkedin": null
+    },
+    "platformUrl": "https://www.meetup.com/londontad",
+    "notes": "2,790 members. Originally London Selenium Meetup, rebranded to LondonTAD. Organizer Shashi Jagtap is former Apple engineer and founder of Superagentic AI."
+  },
+  "ai-signals": {
+    "founded": "2016",
+    "organizers": ["Hugh Evans"],
+    "cadence": "monthly",
+    "lastEvent": "2026-04-17",
+    "social": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/ai-signals-community"
+    },
+    "platformUrl": "https://www.meetup.com/ai-and-dl-for-enterprise",
+    "notes": "4,575 members. Founded 2016, paused during pandemic, revived 2022, rebranded to AI Signals 2025. 75+ talks since revival. Migrating from Meetup to Luma. YouTube: @ai-signals-community."
+  },
+  "data-ai-london": {
+    "founded": "2022",
+    "organizers": ["Rhys Davies", "Rosalind C"],
+    "cadence": "quarterly",
+    "lastEvent": "2026-02-17",
+    "social": {
+      "twitter": null,
+      "linkedin": null
+    },
+    "platformUrl": "https://www.meetup.com/data-ai-london",
+    "notes": "6,359 members. Sponsored by Mesh-AI. Events at 100 Liverpool Street. No recruiters/vendors/sales pitches policy. Speakers from OpenAI, Nvidia, Google, Databricks."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "ai-tinkerers-seattle": {
+    "founded": "2022-11",
+    "organizers": ["Joe Heitzeberg"],
+    "cadence": "monthly",
+    "lastEvent": "2026-02-09",
+    "social": { "twitter": "@AITinkerers", "linkedin": "https://www.linkedin.com/company/ai-tinkerers" },
+    "platformUrl": "https://seattle.aitinkerers.org",
+    "notes": "Founded by Joe Heitzeberg; first Seattle meetup Nov 2022 drew 12 people. 4,612 local members. Dev Tools Track format."
+  },
+  "aicamp-seattle": {
+    "founded": "2018",
+    "organizers": ["Michael Ke Zhang"],
+    "cadence": "monthly",
+    "lastEvent": "2026-03-31",
+    "social": { "twitter": "@aicampai", "linkedin": "https://www.linkedin.com/company/aicampai" },
+    "platformUrl": "https://www.meetup.com/seattle-ai",
+    "notes": "AICamp global platform (500k+ devs, 50+ cities). Seattle chapter 6,127 Meetup members, 577 past events. Hosts at GitHub Bellevue."
+  },
+  "pydata-seattle": {
+    "founded": "2015",
+    "organizers": ["NumFOCUS, Inc."],
+    "cadence": "monthly",
+    "lastEvent": "2025-04-30",
+    "social": { "twitter": "@PyData", "linkedin": "https://www.linkedin.com/company/pydata" },
+    "platformUrl": "https://meetup.com/pydata_seattle",
+    "notes": "Regional chapter of PyData by NumFOCUS (501c3). 4,194 members. 99 past events. Founded by Eloisa."
+  },
+  "ai-tinkerers-chicago": {
+    "founded": "2023-10",
+    "organizers": ["Landon Campbell", "Kartik Deshpande"],
+    "cadence": "monthly",
+    "lastEvent": "2026-04-14",
+    "social": { "twitter": "@aiclubchicago", "linkedin": "https://www.linkedin.com/company/ai-tinkerers" },
+    "platformUrl": "https://chicago.aitinkerers.org",
+    "notes": "Inaugural meetup Oct 4, 2023 in Fulton Market. 1,842 members. Drive Capital hosts and sponsors. 20th meetup reached ~March 2026."
+  },
+  "chicago-ml": {
+    "founded": null,
+    "organizers": ["Garrett Smith"],
+    "cadence": "quarterly",
+    "lastEvent": "2025-06-09",
+    "social": { "twitter": "@gar1t", "linkedin": "https://www.linkedin.com/in/gar1t/" },
+    "platformUrl": "https://meetup.com/chicago-ml",
+    "notes": "Founded by Garrett Smith (CEO of Gage). 4,339 members. Self-described longest-running/largest Chicago ML meetup."
+  },
+  "chicago-ai": {
+    "founded": null,
+    "organizers": ["Adam Betzen"],
+    "cadence": "monthly",
+    "lastEvent": "2025-03-25",
+    "social": { "twitter": null, "linkedin": "https://www.linkedin.com/in/adam-betzen-77701213/" },
+    "platformUrl": "https://meetup.com/aichicago",
+    "notes": "Organized by Adam Betzen (Herzum). 556 members. Part of Herzum's 37-group network."
+  },
+  "aicamp-chicago": {
+    "founded": "2018",
+    "organizers": ["Michael Ke Zhang"],
+    "cadence": "quarterly",
+    "lastEvent": "2026-04-23",
+    "social": { "twitter": "@aicampai", "linkedin": "https://www.linkedin.com/company/aicampai" },
+    "platformUrl": "https://www.aicamp.ai/event/eventsquery?city=US-Chicago",
+    "notes": "AICamp Chicago chapter. Events at Microsoft Chicago. Global platform: 500k+ devs."
+  },
+  "ai-tinkerers-austin": {
+    "founded": "2024-02",
+    "organizers": ["Achyut Sarma Boggaram"],
+    "cadence": "monthly",
+    "lastEvent": "2026-04",
+    "social": { "twitter": "@AITinkerers", "linkedin": "https://www.linkedin.com/company/ai-tinkerers" },
+    "platformUrl": "https://austin.aitinkerers.org",
+    "notes": "Inaugural meetup Feb 15, 2024. Named by Alex Graveley (GitHub Copilot creator). 819 members. Hosted at Capital Factory."
+  },
+  "austin-langchain-aimug": {
+    "founded": "2023-08",
+    "organizers": ["Colin McNamara"],
+    "cadence": "monthly",
+    "lastEvent": "2025-05-06",
+    "social": { "twitter": "@AustinLangChain", "linkedin": "https://www.linkedin.com/in/colinmcnamara/" },
+    "platformUrl": "https://www.meetup.com/austin-langchain-ai-group",
+    "notes": "2,046 members. Monthly mixers on first Wednesday. Celebrated 2 years in late 2025. Focus on LangChain, LangGraph, Claude Code."
+  },
+  "hack-ai-austin": {
+    "founded": "2024",
+    "organizers": ["Reid McCrabb", "Bryce Miles", "Jake O'Shea"],
+    "cadence": "monthly",
+    "lastEvent": "2026-04-02",
+    "social": { "twitter": "@aitxcommunity", "linkedin": "https://www.linkedin.com/company/aitxmeetups" },
+    "platformUrl": "https://meetup.com/hack-ai",
+    "notes": "Part of AITX Community. 2,333 Meetup members. Events at Capital Factory. Sponsors: PostHog, NVIDIA."
+  },
+  "minneapolis-ai-engineer-meetup": {
+    "founded": "2024",
+    "organizers": ["Eric Ness"],
+    "cadence": "monthly",
+    "lastEvent": "2026-04-08",
+    "social": { "twitter": null, "linkedin": "https://www.linkedin.com/in/ericnessdata/" },
+    "platformUrl": "https://www.meetup.com/minneapolis-ai-engineer-meetup",
+    "notes": "610 members. Community channel: #minneapolis on AI Engineer / Latent Space Discord."
+  },
+  "wild-ai-meetup": {
+    "founded": "2024",
+    "organizers": ["Jake Osborn", "Justin Trantham"],
+    "cadence": "monthly",
+    "lastEvent": "2025-10",
+    "social": { "twitter": null, "linkedin": "https://www.linkedin.com/groups/14608568/" },
+    "platformUrl": "https://www.meetup.com/wild-ai/",
+    "notes": "Minneapolis's 'raw, edgy AI meetup.' 761 members. Venues: DayBlock Brewing and Improving."
+  },
+  "appliedai-minnesota": {
+    "founded": "2017",
+    "organizers": ["Justin Grammens"],
+    "cadence": "monthly",
+    "lastEvent": "2026-04-16",
+    "social": { "twitter": "@appliedaimn", "linkedin": "https://www.linkedin.com/showcase/appliedai-mn/" },
+    "platformUrl": "https://meetup.com/iotmpls",
+    "notes": "501(c)(3) nonprofit. 5,638 members. Founded by Justin Grammens under Emerging Technologies North. Bi-weekly podcast."
+  },
+  "twin-cities-ai-for-business": {
+    "founded": null,
+    "organizers": ["Craig Nelson"],
+    "cadence": "quarterly",
+    "lastEvent": "2025-09-18",
+    "social": { "twitter": null, "linkedin": "https://www.linkedin.com/company/twin-cities-chapter-of-global-ai-community" },
+    "platformUrl": "https://meetup.com/twin-cities-global-ai-community",
+    "notes": "Part of The Global AI Community (64 chapters). 653 members. Microsoft-sponsored."
+  }
+}

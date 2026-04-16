@@ -1,0 +1,101 @@
+{
+  "ai-tinkerers-nyc": {
+    "founded": "2023-08",
+    "organizers": ["Jonathan Murray"],
+    "cadence": "monthly",
+    "lastEvent": null,
+    "social": { "twitter": "@AITinkerers", "linkedin": null },
+    "platformUrl": "https://nyc.aitinkerers.org",
+    "notes": "NYC chapter launched Aug 2023. Jonathan Murray is NYC GM. Global org founded 2022."
+  },
+  "aicamp-nyc": {
+    "founded": "2019",
+    "organizers": ["Bill Liu"],
+    "cadence": "monthly",
+    "lastEvent": null,
+    "social": { "twitter": "@aicampai", "linkedin": null },
+    "platformUrl": "https://www.meetup.com/aittg-nyc",
+    "notes": "Part of global AICamp (founded 2019 by Bill Liu). 12,173 members, very active."
+  },
+  "new-york-artificial-intelligence": {
+    "founded": "2016-01",
+    "organizers": ["Maryam Farooq"],
+    "cadence": "monthly",
+    "lastEvent": null,
+    "social": { "twitter": "@NYAICommunity", "linkedin": null },
+    "platformUrl": null,
+    "notes": "Founded Jan 2016 by Maryam Farooq. 4,166 members, 103 past events."
+  },
+  "data-science-salon-nyc": {
+    "founded": "2016-12",
+    "organizers": ["Anna Anisin"],
+    "cadence": "annual",
+    "lastEvent": null,
+    "social": { "twitter": "@DataSciSalon", "linkedin": null },
+    "platformUrl": null,
+    "notes": "Founded Dec 2016 by Anna Anisin. Website rebranded to ailovesdata.com. 150-person invite-only."
+  },
+  "pydata-nyc": {
+    "founded": "2012",
+    "organizers": ["Abby Tse"],
+    "cadence": "monthly",
+    "lastEvent": null,
+    "social": { "twitter": "@pydatanyc", "linkedin": null },
+    "platformUrl": null,
+    "notes": "Part of global PyData (first event 2012). Abby Tse chairs since 2022. 8,062 members."
+  },
+  "papers-we-love-nyc": {
+    "founded": "2014-02",
+    "organizers": ["Zeeshan Lakhani"],
+    "cadence": "monthly",
+    "lastEvent": null,
+    "social": { "twitter": "@paperswelovenyc", "linkedin": null },
+    "platformUrl": null,
+    "notes": "Founded Feb 2014 by Zeeshan Lakhani et al. The original Papers We Love chapter."
+  },
+  "nyc-machine-learning": {
+    "founded": null,
+    "organizers": ["Charles Davi"],
+    "cadence": "monthly",
+    "lastEvent": null,
+    "social": { "twitter": null, "linkedin": null },
+    "platformUrl": "https://meetup.com/new-york-machine-learning-meetup-group",
+    "notes": "3,121 members. Founding date not publicly listed."
+  },
+  "nyc-agentic-ai": {
+    "founded": null,
+    "organizers": ["Kris Skrinak"],
+    "cadence": "monthly",
+    "lastEvent": null,
+    "social": { "twitter": null, "linkedin": null },
+    "platformUrl": "https://meetup.com/deep-learning-nyc",
+    "notes": "Originally 'Deep Learning NYC', now renamed. Organized by Kris Skrinak (AWS). 6,682 members."
+  },
+  "ai-nyc": {
+    "founded": "2017",
+    "organizers": ["Jamiel Sheikh"],
+    "cadence": "monthly",
+    "lastEvent": null,
+    "social": { "twitter": null, "linkedin": null },
+    "platformUrl": "https://meetup.com/ai-nyc",
+    "notes": "Offshoot of Blockchain NYC (2017) by Jamiel Sheikh."
+  },
+  "nyc-ai-salon": {
+    "founded": "2022-12",
+    "organizers": ["Kyle Shannon", "Leah Fasten", "Erik Sanner"],
+    "cadence": "biweekly",
+    "lastEvent": null,
+    "social": { "twitter": "@TheAISalon", "linkedin": null },
+    "platformUrl": "https://meetup.com/nyc-ai-salon",
+    "notes": "Founded Dec 7, 2022. Erik Sanner organizes the NYC chapter."
+  },
+  "nyc-ai-ml": {
+    "founded": "2017",
+    "organizers": ["Gideon Mendels"],
+    "cadence": "monthly",
+    "lastEvent": "2024-10",
+    "social": { "twitter": null, "linkedin": null },
+    "platformUrl": "https://meetup.com/nyc-artificial-intelligence-machine-learning",
+    "notes": "Affiliated with Comet.ml (founded 2017 by Gideon Mendels). Last event Oct 2024 - may be less active."
+  }
+}
