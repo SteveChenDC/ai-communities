@@ -1,6 +1,9 @@
 import { useEffect, useRef } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import 'leaflet.markercluster'
+import 'leaflet.markercluster/dist/MarkerCluster.css'
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
 import { useApp } from '../../context/AppContext'
 import { PRIORITY_COLORS } from '../../utils/constants'
 
@@ -9,7 +12,33 @@ export default function MapView() {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef(null)
+  const markersByIdRef = useRef(new Map())
+  const navListRef = useRef([])
+  const selectedIdRef = useRef(selectedId)
+  const popupOpenIdRef = useRef(null)
   const clearControlRef = useRef(null)
+
+  // Keep a ref of the current selectedId so click/keyboard handlers see the latest value
+  useEffect(() => { selectedIdRef.current = selectedId }, [selectedId])
+
+  // Imperatively navigate popups between pins. Used by popup prev/next and keyboard arrows.
+  // Does NOT dispatch SELECT — popup nav is kept independent of the detail sheet.
+  const navigateToPin = (id) => {
+    const map = mapRef.current
+    const cluster = markersRef.current
+    const marker = markersByIdRef.current.get(id)
+    if (!map || !marker) return
+    map.closePopup()
+    const open = () => marker.openPopup()
+    if (cluster && typeof cluster.zoomToShowLayer === 'function' && !marker._icon) {
+      cluster.zoomToShowLayer(marker, open)
+      return
+    }
+    const latLng = marker.getLatLng()
+    const zoom = Math.max(map.getZoom(), 6)
+    map.flyTo(latLng, zoom, { duration: 0.5 })
+    map.once('moveend', open)
+  }
 
   // Initialize map once
   useEffect(() => {
@@ -32,28 +61,51 @@ export default function MapView() {
     }).addTo(map)
 
     mapRef.current = map
-    markersRef.current = L.layerGroup().addTo(map)
+    markersRef.current = L.markerClusterGroup({
+      maxClusterRadius: 30,
+      disableClusteringAtZoom: 10,
+      spiderfyOnMaxZoom: true,
+      showCoverageOnHover: false,
+      chunkedLoading: true,
+      iconCreateFunction: (cluster) => {
+        const n = cluster.getChildCount()
+        const size = n < 10 ? 32 : n < 50 ? 38 : 44
+        return L.divIcon({
+          html: `<div style="background:#3b82f6;color:#fff;border-radius:50%;width:${size}px;height:${size}px;display:flex;align-items:center;justify-content:center;font:600 12px system-ui,-apple-system,sans-serif;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.25)">${n}</div>`,
+          className: 'custom-cluster',
+          iconSize: L.point(size, size),
+        })
+      },
+    }).addTo(map)
 
     return () => { map.remove(); mapRef.current = null }
   }, [])
 
-  // Update markers when data or selection changes
+  // Build markers when data or visibility changes. Selection styling is applied in a separate effect.
   useEffect(() => {
     const map = mapRef.current
     const layer = markersRef.current
     if (!map || !layer) return
 
     layer.clearLayers()
+    markersByIdRef.current.clear()
+    navListRef.current = []
+
     if (!filtered.length) return
 
+    // Order pins the same way Sidebar does: priority desc, then name asc. Pin without coords is skipped.
+    const visible = (showCommunities ? filtered : filtered.filter(c => c.events.length > 0))
+      .filter(c => c.lat != null && c.lng != null)
+      .sort((a, b) => b.priority - a.priority || a.name.localeCompare(b.name))
+
+    navListRef.current = visible.map(c => c.id)
+    const navCount = visible.length
     const bounds = []
 
-    const visible = showCommunities ? filtered : filtered.filter(c => c.events.length > 0)
-    for (const c of visible) {
-      if (!c.lat || !c.lng) continue
-
+    for (let i = 0; i < visible.length; i++) {
+      const c = visible[i]
       const p = PRIORITY_COLORS[c.priority] || PRIORITY_COLORS[0]
-      const isSelected = c.id === selectedId
+      const isSelected = c.id === selectedIdRef.current
       const radius = c.priority >= 3 ? 8 : c.priority >= 1 ? 6 : 4.5
 
       const marker = L.circleMarker([c.lat, c.lng], {
@@ -87,11 +139,20 @@ export default function MapView() {
         nextEventLine = `<div style="font-size:11px;color:#4b5563;margin-bottom:6px"><strong>Next:</strong> ${formatted}</div>`
       }
       const nextEventLink = nextEvent?.url
-        ? `<a href="${nextEvent.url}" target="_blank" rel="noopener" style="font-size:11px;color:#3b82f6;text-decoration:none">Event &rarr;</a>`
+        ? `<a href="${nextEvent.url}" target="_blank" rel="noopener" style="font-size:11px;color:#3b82f6;text-decoration:none">Visit Upcoming Event &rarr;</a>`
+        : ''
+
+      const navRow = navCount > 1
+        ? `<div style="display:flex;justify-content:space-between;align-items:center;margin:-4px -4px 6px;font-size:10px;color:#9ca3af">
+            <button type="button" data-nav="prev" aria-label="Previous community" style="background:transparent;border:0;padding:2px 8px;cursor:pointer;color:#3b82f6;font-size:13px;line-height:1;font-weight:600">&#9664;</button>
+            <span>${i + 1} of ${navCount}</span>
+            <button type="button" data-nav="next" aria-label="Next community" style="background:transparent;border:0;padding:2px 8px;cursor:pointer;color:#3b82f6;font-size:13px;line-height:1;font-weight:600">&#9654;</button>
+          </div>`
         : ''
 
       marker.bindPopup(`
         <div style="font-family:system-ui,-apple-system,sans-serif;min-width:200px;max-width:280px">
+          ${navRow}
           <div style="font-weight:600;font-size:13px;line-height:1.3;margin-bottom:2px">
             ${c.name}
           </div>
@@ -101,15 +162,21 @@ export default function MapView() {
           <div style="color:#6b7280;font-size:11px;line-height:1.4;margin-bottom:8px">
             ${c.description.slice(0, 120)}${c.description.length > 120 ? '...' : ''}
           </div>
-          <div style="display:flex;gap:12px;align-items:center">
-            ${c.url ? `<a href="${c.url}" target="_blank" rel="noopener" style="font-size:11px;color:#3b82f6;text-decoration:none">Visit &rarr;</a>` : ''}
+          <div style="display:flex;flex-wrap:wrap;gap:10px;row-gap:4px;align-items:center">
+            ${c.url ? `<a href="${c.url}" target="_blank" rel="noopener" style="font-size:11px;color:#3b82f6;text-decoration:none">Visit Community &rarr;</a>` : ''}
             ${nextEventLink}
-            <a href="#" data-detail-id="${c.id}" style="font-size:11px;color:#3b82f6;text-decoration:none;cursor:pointer">Details &rarr;</a>
+            <a href="#" data-detail-id="${c.id}" style="font-size:11px;color:#3b82f6;text-decoration:none;cursor:pointer">See More details &rarr;</a>
           </div>
         </div>
       `, { maxWidth: 300, className: 'clean-popup' })
 
+      marker.on('popupopen', () => { popupOpenIdRef.current = c.id })
+      marker.on('popupclose', () => {
+        if (popupOpenIdRef.current === c.id) popupOpenIdRef.current = null
+      })
+
       marker.addTo(layer)
+      markersByIdRef.current.set(c.id, marker)
       bounds.push([c.lat, c.lng])
     }
 
@@ -117,8 +184,23 @@ export default function MapView() {
       map.fitBounds(bounds, { padding: [40, 40], maxZoom: 10 })
     }
 
-    // Delegated click handler for "Details" links inside popups
+    // Delegated click handler for popup links.
+    // Prev/next nav is imperative (closes + opens popups) so it doesn't trigger the detail sheet.
+    // "See More details" dispatches SELECT to open the sheet.
     const handler = (e) => {
+      const navBtn = e.target.closest('[data-nav]')
+      if (navBtn) {
+        e.preventDefault()
+        const list = navListRef.current
+        if (list.length < 2) return
+        const dir = navBtn.dataset.nav
+        const cur = list.indexOf(popupOpenIdRef.current)
+        const idx = cur >= 0
+          ? (cur + (dir === 'next' ? 1 : -1) + list.length) % list.length
+          : 0
+        navigateToPin(list[idx])
+        return
+      }
       const link = e.target.closest('[data-detail-id]')
       if (link) {
         e.preventDefault()
@@ -130,16 +212,83 @@ export default function MapView() {
     return () => map.getContainer().removeEventListener('click', handler)
   }, [filtered, showCommunities, dispatch])
 
-  // Pan to selected community and close any open popup
+  // Apply selected styling (bigger radius, blue ring) without rebuilding markers
   useEffect(() => {
-    if (!mapRef.current) return
-    mapRef.current.closePopup()
-    if (!selectedId) return
-    const c = filtered.find(c => c.id === selectedId)
-    if (c?.lat && c?.lng) {
-      mapRef.current.flyTo([c.lat, c.lng], Math.max(mapRef.current.getZoom(), 6), { duration: 0.5 })
-    }
+    const map = mapRef.current
+    if (!map) return
+    markersByIdRef.current.forEach((marker, id) => {
+      const c = filtered.find(x => x.id === id)
+      if (!c) return
+      const p = PRIORITY_COLORS[c.priority] || PRIORITY_COLORS[0]
+      const baseRadius = c.priority >= 3 ? 8 : c.priority >= 1 ? 6 : 4.5
+      const isSelected = id === selectedId
+      marker.setStyle({
+        radius: isSelected ? baseRadius + 3 : baseRadius,
+        fillColor: p.fill,
+        color: isSelected ? '#1d4ed8' : '#fff',
+        weight: isSelected ? 2.5 : 1.5,
+        opacity: 1,
+        fillOpacity: isSelected ? 1 : 0.75,
+      })
+    })
   }, [selectedId, filtered])
+
+  // Pan to the pin whose details are showing. Shift the target upward in pixel space
+  // so the pin sits above the bottom-sheet (which covers ~55% of the map height).
+  useEffect(() => {
+    const map = mapRef.current
+    const clusterGroup = markersRef.current
+    if (!map) return
+    if (!selectedId) { map.closePopup(); return }
+    const marker = markersByIdRef.current.get(selectedId)
+    if (!marker) return
+    map.closePopup()
+    const panWithOffset = () => {
+      const zoom = Math.max(map.getZoom(), 6)
+      const sheetPx = map.getSize().y * 0.55
+      const pt = map.project(marker.getLatLng(), zoom)
+      pt.y += sheetPx / 2 // move camera target down so pin appears up
+      map.flyTo(map.unproject(pt, zoom), zoom, { duration: 0.5 })
+    }
+    // If clustered, let markercluster un-cluster first; once it's done the pin is visible.
+    if (clusterGroup && typeof clusterGroup.zoomToShowLayer === 'function' && !marker._icon) {
+      clusterGroup.zoomToShowLayer(marker, panWithOffset)
+      return
+    }
+    panWithOffset()
+  }, [selectedId, filtered])
+
+  // Keyboard: Arrow keys navigate pin popup; Escape closes sheet first, else closes popup.
+  useEffect(() => {
+    const onKey = (e) => {
+      const t = e.target
+      if (t && typeof t.matches === 'function' && t.matches('input, textarea, [contenteditable="true"]')) return
+      if (e.key === 'Escape') {
+        if (selectedIdRef.current) {
+          e.preventDefault()
+          dispatch({ type: 'DESELECT' })
+          return
+        }
+        if (popupOpenIdRef.current) {
+          e.preventDefault()
+          mapRef.current?.closePopup()
+        }
+        return
+      }
+      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return
+      if (!popupOpenIdRef.current) return
+      const list = navListRef.current
+      if (list.length < 2) return
+      e.preventDefault()
+      const cur = list.indexOf(popupOpenIdRef.current)
+      const idx = cur >= 0
+        ? (cur + (e.key === 'ArrowRight' ? 1 : -1) + list.length) % list.length
+        : 0
+      navigateToPin(list[idx])
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [dispatch])
 
   // Clear Filters control on map
   useEffect(() => {

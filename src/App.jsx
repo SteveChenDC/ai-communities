@@ -8,7 +8,7 @@ import Sidebar from './components/Sidebar'
 import DetailModal from './components/detail/DetailPanel'
 
 function Dashboard() {
-  const { filtered, metadata, mobilePanel, dispatch } = useApp()
+  const { filtered, metadata, mobilePanel, selectedId, dispatch } = useApp()
   const withTools = filtered.filter(c => c.hasAICodingTools).length
 
   const upcomingEventsCount = useMemo(() => {
@@ -36,8 +36,8 @@ function Dashboard() {
 
         <Sidebar />
 
-        {/* Mobile FABs */}
-        <div className="lg:hidden fixed bottom-4 left-4 z-30 flex flex-col gap-3">
+        {/* Mobile FABs — fade out when the detail sheet is open so they don't stack on top of it */}
+        <div className={`lg:hidden fixed bottom-4 left-4 z-30 flex flex-col gap-3 transition-opacity duration-200 ${selectedId ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
           <button
             onClick={() => dispatch({ type: 'OPEN_MOBILE_PANEL', panel: 'communities' })}
             className={`relative bg-white shadow-lg border border-gray-200 rounded-full p-3 transition-colors ${mobilePanel === 'communities' ? 'text-blue-600 ring-2 ring-blue-200' : 'text-gray-600 hover:bg-gray-50'}`}

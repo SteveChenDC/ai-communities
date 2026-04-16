@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { X, ExternalLink, Mail, Globe, Wrench, Calendar, MapPin, Users } from 'lucide-react'
 import { useApp } from '../../context/AppContext'
 import { PRIORITY_COLORS } from '../../utils/constants'
@@ -30,22 +30,27 @@ export default function DetailModal() {
     [selectedId, communities]
   )
 
-  if (!community) return null
+  // Keep the last community rendered while the sheet slides down so the close animation
+  // shows the content the user was looking at, not an empty sheet.
+  const [displayCommunity, setDisplayCommunity] = useState(community || null)
+  useEffect(() => {
+    if (community) setDisplayCommunity(community)
+  }, [community])
 
-  const c = community
-  const p = PRIORITY_COLORS[c.priority] || PRIORITY_COLORS[0]
-  const region = REGIONS[c.regionId]
+  const isOpen = !!community
+  const c = displayCommunity
+  const p = c ? (PRIORITY_COLORS[c.priority] || PRIORITY_COLORS[0]) : null
+  const region = c ? REGIONS[c.regionId] : null
 
   return (
-    <>
-      <div className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40"
-        onClick={() => dispatch({ type: 'DESELECT' })} />
-
-      <div className="fixed inset-0 z-50 flex items-end justify-center p-0 md:items-center md:p-6 pointer-events-none">
-        <div className="bg-white rounded-t-2xl md:rounded-2xl shadow-2xl max-w-lg w-full max-h-[90vh] md:max-h-[80vh] flex flex-col pointer-events-auto overflow-hidden">
-
-          {/* Drag handle - mobile only */}
-          <div className="flex justify-center pt-2 md:hidden">
+    <div
+      className={`fixed left-0 right-0 lg:right-80 bottom-0 z-40 flex justify-center pointer-events-none transition-transform duration-300 ease-out ${isOpen ? 'translate-y-0' : 'translate-y-full'}`}
+      aria-hidden={!isOpen}
+    >
+      <div className="pointer-events-auto bg-white rounded-t-2xl shadow-2xl w-full max-w-2xl max-h-[55vh] flex flex-col overflow-hidden overscroll-contain">
+        {c && (<>
+          {/* Drag handle — visual affordance only */}
+          <div className="flex justify-center pt-2">
             <div className="w-10 h-1 bg-gray-300 rounded-full" />
           </div>
 
@@ -90,6 +95,38 @@ export default function DetailModal() {
 
           {/* Body */}
           <div className="flex-1 overflow-auto px-4 py-3 md:px-6 md:py-4 space-y-5">
+            {/* Links */}
+            <div className="space-y-1.5">
+              {c.url && (
+                <a href={c.url} target="_blank" rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 transition-colors">
+                  <Globe size={13} className="shrink-0" />
+                  <span className="truncate">{c.url.replace(/^https?:\/\//, '')}</span>
+                  <ExternalLink size={11} className="shrink-0 opacity-50" />
+                </a>
+              )}
+              {c.contact.value && c.contact.type === 'email' && (
+                <a href={`mailto:${c.contact.value}`}
+                  className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 transition-colors">
+                  <Mail size={13} className="shrink-0" />
+                  {c.contact.value}
+                </a>
+              )}
+              {c.contact.value && c.contact.type === 'url' && (
+                <a href={c.contact.value} target="_blank" rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 transition-colors">
+                  <Globe size={13} className="shrink-0" />
+                  <span className="truncate">{c.contact.value.replace(/^https?:\/\//, '')}</span>
+                </a>
+              )}
+              {c.contact.value && c.contact.type === 'text' && (
+                <p className="text-sm text-gray-500 flex items-center gap-2">
+                  <Mail size={13} className="shrink-0 text-gray-400" />
+                  {c.contact.value}
+                </p>
+              )}
+            </div>
+
             <p className="text-sm text-gray-600 leading-relaxed">{c.description}</p>
 
             {/* Related / Nearby Communities */}
@@ -142,38 +179,6 @@ export default function DetailModal() {
                 )}
               </div>
             )}
-
-            {/* Links */}
-            <div className="space-y-1.5">
-              {c.url && (
-                <a href={c.url} target="_blank" rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                  <Globe size={13} className="shrink-0" />
-                  <span className="truncate">{c.url.replace(/^https?:\/\//, '')}</span>
-                  <ExternalLink size={11} className="shrink-0 opacity-50" />
-                </a>
-              )}
-              {c.contact.value && c.contact.type === 'email' && (
-                <a href={`mailto:${c.contact.value}`}
-                  className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                  <Mail size={13} className="shrink-0" />
-                  {c.contact.value}
-                </a>
-              )}
-              {c.contact.value && c.contact.type === 'url' && (
-                <a href={c.contact.value} target="_blank" rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                  <Globe size={13} className="shrink-0" />
-                  <span className="truncate">{c.contact.value.replace(/^https?:\/\//, '')}</span>
-                </a>
-              )}
-              {c.contact.value && c.contact.type === 'text' && (
-                <p className="text-sm text-gray-500 flex items-center gap-2">
-                  <Mail size={13} className="shrink-0 text-gray-400" />
-                  {c.contact.value}
-                </p>
-              )}
-            </div>
 
             {/* Events */}
             {c.events.length > 0 && (
@@ -228,8 +233,8 @@ export default function DetailModal() {
               </div>
             )}
           </div>
-        </div>
+        </>)}
       </div>
-    </>
+    </div>
   )
 }
