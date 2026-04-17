@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generatedAt": "2026-04-16T18:20:35.013Z",
+    "generatedAt": "2026-04-17T01:04:25.751Z",
     "sourceFile": "ai_communities_sonar_v2.md",
-    "totalCommunities": 187,
-    "totalRegions": 41,
-    "communitiesWithDates": 72,
+    "totalCommunities": 220,
+    "totalRegions": 51,
+    "communitiesWithDates": 77,
     "communitiesWithCodingTools": 38,
     "byPriority": {
       "0": 157,
@@ -232,6 +232,12 @@
       "lng": -122.4194,
       "country": "US",
       "pastEvents": [
+        {
+          "date": "2026-04-05",
+          "dateRaw": "2026-04-05T02:00:00Z",
+          "datePrecision": "day",
+          "url": "https://sf.aitinkerers.org/p/build-night-cage-the-claw"
+        },
         {
           "date": "2026-04-04",
           "dateRaw": "2026-04-04T21:00:00Z",
@@ -519,7 +525,38 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-17T15:00:00.000+02:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/aic-stockholm-chapter-fika"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-17T11:00:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/aj9eaxg0"
+        },
+        {
+          "date": "2026-04-18",
+          "dateRaw": "2026-04-18T10:00:00.000+05:30",
+          "datePrecision": "day",
+          "url": "https://luma.com/zr4z3g8f"
+        },
+        {
+          "date": "2026-04-18",
+          "dateRaw": "2026-04-18T10:00:00.000+04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/build-a-bot"
+        },
+        {
+          "date": "2026-04-18",
+          "dateRaw": "2026-04-18T09:00:00.000-07:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/aic-sf-4-18"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -636,7 +673,14 @@
       "codingTools": [],
       "memberCount": 7539,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-18",
+          "dateRaw": "2026-04-18T01:00:00.000Z",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/314321640/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Bay Area AI / SF Bayarea ML / San Francisco AI Engineers / The AI Salon SF",
@@ -695,7 +739,14 @@
       "codingTools": [],
       "memberCount": 7539,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-18",
+          "dateRaw": "2026-04-18T01:00:00.000Z",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/314321640/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Bay Area AI / SF Bayarea ML / San Francisco AI Engineers / The AI Salon SF",
@@ -813,7 +864,14 @@
       "codingTools": [],
       "memberCount": 7539,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-18",
+          "dateRaw": "2026-04-18T01:00:00.000Z",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/bay-area-ai/events/314321640/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Bay Area AI / SF Bayarea ML / San Francisco AI Engineers / The AI Salon SF",
@@ -1479,14 +1537,46 @@
       ],
       "memberCount": 13475,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-17T09:00:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/ndtbbscp"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-17T09:30:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/f4ndeli4"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
       "lat": 40.73325,
       "lng": -74.03563,
       "country": "US",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T18:00:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/2dmam69a"
+        },
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T18:00:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/uyjkyel0"
+        },
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T18:30:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/h2s4kxl3"
+        }
+      ]
     },
     {
       "id": "nyc-ai-ml",
@@ -1519,14 +1609,46 @@
       ],
       "memberCount": 13475,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-17T09:00:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/ndtbbscp"
+        },
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-17T09:30:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/f4ndeli4"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "Bond AI NYC / NYC Machine Learning / NYC Agentic AI / AI NYC / NYC AI Salon / NYC AI & ML",
       "lat": 40.73051,
       "lng": -74.01529,
       "country": "US",
-      "pastEvents": []
+      "pastEvents": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T18:00:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/2dmam69a"
+        },
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T18:00:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/uyjkyel0"
+        },
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T18:30:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/h2s4kxl3"
+        }
+      ]
     },
     {
       "id": "ai-tinkerers-boston",
@@ -1897,7 +2019,14 @@
       "codingTools": [],
       "memberCount": 1988,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-30",
+          "dateRaw": "2026-04-30T22:00:00.000Z",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/boston-air/events/314289465/"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AICamp Boston / Boston AI/ML User Group / Boston AI Network / Boston CV AIR / Boston AI Safety",
@@ -2211,6 +2340,48 @@
       "groupName": "Generative Series DC / PauseAI DC",
       "lat": 38.8932,
       "lng": -77.06115,
+      "country": "US",
+      "pastEvents": []
+    },
+    {
+      "id": "ai-collective-dc",
+      "name": "AI Collective DC",
+      "regionId": "dc",
+      "priority": 0,
+      "tags": [],
+      "url": "https://luma.com/ai-collective-dc",
+      "urls": [
+        "https://luma.com/ai-collective-dc",
+        "https://www.aicollective.com/chapters/dc"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Washington DC chapter of The AI Collective — global non-profit uniting 70K–200K+ AI pioneers. DC community runs programs like AI x Mental Health, AI & Film, and Launch Party events for OpenAI/Meta/Google/federal-agency audiences.",
+      "notableCompanies": [
+        "OpenAI",
+        "Meta",
+        "Google",
+        "Amazon"
+      ],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [
+        {
+          "date": "2026-04-22",
+          "dateRaw": "2026-04-22T17:15:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/ktxp6gww"
+        }
+      ],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 38.9172,
+      "lng": -77.0269,
       "country": "US",
       "pastEvents": []
     },
@@ -3579,14 +3750,7 @@
       ],
       "memberCount": null,
       "attendanceEstimate": 130,
-      "events": [
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T23:30:00Z",
-          "datePrecision": "day",
-          "url": "https://austin.aitinkerers.org/p/ai-tinkerers-austin-april-2026-demo-night"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -3594,6 +3758,12 @@
       "lng": -97.71885,
       "country": "US",
       "pastEvents": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T23:30:00Z",
+          "datePrecision": "day",
+          "url": "https://austin.aitinkerers.org/p/ai-tinkerers-austin-april-2026-demo-night"
+        },
         {
           "date": "2026-03-16",
           "dateRaw": "2026-03-16T23:00:00Z",
@@ -4033,12 +4203,6 @@
       "attendanceEstimate": null,
       "events": [
         {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T23:00:00.000Z",
-          "datePrecision": "day",
-          "url": "https://www.meetup.com/aittg-denver/events/314274831/"
-        },
-        {
           "date": "2026-04-23",
           "dateRaw": "2026-04-23T15:00:00.000Z",
           "datePrecision": "day",
@@ -4252,12 +4416,6 @@
       "attendanceEstimate": 80,
       "events": [
         {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T19:00:00.000Z",
-          "datePrecision": "day",
-          "url": "https://www.meetup.com/applied_ai/events/314187753/"
-        },
-        {
           "date": "2026-05-07",
           "dateRaw": "2026-05-07T23:00:00.000Z",
           "datePrecision": "day",
@@ -4299,12 +4457,6 @@
       "memberCount": null,
       "attendanceEstimate": 80,
       "events": [
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T19:00:00.000Z",
-          "datePrecision": "day",
-          "url": "https://www.meetup.com/applied_ai/events/314187753/"
-        },
         {
           "date": "2026-05-07",
           "dateRaw": "2026-05-07T23:00:00.000Z",
@@ -4778,12 +4930,6 @@
       "attendanceEstimate": null,
       "events": [
         {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T17:00:00.000Z",
-          "datePrecision": "day",
-          "url": "https://www.meetup.com/london-ai-tech-talk/events/314159182/"
-        },
-        {
           "date": "2026-04-23",
           "dateRaw": "2026-04-23T15:00:00.000Z",
           "datePrecision": "day",
@@ -4856,7 +5002,14 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-05-28",
+          "dateRaw": "2026-05-28T17:30:00.000+01:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/9k4ohvyj"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -5945,7 +6098,14 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": true,
+      "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
+      "lat": 55.9733,
+      "lng": -3.1883,
+      "country": "GB",
+      "pastEvents": [
         {
           "date": "2026-04-16",
           "dateRaw": "2026-04-16",
@@ -5957,15 +6117,7 @@
           "dateRaw": "2026-04-16",
           "datePrecision": "day",
           "url": "https://mlops.community/events/list/"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
-      "lat": 55.9733,
-      "lng": -3.1883,
-      "country": "GB",
-      "pastEvents": [
+        },
         {
           "date": "2025-04-24",
           "dateRaw": "2025-04-24",
@@ -6000,7 +6152,14 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": true,
+      "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
+      "lat": 55.9673,
+      "lng": -3.16405,
+      "country": "GB",
+      "pastEvents": [
         {
           "date": "2026-04-16",
           "dateRaw": "2026-04-16",
@@ -6012,15 +6171,7 @@
           "dateRaw": "2026-04-16",
           "datePrecision": "day",
           "url": "https://mlops.community/events/list/"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
-      "lat": 55.9673,
-      "lng": -3.16405,
-      "country": "GB",
-      "pastEvents": [
+        },
         {
           "date": "2025-04-24",
           "dateRaw": "2025-04-24",
@@ -6097,7 +6248,14 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": true,
+      "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
+      "lat": 55.9353,
+      "lng": -3.15712,
+      "country": "GB",
+      "pastEvents": [
         {
           "date": "2026-04-16",
           "dateRaw": "2026-04-16",
@@ -6109,15 +6267,7 @@
           "dateRaw": "2026-04-16",
           "datePrecision": "day",
           "url": "https://mlops.community/events/list/"
-        }
-      ],
-      "whyTarget": "",
-      "isGrouped": true,
-      "groupName": "AI Tinkerers Edinburgh / MLOps Community Edinburgh / Scottish AI Alliance / Edinburgh Data Science",
-      "lat": 55.9353,
-      "lng": -3.15712,
-      "country": "GB",
-      "pastEvents": [
+        },
         {
           "date": "2025-04-24",
           "dateRaw": "2025-04-24",
@@ -6878,12 +7028,6 @@
       "attendanceEstimate": null,
       "events": [
         {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T16:00:00.000Z",
-          "datePrecision": "day",
-          "url": "https://www.meetup.com/paris-ai-tech-talk/events/314102031/"
-        },
-        {
           "date": "2026-04-23",
           "dateRaw": "2026-04-23T15:00:00.000Z",
           "datePrecision": "day",
@@ -7192,7 +7336,38 @@
       "codingTools": [],
       "memberCount": 5000,
       "attendanceEstimate": null,
-      "events": [],
+      "events": [
+        {
+          "date": "2026-04-17",
+          "dateRaw": "2026-04-17T10:00:00.000+02:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/ai-hackday"
+        },
+        {
+          "date": "2026-04-22",
+          "dateRaw": "2026-04-22T17:30:00.000+02:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/ams-apr22"
+        },
+        {
+          "date": "2026-04-22",
+          "dateRaw": "2026-04-22T18:00:00.000+01:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/lis-apr22"
+        },
+        {
+          "date": "2026-04-25",
+          "dateRaw": "2026-04-25T10:00:00.000+02:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/l8n22uvt"
+        },
+        {
+          "date": "2026-04-30",
+          "dateRaw": "2026-04-30T18:00:00.000-04:00",
+          "datePrecision": "day",
+          "url": "https://luma.com/mia-apr30"
+        }
+      ],
       "whyTarget": "",
       "isGrouped": true,
       "groupName": "AI Native Netherlands / Amsterdam AI / AI Builders Amsterdam",
@@ -7648,12 +7823,6 @@
       "attendanceEstimate": null,
       "events": [
         {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T16:00:00.000Z",
-          "datePrecision": "day",
-          "url": "https://www.meetup.com/madrid-ai-machine-learning-and-computer-vision-meetup/events/312994583/"
-        },
-        {
           "date": "2026-04-23",
           "dateRaw": "2026-04-23T16:00:00.000Z",
           "datePrecision": "day",
@@ -7670,6 +7839,12 @@
           "dateRaw": "2026-05-06T17:00:00.000Z",
           "datePrecision": "day",
           "url": "https://www.meetup.com/madrid-ai-machine-learning-and-computer-vision-meetup/events/313313245/"
+        },
+        {
+          "date": "2026-05-07",
+          "dateRaw": "2026-05-07T16:00:00.000Z",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/madrid-ai-machine-learning-and-computer-vision-meetup/events/314110421/"
         }
       ],
       "whyTarget": "",
@@ -7710,12 +7885,6 @@
       "attendanceEstimate": null,
       "events": [
         {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T16:00:00.000Z",
-          "datePrecision": "day",
-          "url": "https://www.meetup.com/madrid-ai-machine-learning-and-computer-vision-meetup/events/312994583/"
-        },
-        {
           "date": "2026-04-23",
           "dateRaw": "2026-04-23T16:00:00.000Z",
           "datePrecision": "day",
@@ -7732,6 +7901,12 @@
           "dateRaw": "2026-05-06T17:00:00.000Z",
           "datePrecision": "day",
           "url": "https://www.meetup.com/madrid-ai-machine-learning-and-computer-vision-meetup/events/313313245/"
+        },
+        {
+          "date": "2026-05-07",
+          "dateRaw": "2026-05-07T16:00:00.000Z",
+          "datePrecision": "day",
+          "url": "https://www.meetup.com/madrid-ai-machine-learning-and-computer-vision-meetup/events/314110421/"
         }
       ],
       "whyTarget": "",
@@ -8147,14 +8322,7 @@
       "codingTools": [],
       "memberCount": null,
       "attendanceEstimate": null,
-      "events": [
-        {
-          "date": "2026-04-16",
-          "dateRaw": "2026-04-16T16:00:00Z",
-          "datePrecision": "day",
-          "url": "https://prague.aitinkerers.org/p/ai-tinkerers-x-valkaai-real-time-ai-building-an-e-sports-commentator"
-        }
-      ],
+      "events": [],
       "whyTarget": "",
       "isGrouped": false,
       "groupName": null,
@@ -8162,6 +8330,12 @@
       "lng": 14.4378,
       "country": "CZ",
       "pastEvents": [
+        {
+          "date": "2026-04-16",
+          "dateRaw": "2026-04-16T16:00:00Z",
+          "datePrecision": "day",
+          "url": "https://prague.aitinkerers.org/p/ai-tinkerers-x-valkaai-real-time-ai-building-an-e-sports-commentator"
+        },
         {
           "date": "2026-02-26",
           "dateRaw": "2026-02-26T17:00:00Z",
@@ -9534,6 +9708,902 @@
       "lng": -122.41011,
       "country": "GLOBAL",
       "pastEvents": []
+    },
+    {
+      "id": "ai-tinkerers-philadelphia",
+      "name": "AI Tinkerers Philadelphia",
+      "regionId": "philadelphia",
+      "country": "GLOBAL",
+      "priority": 0,
+      "tags": [],
+      "url": "https://philadelphia.aitinkerers.org/",
+      "urls": [
+        "https://philadelphia.aitinkerers.org/"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "admin@aitinkerers.org"
+      },
+      "description": "philadelphia chapter of AI Tinkerers global AI builder community.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 29.986,
+      "lng": -0.02425
+    },
+    {
+      "id": "ai-tinkerers-singapore",
+      "name": "AI Tinkerers Singapore",
+      "regionId": "singapore",
+      "country": "SG",
+      "priority": 0,
+      "tags": [],
+      "url": "https://singapore.aitinkerers.org/",
+      "urls": [
+        "https://singapore.aitinkerers.org/"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "admin@aitinkerers.org"
+      },
+      "description": "singapore chapter of AI Tinkerers global AI builder community.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 1.3661,
+      "lng": 103.84405
+    },
+    {
+      "id": "genai-collective-nyc",
+      "name": "GenAI Collective Nyc",
+      "regionId": "nyc",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/nyc",
+      "urls": [
+        "https://www.aicollective.com/chapters/nyc"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Nyc chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 40.73154,
+      "lng": -74.02681
+    },
+    {
+      "id": "genai-collective-vienna",
+      "name": "GenAI Collective Vienna",
+      "regionId": "vienna",
+      "country": "GLOBAL",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/vienna",
+      "urls": [
+        "https://www.aicollective.com/chapters/vienna"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Vienna chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 29.982,
+      "lng": 0.03118
+    },
+    {
+      "id": "genai-collective-prague",
+      "name": "GenAI Collective Prague",
+      "regionId": "prague",
+      "country": "GLOBAL",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/prague",
+      "urls": [
+        "https://www.aicollective.com/chapters/prague"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Prague chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 29.98,
+      "lng": 0
+    },
+    {
+      "id": "genai-collective-miami",
+      "name": "GenAI Collective Miami",
+      "regionId": "miami",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/miami",
+      "urls": [
+        "https://www.aicollective.com/chapters/miami"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Miami chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 25.75369,
+      "lng": -80.2269
+    },
+    {
+      "id": "genai-collective-toronto",
+      "name": "GenAI Collective Toronto",
+      "regionId": "toronto",
+      "country": "CA",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/toronto",
+      "urls": [
+        "https://www.aicollective.com/chapters/toronto"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Toronto chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 43.6392,
+      "lng": -79.40745
+    },
+    {
+      "id": "genai-collective-oakland",
+      "name": "GenAI Collective Oakland",
+      "regionId": "sf-bay-area",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/oakland",
+      "urls": [
+        "https://www.aicollective.com/chapters/oakland"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Oakland chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 37.79635,
+      "lng": -122.4374
+    },
+    {
+      "id": "genai-collective-seattle",
+      "name": "GenAI Collective Seattle",
+      "regionId": "seattle",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/seattle",
+      "urls": [
+        "https://www.aicollective.com/chapters/seattle"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Seattle chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 47.59819,
+      "lng": -122.3672
+    },
+    {
+      "id": "genai-collective-portland",
+      "name": "GenAI Collective Portland",
+      "regionId": "portland",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/portland",
+      "urls": [
+        "https://www.aicollective.com/chapters/portland"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Portland chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 45.5012,
+      "lng": -122.70265
+    },
+    {
+      "id": "genai-collective-atlanta",
+      "name": "GenAI Collective Atlanta",
+      "regionId": "atlanta",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/atlanta",
+      "urls": [
+        "https://www.aicollective.com/chapters/atlanta"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Atlanta chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 33.74099,
+      "lng": -84.4231
+    },
+    {
+      "id": "genai-collective-boston",
+      "name": "GenAI Collective Boston",
+      "regionId": "boston",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/boston",
+      "urls": [
+        "https://www.aicollective.com/chapters/boston"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Boston chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 42.3741,
+      "lng": -71.08315
+    },
+    {
+      "id": "genai-collective-austin",
+      "name": "GenAI Collective Austin",
+      "regionId": "austin",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/austin",
+      "urls": [
+        "https://www.aicollective.com/chapters/austin"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Austin chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 30.25919,
+      "lng": -97.7782
+    },
+    {
+      "id": "genai-collective-chicago",
+      "name": "GenAI Collective Chicago",
+      "regionId": "chicago",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/chicago",
+      "urls": [
+        "https://www.aicollective.com/chapters/chicago"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Chicago chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 41.87009,
+      "lng": -87.6649
+    },
+    {
+      "id": "genai-collective-dallas",
+      "name": "GenAI Collective Dallas",
+      "regionId": "dallas",
+      "country": "US",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/dallas",
+      "urls": [
+        "https://www.aicollective.com/chapters/dallas"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Dallas chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 32.7587,
+      "lng": -96.76582
+    },
+    {
+      "id": "genai-collective-vancouver",
+      "name": "GenAI Collective Vancouver",
+      "regionId": "vancouver",
+      "country": "CA",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/vancouver",
+      "urls": [
+        "https://www.aicollective.com/chapters/vancouver"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Vancouver chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 49.2967,
+      "lng": -123.09645
+    },
+    {
+      "id": "genai-collective-paris",
+      "name": "GenAI Collective Paris",
+      "regionId": "paris",
+      "country": "FR",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/paris",
+      "urls": [
+        "https://www.aicollective.com/chapters/paris"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Paris chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 48.8566,
+      "lng": 2.3322
+    },
+    {
+      "id": "genai-collective-barcelona",
+      "name": "GenAI Collective Barcelona",
+      "regionId": "barcelona",
+      "country": "ES",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/Barcelona",
+      "urls": [
+        "https://www.aicollective.com/chapters/Barcelona"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Barcelona chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 41.3674,
+      "lng": 2.1686
+    },
+    {
+      "id": "genai-collective-dublin",
+      "name": "GenAI Collective Dublin",
+      "regionId": "dublin",
+      "country": "IE",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/Dublin",
+      "urls": [
+        "https://www.aicollective.com/chapters/Dublin"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Dublin chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 53.3298,
+      "lng": -6.2603
+    },
+    {
+      "id": "genai-collective-edinburgh",
+      "name": "GenAI Collective Edinburgh",
+      "regionId": "edinburgh",
+      "country": "GB",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/edinburgh",
+      "urls": [
+        "https://www.aicollective.com/chapters/edinburgh"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Edinburgh chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 55.9393,
+      "lng": -3.21255
+    },
+    {
+      "id": "genai-collective-lisbon",
+      "name": "GenAI Collective Lisbon",
+      "regionId": "lisbon",
+      "country": "PT",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/Lisbon",
+      "urls": [
+        "https://www.aicollective.com/chapters/Lisbon"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Lisbon chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 38.7023,
+      "lng": -9.1393
+    },
+    {
+      "id": "genai-collective-madrid",
+      "name": "GenAI Collective Madrid",
+      "regionId": "madrid",
+      "country": "GLOBAL",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/madrid",
+      "urls": [
+        "https://www.aicollective.com/chapters/madrid"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Madrid chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 29.982,
+      "lng": 0.03118
+    },
+    {
+      "id": "genai-collective-zurich",
+      "name": "GenAI Collective Zurich",
+      "regionId": "zurich",
+      "country": "CH",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/zurich",
+      "urls": [
+        "https://www.aicollective.com/chapters/zurich"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Zurich chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 47.38176,
+      "lng": 8.51413
+    },
+    {
+      "id": "genai-collective-medellin",
+      "name": "GenAI Collective Medellin",
+      "regionId": "medellin",
+      "country": "CO",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/medellin",
+      "urls": [
+        "https://www.aicollective.com/chapters/medellin"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Medellin chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 6.2616,
+      "lng": -75.54155
+    },
+    {
+      "id": "genai-collective-delhi",
+      "name": "GenAI Collective Delhi",
+      "regionId": "delhi",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/delhi",
+      "urls": [
+        "https://www.aicollective.com/chapters/delhi"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Delhi chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 28.6279,
+      "lng": 77.23325
+    },
+    {
+      "id": "genai-collective-hyderabad",
+      "name": "GenAI Collective Hyderabad",
+      "regionId": "hyderabad",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/hyderabad",
+      "urls": [
+        "https://www.aicollective.com/chapters/hyderabad"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Hyderabad chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 17.399,
+      "lng": 78.51095
+    },
+    {
+      "id": "genai-collective-mumbai",
+      "name": "GenAI Collective Mumbai",
+      "regionId": "mumbai",
+      "country": "IN",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/mumbai",
+      "urls": [
+        "https://www.aicollective.com/chapters/mumbai"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Mumbai chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 19.09,
+      "lng": 72.90195
+    },
+    {
+      "id": "genai-collective-seoul",
+      "name": "GenAI Collective Seoul",
+      "regionId": "seoul",
+      "country": "KR",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/seoul",
+      "urls": [
+        "https://www.aicollective.com/chapters/seoul"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Seoul chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 37.5805,
+      "lng": 127.00225
+    },
+    {
+      "id": "genai-collective-singapore",
+      "name": "GenAI Collective Singapore",
+      "regionId": "singapore",
+      "country": "SG",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/singapore",
+      "urls": [
+        "https://www.aicollective.com/chapters/singapore"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Singapore chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 1.3341,
+      "lng": 103.85098
+    },
+    {
+      "id": "genai-collective-tokyo",
+      "name": "GenAI Collective Tokyo",
+      "regionId": "tokyo",
+      "country": "JP",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/tokyo",
+      "urls": [
+        "https://www.aicollective.com/chapters/tokyo"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Tokyo chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 35.6902,
+      "lng": 139.67455
+    },
+    {
+      "id": "genai-collective-lagos",
+      "name": "GenAI Collective Lagos",
+      "regionId": "lagos",
+      "country": "NG",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/lagos",
+      "urls": [
+        "https://www.aicollective.com/chapters/lagos"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Lagos chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 6.5384,
+      "lng": 3.40345
+    },
+    {
+      "id": "genai-collective-tel-aviv",
+      "name": "GenAI Collective Tel Aviv",
+      "regionId": "tel-aviv",
+      "country": "IL",
+      "priority": 0,
+      "tags": [],
+      "url": "https://www.aicollective.com/chapters/tel-aviv",
+      "urls": [
+        "https://www.aicollective.com/chapters/tel-aviv"
+      ],
+      "contact": {
+        "type": "email",
+        "value": "markiesha@aicollective.com"
+      },
+      "description": "Tel Aviv chapter of GenAI Collective.",
+      "notableCompanies": [],
+      "hasAICodingTools": false,
+      "codingTools": [],
+      "memberCount": null,
+      "attendanceEstimate": null,
+      "events": [],
+      "whyTarget": "",
+      "isGrouped": false,
+      "groupName": null,
+      "lat": 32.0993,
+      "lng": 34.80605
     }
   ]
 }

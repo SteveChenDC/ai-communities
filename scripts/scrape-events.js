@@ -112,7 +112,8 @@ async function extractEventsFromJsonLd(page, pageUrl) {
         const dateRaw = eventObj.startDate || eventObj.doorTime || eventObj.endDate || ''
         const normalized = normalizeDate(dateRaw)
         if (!normalized) continue
-        const url = absoluteUrl(pageUrl, eventObj.url || eventObj.offers?.url || eventObj.mainEntityOfPage)
+        // Luma JSON-LD uses @id for the canonical event URL; check that before falling back.
+        const url = absoluteUrl(pageUrl, eventObj.url || eventObj['@id'] || eventObj.offers?.url || eventObj.mainEntityOfPage)
         const displayRaw = typeof dateRaw === 'string' ? dateRaw : normalized
         const ev = formatEvent(normalized, displayRaw, url || undefined)
         if (ev) out.push(ev)
@@ -225,13 +226,27 @@ async function scrapeLumaEvents(page, url) {
       const pastTab = page.locator('button:has-text("Past"), a:has-text("Past events"), [data-tab="past"]').first()
       if (await pastTab.count()) {
         await pastTab.click({ timeout: 3000 })
-        await page.waitForTimeout(1500)
-        const pastCards = await page.$$eval('a[href*="/event"], article, [class*="event"]', (nodes) =>
-          nodes.slice(0, 120).map((n) => ({
-            text: (n.textContent || '').replace(/\s+/g, ' ').trim(),
-            href: n instanceof HTMLAnchorElement ? n.href : n.querySelector('a')?.href || '',
-          }))
-        )
+        await page.waitForTimeout(2000)
+        // Luma event links are `luma.com/<slug>` with the date text in a parent card.
+        // Walk up to the container that holds month+day+title to get date text.
+        const pastCards = await page.$$eval('a', (anchors) => {
+          const results = []
+          for (const a of anchors) {
+            if (!/luma\.(?:com|ma)\/[a-zA-Z0-9_-]{3,}$/i.test(a.href)) continue
+            let container = a
+            let node = a
+            for (let i = 0; i < 5 && node.parentElement; i++) {
+              node = node.parentElement
+              const len = (node.textContent || '').length
+              if (len > 30 && len < 600) { container = node; break }
+            }
+            results.push({
+              href: a.href,
+              text: (container.textContent || '').replace(/\s+/g, ' ').trim(),
+            })
+          }
+          return results.slice(0, 200)
+        })
         for (const card of pastCards) {
           const date = parseDateFromText(card.text)
           if (!date) continue

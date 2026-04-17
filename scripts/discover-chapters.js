@@ -27,6 +27,7 @@ const CITY_TO_REGION = {
   washington: 'dc',
   'washington dc': 'dc',
   dmv: 'dc',
+  dc: 'dc',
   philadelphia: 'philadelphia',
   atlanta: 'atlanta',
   miami: 'miami',
@@ -103,9 +104,29 @@ const CITY_TO_REGION = {
 function toCityName(labelOrUrl) {
   const hostMatch = labelOrUrl.match(/^https?:\/\/([^./]+)\.aitinkerers\.org(?:\/|$)/i)
   if (hostMatch && hostMatch[1] !== 'www') return hostMatch[1].replace(/-/g, ' ')
-  const pathCityMatch = labelOrUrl.match(/(?:city=|chapters\/)([a-z0-9+%\-]+)/i)
+  // Include underscore so slugs like "london_on" (London, Ontario) aren't silently
+  // truncated to "london" and misrouted to London, UK.
+  const pathCityMatch = labelOrUrl.match(/(?:city=|chapters\/)([a-z0-9+%_\-]+)/i)
   if (pathCityMatch) {
-    return decodeURIComponent(pathCityMatch[1]).replace(/\+/g, ' ').replace(/-/g, ' ').trim()
+    return decodeURIComponent(pathCityMatch[1]).replace(/\+/g, ' ').replace(/[-_]/g, ' ').trim()
+  }
+  // Luma chapter slugs: luma.com/ai-collective-<city>, /aic-<city>, /genai-collective-<city>,
+  // /genai-<city>, /bond-<city>. Scan slug tokens against CITY_TO_REGION keys.
+  const slugMatch = labelOrUrl.match(/^https?:\/\/(?:lu\.ma|luma\.com)\/([a-z0-9-]+)/i)
+  if (slugMatch) {
+    const slug = slugMatch[1].toLowerCase()
+    const stripped = slug
+      .replace(/^ai-collective-?/, '')
+      .replace(/^aic-?/, '')
+      .replace(/^genai-collective-?/, '')
+      .replace(/^genai-?/, '')
+      .replace(/^bond-?/, '')
+    // Try the full stripped slug first (handles "washington", "stockholm"),
+    // then try tokens (handles "sf-4-18" -> "sf", "stockholm-chapter-fika" -> "stockholm").
+    if (CITY_TO_REGION[stripped]) return stripped
+    for (const token of stripped.split('-')) {
+      if (token && CITY_TO_REGION[token]) return token
+    }
   }
   return labelOrUrl.replace(/[._-]+/g, ' ').replace(/\s+/g, ' ').trim()
 }
@@ -167,18 +188,23 @@ async function discoverAiTinkerers(page) {
 }
 
 async function discoverGenAiCollective(page) {
-  const urls = ['https://www.genaicollective.ai', 'https://lu.ma/genaicollective']
+  // The org rebranded from genaicollective.ai -> aicollective.com; Luma migrated from
+  // lu.ma -> luma.com. Probe both old and new hosts and include both link shapes.
+  const urls = [
+    'https://www.aicollective.com/chapters',
+    'https://www.genaicollective.ai',
+    'https://luma.com/genai-collective',
+    'https://lu.ma/genaicollective',
+  ]
   const results = []
   for (const url of urls) {
     const links = await withRetry(
       async () => {
         await page.goto(url, { timeout: 15000, waitUntil: 'domcontentloaded' })
-        await page.waitForTimeout(2000)
-        return page.$$eval('a[href*="/chapters/"], a[href*="/hubs/"], a[href*="lu.ma"]', (anchors) =>
-          anchors.map((a) => ({
-            href: a.href,
-            text: (a.textContent || '').trim(),
-          }))
+        await page.waitForTimeout(4000)
+        return page.$$eval(
+          'a[href*="/chapters/"], a[href*="/hubs/"], a[href*="lu.ma"], a[href*="luma.com"], a[href*="aicollective"]',
+          (anchors) => anchors.map((a) => ({ href: a.href, text: (a.textContent || '').trim() }))
         )
       },
       { label: `genai-discovery-${url}` }
@@ -228,7 +254,7 @@ function cleanAiTinkerersRows(rows) {
 
 function cleanGenAiRows(rows) {
   return rows
-    .filter((r) => /genaicollective|aicollective|lu\.ma/i.test(r.url))
+    .filter((r) => /genaicollective|aicollective|lu\.ma|luma\.com/i.test(r.url))
     .map((r) => ({ ...r, city: r.city.toLowerCase().trim() }))
 }
 
